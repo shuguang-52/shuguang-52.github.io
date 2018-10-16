@@ -33,7 +33,7 @@ My research interests are in computer vision and deep learning.
 
   <!-- <br clear="all" /> -->
 
-  <A HREF="mailto:doushuguang52@163.com></A> <br>
+  <a href="mailto:shuguang@163.com">shuguang52@163.com</a> <br>
   Deep learning and computer vision enthusiasts <br>
   SH021, Shanghai, China.<br>
 
