@@ -1,2 +1,2 @@
-# shuguang-52.github.com
+# shuguang-52.github.io
 Homepage
