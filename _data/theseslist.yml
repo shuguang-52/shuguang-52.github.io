@@ -1,7 +1,6 @@
 - title: A deep learing-based feature learning method for 3D point cloud
-  image: 
-  description:
-     Learning deep features from 3D point cloud to classification and segmetation. This work will be done in 2020.
+  image: S8.jpg
+  description: Learning deep features from 3D point cloud to classification and segmetation. This work will be done in 2020.
   authors: Shuguang Dou
   venue: Master Thesis, College of Communication and Art Design, University of Shanghai for Science and Technology; December, 2020
   number_link: 1
