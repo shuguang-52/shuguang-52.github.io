@@ -33,7 +33,7 @@ My research interests are in computer vision and deep learning.
 
   <!-- <br clear="all" /> -->
 
-  <A HREF="mailto:&#118;&#097;&#114;&#117;&#110;&#106;&#097;&#109;&#112;&#097;&#110;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#118;&#097;&#114;&#117;&#110;&#106;&#097;&#109;&#112;&#097;&#110;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</A> <br>
+
   Deep learning and computer vision enthusiasts <br>
   SH021, Shanghai, China.<br>
 
