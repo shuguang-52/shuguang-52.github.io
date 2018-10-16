@@ -29,13 +29,13 @@ permalink: /fdssc/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/18_fdssc_framework.tiff" width="900px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/18_fdssc_framework.png" width="900px" />
 		</div>
 
-    <figcaption>
-		<br>
+<figcaption>
+<br>
 FDSSC Framework for HSI classification of labeled pixels. Because of the densely-connected method, the FDSSC network has a deeper structure resulting in extremely efficient performance. Finally, the convergence rate of the model is very fast because of the BN and PReLU applied tothe FDSSC network and dynamic learning rate, and early stopping. Therefore, the training time of the proposed framework is shorter, and although the FDSSC model has a high quantity of parameters, it lacks overfitting on account of the dropout layer in the FDSSC network, early stopping, and cross-validation.
-    </figcaption>
+</figcaption>
 </figure>
 </center>
 
