@@ -24,6 +24,7 @@ permalink: /fdssc/
 
 [comment]: Abstract
 <h3> Abstract </h3>Recent research shows that deep-learning-derived methods based on a deep convolutional neural network have high accuracy when applied to hyperspectral image (HSI) classification, but long training times. To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification. The FDSSC framework uses different convolutional kernel sizes to extract spectral and spatial features separately, and the “valid” convolution method to reduce the high dimensions. Densely-connected structures—the input of each convolution consisting of the output of all previous convolution layers—was used for deep learning of features, leading to extremely accurate classification. To increase speed and prevent overfitting, the FDSSC framework uses a dynamic learning rate, parametric rectified linear units, batch normalization, and dropout layers. These attributes enable the FDSSC framework to achieve accuracy within as few as 80 epochs. The experimental results show that with the Indian Pines, Kennedy Space Center, and University of Pavia datasets, the proposed FDSSC framework achieved state-of-the-art performance compared with existing deep-learning-based methods while significantly reducing the training time.
+
 <center>
 <figure>
 		<div id="projectid">
@@ -63,9 +64,9 @@ Please consider citing if this work and/or the corresponding code are useful for
 	author = {Wang, Wenju; Dou, Shuguang; Jiang, Zhongmin; Sun, Liujie.},
 	journal = {Remote Sensing},
 	volume={10}
-  issue={7}
+        issue={7}
 	year = {2018}
-  article number={1068}
+        article number={1068}
 }
 ```
 
