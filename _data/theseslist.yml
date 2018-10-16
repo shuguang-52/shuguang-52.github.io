@@ -1,27 +1,10 @@
-- title: Learning Inference Models for Computer Vision
-  image: phd_thesis_teaser.png
+- title: A deep learing-based feature learning method for 3D point cloud
+  image: 
   description:
-    Learning based techniques for better inference in several computer vision models ranging from inverse graphics to freely parameterized neural networks.
-  authors: V. Jampani
-  venue: PhD Thesis, MPI for Intelligent Systems and University of T&uuml;bingen, December, 2016
-  number_link: 3
-  link1:
-    url: https://varunjampani.github.io/papers/jampani16_phd_thesis.pdf
-    display: pdf
-  link2:
-    url: https://varunjampani.github.io/papers/phd_thesis_slides.pdf
-    display: slides
-  link3:
-    url: https://publikationen.uni-tuebingen.de/xmlui/handle/10900/76486
-    display: library
-
-- title: A Study of X-Ray Image Perception for Pneumoconiosis Detection
-  image: ms_thesis_teaser.png
-  description:
-    Eye tracking experimental studies and models for X-Ray Image Perception and Diagnosis.
-  authors: V. Jampani
-  venue: Master Thesis, IIIT-Hyderabad, January, 2013
+     Learning deep features from 3D point cloud to classification and segmetation. This work will be done in 2020.
+  authors: Shuguang Dou
+  venue: Master Thesis, College of Communication and Art Design, University of Shanghai for Science and Technology; December, 2020
   number_link: 1
   link1:
-    url: http://files.is.tue.mpg.de/vjampani/jampani13_MSTHESIS.pdf
-    display: pdf
+    url: 
+    display: pdf(coming in 2020)
