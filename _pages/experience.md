@@ -11,7 +11,7 @@ permalink: /experience
 
 <h3>Education</h3>
 
-<p><em>(July &rsquo;17 &ndash; Now)</em></p>
+<p><em>(Sept &rsquo;17 &ndash; Now)</em></p>
 
 <p><strong>University of Shanghai for Science and Technology</strong>, Shanghai, China</p>
 
@@ -25,9 +25,9 @@ permalink: /experience
 
 <p>Bachelor's degree in machine design manufacture and automate</p>
 
-<p>Thesis Title: Learning Inference Models for Computer Vision</p>
+<p>Thesis Title: Undetermind</p>
 
-<p>Advisor: Prof. Peter V. Gehler</p>
+<p>Advisor: Prof. Peter </p>
 
 <p>&nbsp;</p>
 
