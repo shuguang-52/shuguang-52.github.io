@@ -28,7 +28,7 @@ My research interests are in computer vision and deep learning.
 <div class="col-sm-4" style="display:table-cell; vertical-align:middle; text-align:left">
 
   <ul style="overflow: hidden">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/profile_pic.jpg" class="img-responsive" width="100%" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/profile_pic_new.jpg" class="img-responsive" width="100%" />
   </ul>
 
   <!-- <br clear="all" /> -->
