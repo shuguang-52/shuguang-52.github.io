@@ -28,7 +28,7 @@ permalink: /fdssc/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_18_remote_sensing.png" width="900px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_18_remote_sensing.png" width="700px" />
 		</div>
 
 <figcaption>
