@@ -51,6 +51,20 @@ FDSSC Framework for HSI classification of labeled pixels. Because of the densely
 </figure>
 </center>
 
+<center>
+<figure>
+		<div id="projectid">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_result.png" width="900px" />
+		</div>
+
+<figcaption>
+<br>
+Classification maps for IN, KSC, and UP dataset.
+
+</figcaption>
+</figure>
+</center>
+
 [comment]: Paper
 <h3> Paper </h3>
 
