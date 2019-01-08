@@ -34,7 +34,7 @@ My research interests are in computer vision and deep learning.
   <!-- <br clear="all" /> -->
 
   <a href="mailto:doushuguang@163.com">doushuguang52@163.com</a> <br>
-  Deep Learning Enthusiast <br>
+  IEEE Student Member <br>
   SH021, Shanghai, China.<br>
 
 
