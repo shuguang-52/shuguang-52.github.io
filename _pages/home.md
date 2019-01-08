@@ -14,7 +14,7 @@ permalink: /
 I am currently pursuing the master's degree of University of Shanghai for Science and Technology. 
 My research interests are in computer vision and deep learning.
 
-**_Currently, I play to apply for PhD about directions of Deep learning, Computer vision, Remote sening and 3D point cloud processing. If you are interested in my experience, you can easily reach me on eamil at any time that is convenient to you._**
+**_Currently, I plan to apply for PhD about directions of Deep learning, Computer vision, Remote sening and 3D point cloud processing. If you are interested in my experience, you can easily reach me on eamil at any time that is convenient to you._**
 
 ### News
 {% for article in site.data.news limit:8 %}
