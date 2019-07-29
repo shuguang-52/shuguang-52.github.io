@@ -53,6 +53,7 @@ Fig 2. Two stages of alternately updated spectral blocks with three convolutiona
 
 <br>
 In this study, refined spectral and spatial features in HSIs were used as core concepts to design an end-to-end CNN-based framework for HSI classification. This alternately updated convolutional spectral–spatial network utilizes alternately updated spectral and spatial blocks and primarily includes small convolutional kernels in three different dimensions to learn HIS features, combining them into advanced features. 
+<br>
 The learning of deep refined spectral and spatial features by alternately updated blocks makes our method superior to other deep learning-based methods, as this allows it to achieve a high classification accuracy. Furthermore, experimental results also demonstrated that the center loss function can slightly improve the classification accuracy of hyperspectral images. Results showed that when 200 training samples were used from different HSI data sets, the AUSSC achieved the highest classification accuracy among the deep learning-based methods for all three data sets. Additionally, using different training samples, the AUSSC was also found to be the best method in terms of OA for all HSI data sets. However, the AUSSC has a longer training time than other conventional algorithms. 
 </figcaption>
 </figure>
