@@ -1,8 +1,24 @@
+- title: Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images
+  image: aussc_19_remote_sensing.png
+  description: The connection structure in the convolutional layers of most deep learning-based algorithms used for the classification of hyperspectral images (HSIs) has typically been in the forward direction. In this study, an end-to-end alternately updated spectral–spatial convolutional network (AUSSC) with a recurrent feedback structure is used to learn refined spectral and spatial features for HSI classification.
+  authors: Wenju Wang, Shuguang Dou *, Sen Wang
+  venue: Remote sensing 2019
+  number_link: 3
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: http://shuguang-52.github.io/aussc
+    display: project page
+  link3:
+    url: https://github.com/shuguang-52/AUSSC
+    display: code (github)
+
 - title: A fast dense spectral-spatial convolutional network framework for hyperspectral image classification
   image: fdssc_18_remote_sensing.png
   description: To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification.
   authors: Wenju Wang, Shuguang Dou *, Zhongmin Jiang and Liujie Sun
-  venue: Remote sensing
+  venue: Remote sensing 2018
   number_link: 3
   link1:
     url: https://shuguang-52.github.io/papers/18remotesensing_fdssc.pdf
@@ -14,18 +30,4 @@
     url: https://github.com/shuguang-52/FDSSC
     display: code (github)
 
-- title: Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images
-  image: aussc_19_remote_sensing.png
-  description: The connection structure in the convolutional layers of most deep learning-based algorithms used for the classification of hyperspectral images (HSIs) has typically been in the forward direction. In this study, an end-to-end alternately updated spectral–spatial convolutional network (AUSSC) with a recurrent feedback structure is used to learn refined spectral and spatial features for HSI classification.
-  authors: Wenju Wang, Shuguang Dou *, Sen Wang
-  venue: Remote sensing
-  number_link: 3
-  link1:
-    url: 
-    display: pdf
-  link2:
-    url: http://shuguang-52.github.io/aussc
-    display: project page
-  link3:
-    url: https://github.com/shuguang-52/AUSSC
-    display: code (github)
+
