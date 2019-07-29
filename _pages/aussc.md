@@ -27,7 +27,7 @@ permalink: /aussc/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/19_aussc_network.png" width="300px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/19_aussc_network.png" width="700px" />
 		</div>
 
 <figcaption>
