@@ -12,13 +12,13 @@ permalink: /fdssc/
 
 [comment]: Authors
 <p style="text-align: center;">
-<a href="http://varunjampani.github.io" style="color: #CC0000">Wenju Wang </a>
+<a style="color: #CC0000">Wenju Wang </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="http://research.nvidia.com/person/deqing-sun" style="color: #CC0000"> Shuguang Dou *</a>
+<a href="https://shuguang-52.github.io/" style="color: #CC0000"> Shuguang Dou *</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="http://mingyuliu.net/" style="color: #CC0000">Zhongmin Jiang</a>
+<a style="color: #CC0000">Zhongmin Jiang</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="http://faculty.ucmerced.edu/mhyang/" style="color: #CC0000">Liujie Sun </a>
+<a style="color: #CC0000">Liujie Sun </a>
 </p>
 <p>&nbsp;</p>
 
