@@ -35,10 +35,11 @@ permalink: /aussc/
 <br>
 Fig 1. An overview of the proposed end-to-end alternately updated spectral–spatial convolutional network (AUSSC). 
 
-An alternately updated spectral–spatial convolutional network is proposed for HSI classification. Fig. 1 shows an overview of the proposed method. For HSI data with L channels and a size of H×W, a spatial size of s×s was selected from the raw HSI data and used as the input to the AUSSC network. First, the AUSSC uses three smaller convolutional kernels to learn spectral and spatial features from an original HSI patch. Second, the alternately updated spectral and spatial blocks refine the deep spectral and spatial features using recurrent feedback. Finally, the model parameters are optimized using the cross-entropy loss and center-loss loss functions.
 </figcaption>
 </figure>
 </center>
+[comment]: Overview
+An alternately updated spectral–spatial convolutional network is proposed for HSI classification. Fig. 1 shows an overview of the proposed method. For HSI data with L channels and a size of H×W, a spatial size of s×s was selected from the raw HSI data and used as the input to the AUSSC network. First, the AUSSC uses three smaller convolutional kernels to learn spectral and spatial features from an original HSI patch. Second, the alternately updated spectral and spatial blocks refine the deep spectral and spatial features using recurrent feedback. Finally, the model parameters are optimized using the cross-entropy loss and center-loss loss functions.
 
 <center>
 <figure>
@@ -49,7 +50,8 @@ An alternately updated spectral–spatial convolutional network is proposed for 
 Fig 2. Two stages of alternately updated spectral blocks with three convolutional layers. 
 
 <br>
-FDSSC Framework for HSI classification of labeled pixels. Because of the densely-connected method, the FDSSC network has a deeper structure resulting in extremely efficient performance. Finally, the convergence rate of the model is very fast because of the BN and PReLU applied tothe FDSSC network and dynamic learning rate, and early stopping. Therefore, the training time of the proposed framework is shorter, and although the FDSSC model has a high quantity of parameters, it lacks overfitting on account of the dropout layer in the FDSSC network, early stopping, and cross-validation.
+In this study, refined spectral and spatial features in HSIs were used as core concepts to design an end-to-end CNN-based framework for HSI classification. This alternately updated convolutional spectral–spatial network utilizes alternately updated spectral and spatial blocks and primarily includes small convolutional kernels in three different dimensions to learn HIS features, combining them into advanced features. 
+The learning of deep refined spectral and spatial features by alternately updated blocks makes our method superior to other deep learning-based methods, as this allows it to achieve a high classification accuracy. Furthermore, experimental results also demonstrated that the center loss function can slightly improve the classification accuracy of hyperspectral images. Results showed that when 200 training samples were used from different HSI data sets, the AUSSC achieved the highest classification accuracy among the deep learning-based methods for all three data sets. Additionally, using different training samples, the AUSSC was also found to be the best method in terms of OA for all HSI data sets. However, the AUSSC has a longer training time than other conventional algorithms. 
 </figcaption>
 </figure>
 </center>
