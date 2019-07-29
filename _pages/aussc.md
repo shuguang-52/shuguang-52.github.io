@@ -27,7 +27,7 @@ permalink: /aussc/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/aussc_19_remote_sensing.png" width="500px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/aussc_19_remote_sensing.png" width="300px" />
 		</div>
 
 <figcaption>
