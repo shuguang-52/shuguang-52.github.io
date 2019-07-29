@@ -33,6 +33,7 @@ permalink: /fdssc/
 		</div>
 
 <figcaption>
+<br>
 Figure 1.The fast dense spectral–spatial convolution (FDSSC) network for hyperspectral image (HSI) classification of labeled pixels with a 9 * 9 * L input. L is the number of bands of HSI. C is the number of categories to be classified.
 </figcaption>
 </figure>
@@ -45,6 +46,7 @@ Figure 1.The fast dense spectral–spatial convolution (FDSSC) network for hyper
 		</div>
 
 <figcaption>
+<br>
 Figure 2.FDSSC Framework for HSI classification of labeled pixels. 
 </figcaption>
 </figure>
