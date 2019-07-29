@@ -23,7 +23,8 @@ permalink: /fdssc/
 <p>&nbsp;</p>
 
 [comment]: Abstract
-<h3> Abstract </h3>Recent research shows that deep-learning-derived methods based on a deep convolutional neural network have high accuracy when applied to hyperspectral image (HSI) classification, but long training times. To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification. The FDSSC framework uses different convolutional kernel sizes to extract spectral and spatial features separately, and the “valid” convolution method to reduce the high dimensions. Densely-connected structures—the input of each convolution consisting of the output of all previous convolution layers—was used for deep learning of features, leading to extremely accurate classification. To increase speed and prevent overfitting, the FDSSC framework uses a dynamic learning rate, parametric rectified linear units, batch normalization, and dropout layers. These attributes enable the FDSSC framework to achieve accuracy within as few as 80 epochs. The experimental results show that with the Indian Pines, Kennedy Space Center, and University of Pavia datasets, the proposed FDSSC framework achieved state-of-the-art performance compared with existing deep-learning-based methods while significantly reducing the training time.
+<h3> Abstract </h3>
+<p style="text-align:justify; text-justify:inter-ideograph;">Recent research shows that deep-learning-derived methods based on a deep convolutional neural network have high accuracy when applied to hyperspectral image (HSI) classification, but long training times. To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification. The FDSSC framework uses different convolutional kernel sizes to extract spectral and spatial features separately, and the “valid” convolution method to reduce the high dimensions. Densely-connected structures—the input of each convolution consisting of the output of all previous convolution layers—was used for deep learning of features, leading to extremely accurate classification. To increase speed and prevent overfitting, the FDSSC framework uses a dynamic learning rate, parametric rectified linear units, batch normalization, and dropout layers. These attributes enable the FDSSC framework to achieve accuracy within as few as 80 epochs. The experimental results show that with the Indian Pines, Kennedy Space Center, and University of Pavia datasets, the proposed FDSSC framework achieved state-of-the-art performance compared with existing deep-learning-based methods while significantly reducing the training time.</p>
 
 <center>
 <figure>
@@ -32,8 +33,7 @@ permalink: /fdssc/
 		</div>
 
 <figcaption>
-<br>
-The fast dense spectral–spatial convolution (FDSSC) network for hyperspectral image (HSI) classification of labeled pixels with a 9 * 9 * L input. L is the number of bands of HSI. C is the number of categories to be classified.
+Figure 1.The fast dense spectral–spatial convolution (FDSSC) network for hyperspectral image (HSI) classification of labeled pixels with a 9 * 9 * L input. L is the number of bands of HSI. C is the number of categories to be classified.
 </figcaption>
 </figure>
 </center>
@@ -45,11 +45,12 @@ The fast dense spectral–spatial convolution (FDSSC) network for hyperspectral 
 		</div>
 
 <figcaption>
-<br>
-FDSSC Framework for HSI classification of labeled pixels. Because of the densely-connected method, the FDSSC network has a deeper structure resulting in extremely efficient performance. Finally, the convergence rate of the model is very fast because of the BN and PReLU applied tothe FDSSC network and dynamic learning rate, and early stopping. Therefore, the training time of the proposed framework is shorter, and although the FDSSC model has a high quantity of parameters, it lacks overfitting on account of the dropout layer in the FDSSC network, early stopping, and cross-validation.
+Figure 2.FDSSC Framework for HSI classification of labeled pixels. 
 </figcaption>
 </figure>
 </center>
+<p style="text-align:justify; text-justify:inter-ideograph;">Because of the densely-connected method, the FDSSC network has a deeper structure resulting in extremely efficient performance. Finally, the convergence rate of the model is very fast because of the BN and PReLU applied tothe FDSSC network and dynamic learning rate, and early stopping. Therefore, the training time of the proposed framework is shorter, and although the FDSSC model has a high quantity of parameters, it lacks overfitting on account of the dropout layer in the FDSSC network, early stopping, and cross-validation.</p>
+
 
 <center>
 <figure>
@@ -59,7 +60,7 @@ FDSSC Framework for HSI classification of labeled pixels. Because of the densely
 
 <figcaption>
 <br>
-Classification maps for IN, KSC, and UP dataset.
+Figure 3.Classification maps for IN, KSC, and UP dataset.
 
 </figcaption>
 </figure>
