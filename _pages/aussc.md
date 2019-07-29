@@ -32,9 +32,8 @@ permalink: /aussc/
 		</div>
 
 <figcaption>
-
 <br>
-Fig 1. An overview of the proposed end-to-end alternately updated spectral–spatial convolutional network (AUSSC). 
+Figure 1. An overview of the proposed end-to-end alternately updated spectral–spatial convolutional network (AUSSC). 
 
 </figcaption>
 </figure>
@@ -49,7 +48,7 @@ Fig 1. An overview of the proposed end-to-end alternately updated spectral–spa
     <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/19_aussc_alternately_updated_block.png" width="900px" />
 		</div>
 <figcaption>
-Fig 2. Two stages of alternately updated spectral blocks with three convolutional layers. 
+Figure 2. Two stages of alternately updated spectral blocks with three convolutional layers. 
 </figcaption>
 </figure>
 </center>
@@ -66,7 +65,7 @@ The learning of deep refined spectral and spatial features by alternately update
 
 <figcaption>
 <br>
-Fig. 3 Classification maps for Houston dataset.
+Figure. 3 Classification maps for Houston dataset.
 
 </figcaption>
 </figure>
