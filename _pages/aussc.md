@@ -1,9 +1,9 @@
 ---
-title: "Shuguang Dou - FDSSC"
+title: "Shuguang Dou - AUSSC"
 layout: gridlay
-excerpt: "Shuguang Dou: FDSSC"
+excerpt: "Shuguang Dou: AUSSC"
 sitemap: false
-permalink: /fdssc/
+permalink: /aussc/
 ---
 
 [comment]: Title
