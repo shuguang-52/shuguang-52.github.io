@@ -88,4 +88,4 @@ Please consider citing if this work and/or the corresponding code are useful for
 [comment]: Code
 <h3> Code </h3>
 We use tensorflow to implement alternatively updated spectral-spatial network framework. Code is available online in ths github repository:
-<a href="https://github.com/shuguang-52/AUSSC" style="color: #CC0000">https://github.com/shuguang-52/FDSSC</a>.
+<a href="https://github.com/shuguang-52/AUSSC" style="color: #CC0000">https://github.com/shuguang-52/AUSSC</a>.
