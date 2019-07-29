@@ -1,6 +1,6 @@
-- title: A deep learning-based feature learning method for 3D point cloud
-  image: S8.jpg
-  description: Learning deep features from 3D point cloud for classification and segmentation. This work will be done before 12/2019.
+- title: Research on Feature Learning and Application of Three-dimensional Point Cloud
+  image: 3D.png
+  description: Learning deep features from 3D point cloud for classification and retrieval. This work will be done before 12/2019.
   authors: Shuguang Dou
   venue: Master Thesis, College of Communication and Art Design, University of Shanghai for Science and Technology; December, 2019
   number_link: 1
