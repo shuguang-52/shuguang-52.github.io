@@ -27,16 +27,17 @@ permalink: /aussc/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/aussc_19_remote_sensing.png" width="700px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/aussc_19_remote_sensing.png" width="500px" />
 		</div>
 
 <figcaption>
 Fig 1. An overview of the proposed end-to-end alternately updated spectral–spatial convolutional network (AUSSC). 
-</center>
+
 <br>
 An alternately updated spectral–spatial convolutional network is proposed for HSI classification. Fig. 1 shows an overview of the proposed method. For HSI data with L channels and a size of H×W, a spatial size of s×s was selected from the raw HSI data and used as the input to the AUSSC network. First, the AUSSC uses three smaller convolutional kernels to learn spectral and spatial features from an original HSI patch. Second, the alternately updated spectral and spatial blocks refine the deep spectral and spatial features using recurrent feedback. Finally, the model parameters are optimized using the cross-entropy loss and center-loss loss functions.
 </figcaption>
 </figure>
+</center>
 
 <center>
 <figure>
@@ -45,12 +46,12 @@ An alternately updated spectral–spatial convolutional network is proposed for 
 		</div>
 <figcaption>
 Fig 2. Two stages of alternately updated spectral blocks with three convolutional layers. 
-</center>
+
 <br>
 FDSSC Framework for HSI classification of labeled pixels. Because of the densely-connected method, the FDSSC network has a deeper structure resulting in extremely efficient performance. Finally, the convergence rate of the model is very fast because of the BN and PReLU applied tothe FDSSC network and dynamic learning rate, and early stopping. Therefore, the training time of the proposed framework is shorter, and although the FDSSC model has a high quantity of parameters, it lacks overfitting on account of the dropout layer in the FDSSC network, early stopping, and cross-validation.
 </figcaption>
 </figure>
-
+</center>
 
 <center>
 <figure>
@@ -60,7 +61,7 @@ FDSSC Framework for HSI classification of labeled pixels. Because of the densely
 
 <figcaption>
 <br>
-Classification maps for Houston dataset.
+Fig. 3 Classification maps for Houston dataset.
 
 </figcaption>
 </figure>
