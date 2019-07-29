@@ -39,6 +39,7 @@ Fig 1. An overview of the proposed end-to-end alternately updated spectral–spa
 </figure>
 </center>
 [comment]: Overview
+<h3> Overview </h3>
 An alternately updated spectral–spatial convolutional network is proposed for HSI classification. Fig. 1 shows an overview of the proposed method. For HSI data with L channels and a size of H×W, a spatial size of s×s was selected from the raw HSI data and used as the input to the AUSSC network. First, the AUSSC uses three smaller convolutional kernels to learn spectral and spatial features from an original HSI patch. Second, the alternately updated spectral and spatial blocks refine the deep spectral and spatial features using recurrent feedback. Finally, the model parameters are optimized using the cross-entropy loss and center-loss loss functions.
 
 <center>
