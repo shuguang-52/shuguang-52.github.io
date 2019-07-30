@@ -25,7 +25,7 @@ My research interests are in 3D, deep learning and remote sensing.
 
 </div>
 
-<div class="col-sm-4" style="display:table-cell; vertical-align:middle; text-align:left">
+<div class="col-sm-4" style="display:table-cell; vertical-align:middle; text-align:center">
 
   <ul style="overflow: hidden">
   <img src="{{ site.url }}{{ site.baseurl }}/images/profiel_pic.jpg" class="img-responsive" width="100%" />
