@@ -74,7 +74,7 @@ Figure. 3 Classification maps for Houston dataset.
 [comment]: Paper
 <h3> Paper </h3>
 
-- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/18remotesensing_fdssc.pdf" style="color: #CC0000"> PDF </a>
+- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/19remotesensing_aussc.pdf" style="color: #CC0000"> PDF </a>
 
 Please consider citing if this work and/or the corresponding code are useful for you:
 
@@ -84,9 +84,8 @@ Please consider citing if this work and/or the corresponding code are useful for
 	author = {Wang, Wenju; Dou, Shuguang; Sen Wang.},
 	journal = {Remote Sensing},
 	volume={11}
-        issue={9}
 	year = {2019}
-        article number={1068}
+        article number={1794}
 }
 ```
 
