@@ -11,8 +11,7 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am currently pursuing the master's degree of University of Shanghai for Science and Technology. 
-My research interests are in 3D, deep learning and remote sensing.
+I am currently pursuing the Ph.D's degree of Tongji University. My research interests are in 3D, ,X-ray imagery, deep learning and remote sensing.
 
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf)
