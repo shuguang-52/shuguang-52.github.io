@@ -21,7 +21,7 @@ permalink: /experience
 
 <p>&nbsp;</p>
 
-<p><em>(Sept &rsquo;17 &ndash; April &rsquo;29 )</em></p>
+<p><em>(Sept &rsquo;17 &ndash; April &rsquo;20 )</em></p>
 
 <p><strong>University of Shanghai for Science and Technology</strong>, Shanghai, China</p>
 
