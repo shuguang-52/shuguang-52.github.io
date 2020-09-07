@@ -3,7 +3,7 @@
   description: The connection structure in the convolutional layers of most deep learning-based algorithms used for the classification of hyperspectral images (HSIs) has typically been in the forward direction. In this study, an end-to-end alternately updated spectral–spatial convolutional network (AUSSC) with a recurrent feedback structure is used to learn refined spectral and spatial features for HSI classification.
   authors: Wenju Wang, Shuguang Dou *, Sen Wang
   venue: Remote sensing 2019
-  number_link: 3
+  number_link: 4
   link1:
     url: 
     display: pdf
@@ -13,6 +13,9 @@
   link3:
     url: https://github.com/shuguang-52/AUSSC
     display: code (github)
+  link4:
+    url: https://www.mdpi.com/2072-4292/11/15/1794
+    display: Website Online
 
 - title: A fast dense spectral-spatial convolutional network framework for hyperspectral image classification
   image: fdssc_18_remote_sensing.png
