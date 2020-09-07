@@ -11,11 +11,18 @@ permalink: /experience
 
 <h3>Education</h3>
 
-<p><em>(Sept &rsquo;17 &ndash; Now)</em></p>
+<p><em>(Sept &rsquo;20 &ndash; Now )</em></p>
+
+<p><strong>Tongji University</strong>, Shanghai, China</p>
+
+<p>PhD degree in Computer science and technology</p>
+
+
+<p><em>(Sept &rsquo;17 &ndash; April &rsquo;29 )</em></p>
 
 <p><strong>University of Shanghai for Science and Technology</strong>, Shanghai, China</p>
 
-<p>Master degree in Machniacl engineering (GPA:3.4/4.0)</p>
+<p>Master degree in Machniacl engineering (GPA:3.51/4.0)</p>
 
 <p>&nbsp;</p>
 
