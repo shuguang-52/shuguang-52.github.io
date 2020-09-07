@@ -17,12 +17,17 @@ permalink: /experience
 
 <p>PhD degree in Computer science and technology</p>
 
+<p>Advisor: Prof. Cairong Zhao </p>
+
+<p>&nbsp;</p>
 
 <p><em>(Sept &rsquo;17 &ndash; April &rsquo;29 )</em></p>
 
 <p><strong>University of Shanghai for Science and Technology</strong>, Shanghai, China</p>
 
 <p>Master degree in Machniacl engineering (GPA:3.51/4.0)</p>
+
+<p>Advisor: Prof. Wenju Wang </p>
 
 <p>&nbsp;</p>
 
@@ -31,8 +36,6 @@ permalink: /experience
 <p> <strong>Liverpool John Moores University</strong>, UK and <strong>University of Shanghai for Science and Technology</strong>, Shanghai, China</p>
 
 <p>Bachelor's degree in machine design manufacture and automate</p>
-
-<p>Thesis Title: Undetermind</p>
 
 <p>Advisor: Prof. Peter </p>
 
