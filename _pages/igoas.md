@@ -14,7 +14,7 @@ permalink: /igoas/
 <p style="text-align: center;">
 <a style="color: #CC0000">Cairong Zhao* </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://shuguang-52.github.io/" style="color: #CC0000">Xinbi Lv *</a>
+<a style="color: #CC0000">Xinbi Lv *</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://shuguang-52.github.io/" style="color: #CC0000"> Shuguang Dou *</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,6 +23,7 @@ permalink: /igoas/
 <a style="color: #CC0000">Jun Wu, Senior Member, IEEE </a>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000">Liang Wang, Fellow, IEEE </a>
+(Cairong Zhao, Xinbi Lv, and Shuguang Dou contributed equally to this work.)
 </p>
 <p>&nbsp;</p>
 
