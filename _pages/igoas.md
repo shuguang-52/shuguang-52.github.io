@@ -17,12 +17,14 @@ permalink: /igoas/
 <a style="color: #CC0000">Xinbi Lv *</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://shuguang-52.github.io/" style="color: #CC0000"> Shuguang Dou *</a>
+<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000">Shanshan Zhang, Member, IEEE</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000">Jun Wu, Senior Member, IEEE </a>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000">Liang Wang, Fellow, IEEE </a>
+<br/>
 (Cairong Zhao, Xinbi Lv, and Shuguang Dou contributed equally to this work.)
 </p>
 <p>&nbsp;</p>
@@ -47,7 +49,7 @@ The flowchart of the proposed IGOAS network. Specifically, in the training phase
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_osm.png" width="900px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_osm.png" width="300px" />
 		</div>
 
 <figcaption>
@@ -62,7 +64,7 @@ Figure 2.Structure of OSM
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_igo.png" width="900px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_igo.png" width="400px" />
 		</div>
 <figcaption>
 <br>
