@@ -36,7 +36,7 @@ permalink: /igoas/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/igoas_21_tip.png" width="700px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/21_tip_igoas.png" width="700px" />
 		</div>
 
 <figcaption>
