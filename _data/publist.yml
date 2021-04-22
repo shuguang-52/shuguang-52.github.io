@@ -1,3 +1,22 @@
+- title: Incremental Generative Occlusion Adversarial Suppression Network for Person ReID
+  image: 21_tip_igoas.png
+  description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
+  authors: Cairong Zhao* , Xinbi Lv* , Shuguang Dou*, Shanshan Zhang , Member, IEEE, Jun Wu , Senior Member, IEEE, and Liang Wang, Fellow, IEEE
+  venue: TIP 21
+  number_link: 4
+  link1:
+    url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
+    display: pdf
+  link2:
+    url: http://shuguang-52.github.io/igoas
+    display: project page
+  link3:
+    url: https://github.com/Vill-Lab/IGOAS
+    display: code (github)
+  link4:
+    url: https://ieeexplore.ieee.org/abstract/document/9397375
+    display: Website Online
+    
 - title: Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images
   image: aussc_19_remote_sensing.png
   description: The connection structure in the convolutional layers of most deep learning-based algorithms used for the classification of hyperspectral images (HSIs) has typically been in the forward direction. In this study, an end-to-end alternately updated spectral–spatial convolutional network (AUSSC) with a recurrent feedback structure is used to learn refined spectral and spatial features for HSI classification.
@@ -5,7 +24,7 @@
   venue: Remote sensing 2019
   number_link: 4
   link1:
-    url: 
+    url: https://shuguang-52.github.io/papers/19remotesensing_aussc.pdf
     display: pdf
   link2:
     url: http://shuguang-52.github.io/aussc
