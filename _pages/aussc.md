@@ -79,7 +79,7 @@ Figure. 3 Classification maps for Houston dataset.
 Please consider citing if this work and/or the corresponding code are useful for you:
 
 ```
-@inproceedings{shuguang:aussc:2019,
+@article{shuguang:aussc:2019,
 	title = {Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images},
 	author = {Wang, Wenju; Dou, Shuguang; Sen Wang.},
 	journal = {Remote Sensing},
