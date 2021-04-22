@@ -76,7 +76,7 @@ Figure 3.Classification maps for IN, KSC, and UP dataset.
 Please consider citing if this work and/or the corresponding code are useful for you:
 
 ```
-@inproceedings{shuguang:fdssc:2018,
+@aarticle{shuguang:fdssc:2018,
 	title = {A Fast Dense Spectral-Spatial Convolution Network Framework for Hyperspectral Images Classification},
 	author = {Wang, Wenju; Dou, Shuguang; Jiang, Zhongmin; Sun, Liujie.},
 	journal = {Remote Sensing},
