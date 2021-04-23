@@ -36,7 +36,7 @@ permalink: /igoas/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/21_tip_igoas.png" width="700px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/21_tip_igoas.png" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -45,8 +45,7 @@ Figure 1.The flowchart of the proposed IGOAS network
 </figure>
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
-Specifically, in the training phase, the IGO block converts the raw input into occluded data, and then the raw data and the occluded data are entered into the respective branch of the frame for feature extraction. In global branch, we retain the ResNet-50 baseline to extract steady global features of the raw data. In adversarial suppression branch, the OSM and a global max pooling operation are employing to force this branch to suppress the occlusion’s response and strengthen discriminative feature representation on non-occluded regions of the pedestrian. Finally, we get a more robust pedestrian feature descriptor by concatenating two branches’ features. And in the test phase, the incremental occlusion block won’t be performed.
-</p>
+Specifically, in the training phase, the IGO block converts the raw input into occluded data, and then the raw data and the occluded data are entered into the respective branch of the frame for feature extraction. In global branch, we retain the ResNet-50 baseline to extract steady global features of the raw data. In adversarial suppression branch, the OSM and a global max pooling operation are employing to force this branch to suppress the occlusion’s response and strengthen discriminative feature representation on non-occluded regions of the pedestrian. Finally, we get a more robust pedestrian feature descriptor by concatenating two branches’ features. And in the test phase, the incremental occlusion block won’t be performed. </p>
 
 <center>
 <figure>
@@ -75,6 +74,31 @@ Figure 3.Batch-Based Incremental Generative Occlusion Block.
 </figcaption>
 </figure>
 </center>
+
+[comment]: Paper
+<h3> Paper </h3>
+
+- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/18remotesensing_fdssc.pdf" style="color: #CC0000"> PDF </a>
+
+Please consider citing if this work and/or the corresponding code are useful for you:
+
+```
+@article{shuguang:fdssc:2018,
+	title = {A Fast Dense Spectral-Spatial Convolution Network Framework for Hyperspectral Images Classification},
+	author = {Wang, Wenju; Dou, Shuguang; Jiang, Zhongmin; Sun, Liujie.},
+	journal = {Remote Sensing},
+	volume={10}
+        issue={7}
+	year = {2018}
+        article number={1068}
+}
+```
+
+[comment]: Code
+<h3> Code </h3>
+We use keras to implement fast dense spectral-spatial network framework. Code is available online in ths github repository:
+<a href="https://github.com/shuguang-52/FDSSC" style="color: #CC0000">https://github.com/shuguang-52/FDSSC</a>.
+
 
 [comment]: Paper
 <h3> Paper </h3>
