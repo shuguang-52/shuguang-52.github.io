@@ -76,7 +76,7 @@ Figure 3.Batch-Based Incremental Generative Occlusion Block.
 [comment]: Paper
 <h3> Paper </h3>
 
-- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/21tip_igoas.pdf" style="color: #CC0000"> PDF </a>
+Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/21tip_igoas.pdf" style="color: #CC0000"> PDF </a>
 
 Please consider citing if this work and/or the corresponding code are useful for you:
 
