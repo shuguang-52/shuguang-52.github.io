@@ -40,7 +40,7 @@ permalink: /igoas/
 		</div>
 <figcaption>
 <br>
-The flowchart of the proposed IGOAS network. 
+Figure 1.The flowchart of the proposed IGOAS network
 </figcaption>
 </figure>
 
@@ -71,6 +71,7 @@ Figure 2.Structure of OSM
 <figcaption>
 <br>
 Figure 3.Batch-Based Incremental Generative Occlusion Block.
+
 </figcaption>
 </figure>
 </center>
