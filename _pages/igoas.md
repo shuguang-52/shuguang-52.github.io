@@ -40,10 +40,13 @@ permalink: /igoas/
 		</div>
 <figcaption>
 <br>
-The flowchart of the proposed IGOAS network. Specifically, in the training phase, the IGO block converts the raw input into occluded data, and then the raw data and the occluded data are entered into the respective branch of the frame for feature extraction. In global branch, we retain the ResNet-50 baseline to extract steady global features of the raw data. In adversarial suppression branch, the OSM and a global max pooling operation are employing to force this branch to suppress the occlusion’s response and strengthen discriminative feature representation on non-occluded regions of the pedestrian. Finally, we get a more robust pedestrian feature descriptor by concatenating two branches’ features. And in the test phase, the incremental occlusion block won’t be performed.
+The flowchart of the proposed IGOAS network. 
 </figcaption>
 </figure>
 
+<p style="text-align:justify; text-justify:inter-ideograph;">
+Specifically, in the training phase, the IGO block converts the raw input into occluded data, and then the raw data and the occluded data are entered into the respective branch of the frame for feature extraction. In global branch, we retain the ResNet-50 baseline to extract steady global features of the raw data. In adversarial suppression branch, the OSM and a global max pooling operation are employing to force this branch to suppress the occlusion’s response and strengthen discriminative feature representation on non-occluded regions of the pedestrian. Finally, we get a more robust pedestrian feature descriptor by concatenating two branches’ features. And in the test phase, the incremental occlusion block won’t be performed.
+</p>
 
 <center>
 <figure>
