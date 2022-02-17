@@ -2,7 +2,7 @@
   image: 22_tifs_clcxray.jpg
   description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases inthe X-ray images. Most existing methods improve the robustnessof models to the object overlapping problem by enhancingthe underlying visual information such as colors and edges.However, this strategy ignores the situations that the objectshave similar visual clues as to the background, and objectsoverlapping each other. Since the two cases rarely appear inexisting datasets, we contribute a novel dataset – Cutters andLiquid Containers X-ray Dataset (CLCXray) to complete therelated research.
   authors: Cairong Zhao* , Liang Zhu*, Shuguang Dou, Weihong Deng, and Liang Wang, Fellow, IEEE
-  venue: IEEE TIFS 21 (CCF A)
+  venue: IEEE TIFS 22 (CCF A)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
