@@ -11,10 +11,10 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am currently pursuing the Ph.D's degree of Tongji University. My research interests are in 3D, deep learning, remote sensing and X-ray imagery.
+I am currently pursuing the Ph.D's degree of Tongji University. My research interests are in person re-identification, 3D, deep learning, remote sensing and X-ray imagery.
 
 ### CV
-You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf)
+You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf).
 
 ### News
 {% for article in site.data.news limit:8 %}
@@ -34,6 +34,7 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf)
   <!-- <br clear="all" /> -->
 
   <a href="mailto:doushuguang@163.com">doushuguang52@163.com</a> <br>
+  [Google Scholar](https://scholar.google.com.hk/citations?user=n2YT06EAAAAJ&hl=zh-CN)
   IEEE Student Member <br>
   SH021, Shanghai, China.<br>
 
