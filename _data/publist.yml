@@ -5,7 +5,7 @@
   venue: IEEE TIFS 22 (CCF A)
   number_link: 4
   link1:
-    url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
+    url: https://shuguang-52.github.io/papers/22tifs_clcxray.pdf
     display: pdf
   link2:
     url: http://shuguang-52.github.io/clcxray
@@ -14,7 +14,7 @@
     url: https://github.com/Vill-Lab/CLCXray
     display: code (github)
   link4:
-    url: https://ieeexplore.ieee.org/abstract/document/9397375
+    url: https://ieeexplore.ieee.org/document/9722843
     display: Website Online
 
 - title: Incremental Generative Occlusion Adversarial Suppression Network for Person ReID
