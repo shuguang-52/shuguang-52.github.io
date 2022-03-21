@@ -33,42 +33,42 @@ permalink: /clcxray/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/21_tip_igoas.png" width="600px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/22_tifs_clcxray.png" width="600px" />
 		</div>
 <figcaption>
 <br>
-Figure 1.The flowchart of the proposed IGOAS network
+Figure 1.Samples of 12 categories and corresponding X-ray images. The X-ray image dataset contains various cutters and liquid containers that may contain flammable or explosive liquids
 </figcaption>
 </figure>
 </center>
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
-Specifically, in the training phase, the IGO block converts the raw input into occluded data, and then the raw data and the occluded data are entered into the respective branch of the frame for feature extraction. In global branch, we retain the ResNet-50 baseline to extract steady global features of the raw data. In adversarial suppression branch, the OSM and a global max pooling operation are employing to force this branch to suppress the occlusion’s response and strengthen discriminative feature representation on non-occluded regions of the pedestrian. Finally, we get a more robust pedestrian feature descriptor by concatenating two branches’ features. And in the test phase, the incremental occlusion block won’t be performed. </p>
+We contribute a new dataset CLCXray for the overlap problem. Different from all existing datasets, CLCXray provides a large number of overlapped objects based
+on real scenes, which provides a good foundation for the research of the overlap problem. Besides, CLCXray takes hazardous liquids into consideration, expanding the
+scope of research on threat objects. Moreover, CLCXray provides high-precision annotations, which makes up for the current lack of high-quality bounding box (bbox) annotations. </p>
 
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_osm.png" width="300px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_bbox.png" width="300px" />
 		</div>
 
 <figcaption>
 <br>
-Figure 2.Structure of OSM
+Figure 2.Visualization of bbox annotations on OPIXray, SIXray, and CLCXray. (A) shows the annotations in SIXray. The threat objects in SIXray are mainly guns. (B) shows the annotations in OPIXray. The threat objects in OPIXray are mainly knives. (C) shows the annotations in CLCXray. The threat objects in CLCXray are mainly liquid containers.
 </figcaption>
 </figure>
 </center>
-<p style="text-align:justify; text-justify:inter-ideograph;">We propose an incremental generative occlusion adversarial suppression network. The IGOAS network first generates easy-to-hard occluded data through the IGO block and then suppresses the generated occluded region with the adversarial suppression branch. In this process of adversarial learning, the IGOAS learns a more discriminative and robust feature for the occlusion problem.</p>
-
+<p style="text-align:justify; text-justify:inter-ideograph;">In this paper, we combine LA and ATSS to build our network. ATSS has the following improvements based on.RetinaNet. Structurally, ATSS uses five-layer FPN and predicts the regression quality score, center-ness, on the regression branch. In the choice of regression loss, ATSS uses GIoU loss. In the label assignment strategy, ATSS changes the fixed threshold for assigning positive or negative labels to the dynamic threshold based on the statistics of IoUs of anchors and ground truth bbox. As shown in Fig. 6, our overall network structure is similar to ATSS, except that a new branch Labelaware is added to the Head part. The Label-aware branch forms a reverse network from the prediction results and the label assignment to the feature map. Thus, there is a loop in the Head part. In our setting, this loop happens only once. Specifically, the network makes two predictions, and the regression branch repeats twice in the second prediction. When calculating the loss function, the first prediction is not considered.</p>
 
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_igo.png" width="400px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_pipeline.png" width="400px" />
 		</div>
 <figcaption>
 <br>
-Figure 3.Batch-Based Incremental Generative Occlusion Block.
-
+Figure 3. Overall Framework
 </figcaption>
 </figure>
 </center>
@@ -83,7 +83,7 @@ Please consider citing if this work and/or the corresponding code are useful for
 
 ```
 @article{tifs22,
-   author = {Zhao, Cairong and Liang Zhu and Dou, Shuguang and Zhang, Shanshan and Wu, Jun and Wang, Liang},
+   author = {Zhao, Cairong and Liang Zhu and Dou, Shuguang and Weihong Deng and Wang, Liang},
    title = {Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism},
    journal = {IEEE Transactions on Information Forensics and Security},
    volume = {17},
