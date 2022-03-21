@@ -77,27 +77,26 @@ Figure 3.Batch-Based Incremental Generative Occlusion Block.
 [comment]: Paper
 <h3> Paper </h3>
 
-- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/21tip_igoas.pdf" style="color: #CC0000"> PDF </a>
+- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/22tifs_clcxray.pdf" style="color: #CC0000"> PDF </a>
 
 Please consider citing if this work and/or the corresponding code are useful for you:
 
 ```
-@article{tip21,
-   author = {Zhao, Cairong and Lv, Xinbi and Dou, Shuguang and Zhang, Shanshan and Wu, Jun and Wang, Liang},
-   title = {Incremental Generative Occlusion Adversarial Suppression Network for Person ReID},
-   journal = {IEEE transactions on image processing : a publication of the IEEE Signal Processing Society},
-   volume = {30},
-   pages = {4212-4224},
-   DOI = {10.1109/tip.2021.3070182},
-   url = {<Go to ISI>://MEDLINE:33822724},
-   year = {2021},
+@article{tifs22,
+   author = {Zhao, Cairong and Liang Zhu and Dou, Shuguang and Zhang, Shanshan and Wu, Jun and Wang, Liang},
+   title = {Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism},
+   journal = {IEEE Transactions on Information Forensics and Security},
+   volume = {17},
+   pages = {998-1009},
+   DOI = {10.1109/TIFS.2022.3154287},
+   year = {2022},
    type = {Journal Article}
 }
 ```
 
-[comment]: Code
-<h3> Code </h3>
-We use pytorch to implement igoas framework. Code is available online in ths github repository:
-<a href="https://github.com/Vill-Lab/IGOAS" style="color: #CC0000">https://github.com/Vill-Lab/IGOAS</a>.
+[comment]: Dataset
+<h3> Dataset </h3>
+Dataset is available online in ths github repository:
+<a href="https://github.com/Vill-Lab/CLCXray" style="color: #CC0000">https://github.com/Vill-Lab/IGOAS</a>.
 
 
