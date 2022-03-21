@@ -33,7 +33,7 @@ permalink: /clcxray/
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/22_tifs_clcxray.png" width="600px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/22_tifs_clcxray.jpg" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -50,7 +50,7 @@ scope of research on threat objects. Moreover, CLCXray provides high-precision a
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_bbox.png" width="300px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_bbox.png" width="600px" />
 		</div>
 
 <figcaption>
@@ -64,7 +64,7 @@ Figure 2.Visualization of bbox annotations on OPIXray, SIXray, and CLCXray. (A) 
 <center>
 <figure>
 		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_pipeline.png" width="400px" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_pipeline.png" width="600px" />
 		</div>
 <figcaption>
 <br>
