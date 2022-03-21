@@ -97,6 +97,6 @@ Please consider citing if this work and/or the corresponding code are useful for
 [comment]: Dataset
 <h3> Dataset </h3>
 Dataset is available online in ths github repository:
-<a href="https://github.com/Vill-Lab/CLCXray" style="color: #CC0000">https://github.com/Vill-Lab/IGOAS</a>.
+<a href="https://github.com/Vill-Lab/CLCXray" style="color: #CC0000">https://github.com/Vill-Lab/CLCXray</a>.
 
 
