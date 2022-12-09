@@ -1,5 +1,5 @@
 - title: Human Co-Parsing Guided Alignment for Occluded Person Re-identification
-  image: 22_tip_hcga.jpg
+  image: 22_tip_hcga.png
   description: We propose a novel Human Co-parsing Guided Alignment (HCGA) framework that alternately trains the human co-parsing network and the ReID network, where the human co-paring network is trained in a *weakly supervised manner* to obtain paring results without any extra annotation.
   authors: Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Memeber, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
   venue: IEEE T-IP 22 (CCF A)
