@@ -17,9 +17,9 @@ permalink: /hcga/
 <a style="color: #CC0000">Cairong Zhao*</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000"> Xinyang Jiang </a>
-<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000">Shanshan Zhang, Memeber, IEEE </a> 
+<br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a style="color: #CC0000">Wei-Shi Zheng </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,13 +30,9 @@ permalink: /hcga/
 
 [comment]: Abstract
 <h3> Abstract </h3>
-<p style="text-align:justify; text-justify:inter-ideograph;">Occluded person re-identification (ReID) is a challenging task due to more background noises and incomplete foreground information. Although existing human parsing-based ReID methods can tackle this problem with semantic alignment at the finest pixel level, their performance is heavily affected by the human parsing model.
-Most supervised methods propose to train an extra human parsing model aside from the ReID model with cross-domain human parts annotation, suffering from expensive annotation cost and domain gap; 
-Unsupervised methods integrate a feature clustering-based human parsing process into the ReID model, but lacking supervision signals brings less satisfactory segmentation results.
-In this paper, we argue that the pre-existing information in the ReID training dataset can be directly used as supervision signals to train the human parsing model without any extra annotation. 
-By integrating a \emph{weakly supervised human co-parsing} network into the ReID network, we propose a novel framework that exploits shared information across different images of the same pedestrian, called the Human Co-parsing Guided Alignment (HCGA) framework.
+<p style="text-align:justify; text-justify:inter-ideograph;">Occluded person re-identification (ReID) is a challenging task due to more background noises and incomplete foreground information. Although existing human parsing-based ReID methods can tackle this problem with semantic alignment at the finest pixel level, their performance is heavily affected by the human parsing model. Most supervised methods propose to train an extra human parsing model aside from the ReID model with cross-domain human parts annotation, suffering from expensive annotation cost and domain gap; Unsupervised methods integrate a feature clustering-based human parsing process into the ReID model, but lacking supervision signals brings less satisfactory segmentation results. In this paper, we argue that the pre-existing information in the ReID training dataset can be directly used as supervision signals to train the human parsing model without any extra annotation. By integrating a *weakly supervised human co-parsing* network into the ReID network, we propose a novel framework that exploits shared information across different images of the same pedestrian, called the Human Co-parsing Guided Alignment (HCGA) framework.
 Specifically, the human co-parsing network is weakly supervised by three consistency criteria, namely global semantics, local space, and background. By feeding the semantic information and deep
-features from the person ReID network into the guided alignment module, features of the foreground and human parts can then be obtained for effective occluded person ReID. Experiment results on two occluded and two holistic datasets demonstrate the superiority of our method. Especially on Occluded-DukeMTMC, it achieves 70.2\% Rank-1 accuracy and 57.5\% mAP.</p>
+features from the person ReID network into the guided alignment module, features of the foreground and human parts can then be obtained for effective occluded person ReID. Experiment results on two occluded and two holistic datasets demonstrate the superiority of our method. Especially on Occluded-DukeMTMC, it achieves 70.2% Rank-1 accuracy and 57.5% mAP.</p>
 
 <center>
 <figure>
@@ -45,7 +41,8 @@ features from the person ReID network into the guided alignment module, features
 		</div>
 <figcaption>
 <br>
-Figure 1.Samples of 12 categories and corresponding X-ray images. The X-ray image dataset contains various cutters and liquid containers that may contain flammable or explosive liquids
+Figure 1.The flowchart of the proposed HCGA framework. (a) Human Co-parsing network (HCNet). (b) Person ReID network (PRNet). The proposed HCGA consists of HCNet and PRNet. The two sub-networks share the backbone and are trained alternately until optimized to the best. Specifically, PRNet refines the parameters to make the difference between features with different semantics greater. HCNet yields better segmentation results based on the refined features to guide PRNet alignment at the pixel level.
+
 </figcaption>
 </figure>
 </center>
@@ -90,19 +87,16 @@ Figure 3. Overall Framework
 Please consider citing if this work and/or the corresponding code are useful for you:
 
 ```
-@article{tifs22,
-   author = {Zhao, Cairong and Liang Zhu and Dou, Shuguang and Weihong Deng and Wang, Liang},
-   title = {Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism},
-   journal = {IEEE Transactions on Information Forensics and Security},
-   volume = {17},
-   pages = {998-1009},
-   DOI = {10.1109/TIFS.2022.3154287},
-   year = {2022},
-   type = {Journal Article}
+@article{hcga22tip,
+  title={Human Co-Parsing Guided Alignment for Occluded Person Re-identification},
+  author={Dou, Shuguang and Zhao, Cairong and Xinyang, Jiang and Shanshan, Zhang and Wei-Shi, Zheng and Wangmeng, Zuo},
+  journal = {IEEE Transactions on Image Processing},
+  year={2022}
+  type = {Journal Article}
 }
 ```
 
-[comment]: Dataset
-<h3> Dataset </h3>
-Dataset is available online in ths github repository:
-<a href="https://github.com/Vill-Lab/CLCXray" style="color: #CC0000">https://github.com/Vill-Lab/CLCXray</a>.
+[comment]: Code
+<h3> Code </h3>
+Code is available online in ths github repository:
+<a href="[https://github.com/Vill-Lab/CLCXray](https://github.com/Vill-Lab/2022-TIP-HCGA)" style="color: #CC0000">[https://github.com/Vill-Lab/CLCXray](https://github.com/Vill-Lab/2022-TIP-HCGA)</a>.
