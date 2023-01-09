@@ -82,21 +82,23 @@ Figure 3. Overall Framework
 [comment]: Paper
 <h3> Paper </h3>
 
-- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/22tifs_clcxray.pdf" style="color: #CC0000"> PDF </a>
+- Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/22tip_hcga.pdf" style="color: #CC0000"> PDF </a>
 
 Please consider citing if this work and/or the corresponding code are useful for you:
 
 ```
 @article{hcga22tip,
-  title={Human Co-Parsing Guided Alignment for Occluded Person Re-identification},
-  author={Dou, Shuguang and Zhao, Cairong and Xinyang, Jiang and Shanshan, Zhang and Wei-Shi, Zheng and Wangmeng, Zuo},
-  journal = {IEEE Transactions on Image Processing},
-  year={2022}
-  type = {Journal Article}
+  author={Dou, Shuguang and Zhao, Cairong and Jiang, Xinyang and Zhang, Shanshan and Zheng, Wei-Shi and Zuo, Wangmeng},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Human Co-Parsing Guided Alignment for Occluded Person Re-Identification}, 
+  year={2023},
+  volume={32},
+  pages={458-470},
+  doi={10.1109/TIP.2022.3229639}}
 }
 ```
 
 [comment]: Code
 <h3> Code </h3>
 Code is available online in ths github repository:
-<a href="[https://github.com/Vill-Lab/CLCXray](https://github.com/Vill-Lab/2022-TIP-HCGA)" style="color: #CC0000">[https://github.com/Vill-Lab/CLCXray](https://github.com/Vill-Lab/2022-TIP-HCGA)</a>.
+<a href="[https://github.com/Vill-Lab/2022-TIP-HCGA](https://github.com/Vill-Lab/2022-TIP-HCGA)" style="color: #CC0000">[https://github.com/Vill-Lab/2022-TIP-HCGA](https://github.com/Vill-Lab/2022-TIP-HCGA)</a>.
