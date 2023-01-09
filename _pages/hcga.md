@@ -101,4 +101,4 @@ Please consider citing if this work and/or the corresponding code are useful for
 [comment]: Code
 <h3> Code </h3>
 Code is available online in ths github repository:
-<a href="[https://github.com/Vill-Lab/2022-TIP-HCGA](https://github.com/Vill-Lab/2022-TIP-HCGA)" style="color: #CC0000">[https://github.com/Vill-Lab/2022-TIP-HCGA](https://github.com/Vill-Lab/2022-TIP-HCGA)</a>.
+<a href="https://github.com/Vill-Lab/2022-TIP-HCGA" style="color: #CC0000">https://github.com/Vill-Lab/2022-TIP-HCGA)</a>.
