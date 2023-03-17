@@ -42,12 +42,12 @@ permalink: /experience
 <p>&nbsp;</p>
 
 <h3>Work Experience</h3>
-<p><em>(Nove &rsquo;21 &ndash; March &rsquo;23 )</em></p>
+<p><em>(Nove &rsquo;21 &ndash; May &rsquo;15)</em></p>
 
 <p><strong>MSRA (Microsoft Research Asia) Machine Learning Group</strong>, Shanghai, China</p>
 
 <p>Research Intern</p>
 
-<p>Mentor: Senior Rereascher Xingyang Jiang</p>
+<p>Mentor: Senior Researcher Xingyang Jiang</p>
 
 <p>&nbsp;</p>
