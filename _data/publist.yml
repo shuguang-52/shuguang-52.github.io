@@ -1,4 +1,4 @@
-- title: EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark
+- title: EA-HAS-Bench:Energy-Aware Hyperparameter and Architecture Search Benchmark
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
   authors: Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Memeber, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
