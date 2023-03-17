@@ -1,9 +1,9 @@
 ---
-title: "Shuguang Dou - ea_has_bench"
+title: "Shuguang Dou - eahasbench"
 layout: gridlay
-excerpt: "Shuguang Dou: ea_has_bench"
+excerpt: "Shuguang Dou: eahasbench"
 sitemap: false
-permalink: /ea_has_bench/
+permalink: /eahasbench/
 ---
 
 [comment]: Title
