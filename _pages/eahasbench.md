@@ -38,40 +38,39 @@ We present the first large-scale energy-aware benchmark that allows studying Aut
 <figcaption>
 <br>
 Figure 1.Overview of Bezier Curve-based Surrogate Model. HC denotes Hyperparameter configuration.
+</br>
+</center>
 
 Most of the existing conventional benchmarks like `NAS-Bench-101` do not directly provide training energy cost but use model training time as the training resource budget, which as verified by our experiments, is an inaccurate estimation of energy cost. `HW-NAS-bench`  provides the inference latency and inference energy consumption of different model architectures but also does not provide the search energy cost
 <p align="center">
 <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Differences.png" alt="Differece" width="80%">
 </p>
 	
-## Dataset Overview
-### EA-HAS-Bench's Search Space
-Unlike the search space of existing mainstream NAS-Bench that focuses only on network architectures, our `EA-HAS-Bench` consists of a combination of two parts: the network architecture space- $\mathrm{RegNet}$  and the hyperparameter space for optimization and training, in order to cover diversified configurations that affect both performance and energy consumption. The details of the search space are shown in Table.
-
+<h2>Dataset Overview</h2>
+<h3>EA-HAS-Bench's Search Space</h3>
+<p>Unlike the search space of existing mainstream NAS-Bench that focuses only on network architectures, our <code>EA-HAS-Bench</code> consists of a combination of two parts: the network architecture space- <code>RegNet</code>  and the hyperparameter space for optimization and training, in order to cover diversified configurations that affect both performance and energy consumption. The details of the search space are shown in Table.</p>
 <p align="center">
-<img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/search_space.png" alt="SearchSpace" width="80%">
+    <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/search_space.png" alt="SearchSpace" width="80%">
 </p>
 
-### Evaluation Metrics
-The `EA-HAS-Bench` dataset provides the following three types of metrics to evaluate different configurations. 
-+ **Model Complexity:** parameter size, FLOPs, number of network activations (the size of the output tensors of each convolutional layer), as well as the inference energy cost of the trained model.
-+ **Model Performance:** **full training information** including training, validation, and test accuracy learning curves.
-+ **Search Cost:** energy cost (in kWh) and time (in seconds)
-
-### Dataset statistics
-The left plot shows the validation accuracy box plots for each NAS benchmark in CIFAR-10. The right plot shows a comparison of training time, training energy consumption (TEC), and test accuracy in the dataset.
-
+<h3>Evaluation Metrics</h3>
+<p>The <code>EA-HAS-Bench</code> dataset provides the following three types of metrics to evaluate different configurations:</p>
+<ul>
+    <li><strong>Model Complexity:</strong> parameter size, FLOPs, number of network activations (the size of the output tensors of each convolutional layer), as well as the inference energy cost of the trained model.</li>
+    <li><strong>Model Performance:</strong> <strong>full training information</strong> including training, validation, and test accuracy learning curves.</li>
+    <li><strong>Search Cost:</strong> energy cost (in kWh) and time (in seconds).</li>
+</ul>
+<h3>Dataset Statistics</h3>
+<p>The left plot shows the validation accuracy box plots for each NAS benchmark in CIFAR-10. The right plot shows a comparison of training time, training energy consumption (TEC), and test accuracy in the dataset.</p>
 <div align="center">
-   <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Box_plot.jpg" height=300/><img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Tiny_Acc_as_color.jpg" height=300/>
+    <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Box_plot.jpg" height=300/><img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Tiny_Acc_as_color.jpg" height=300/>
 </div>
-
-Although training the model for a longer period is likely to yield a higher energy cost, the final cost still depends on many other factors including power (i.e., consumed energy per hour). The left and right plots of Figure also verifies the conclusion, where the models in the Pareto Frontier on the accuracy-runtime coordinate (right figure) are not always in the Pareto Frontier on the accuracy-TEC coordinate (left figure), showing that training time and energy cost are not equivalent. 
-
+<p>Although training the model for a longer period is likely to yield a higher energy cost, the final cost still depends on many other factors including power (i.e., consumed energy per hour). The left and right plots of Figure also verifies the conclusion, where the models in the Pareto Frontier on the accuracy-runtime coordinate (right figure) are not always in the Pareto Frontier on the accuracy-TEC coordinate (left figure), showing that training time and energy cost are not equivalent.</p>
 <div align="center">
-   <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Tiny_Acc_Cost.jpg" height=300/><img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Tiny_Acc_Time.jpg" height=300/>
+    <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Tiny_Acc_Cost.jpg" height=300/><img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Tiny_Acc_Time.jpg" height=300/>
 </div>
     
-</center>
+
 
 [comment]: Paper
 <h3> Paper </h3>
