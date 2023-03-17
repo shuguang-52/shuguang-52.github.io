@@ -1,3 +1,24 @@
+- title: EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark
+  image: 23_ICLR_BSC.png
+  description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
+  authors: Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Memeber, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
+  venue: ICLR 23
+  number_link: 4
+  link1:
+    url: https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf
+    display: pdf
+  link2:
+    url: http://shuguang-52.github.io/ea_has_bench
+    display: project page
+  link3:
+    url: https://github.com/microsoft/EA-HAS-Bench
+    display: code (github)
+  link4:
+    url: https://openreview.net/forum?id=n-bvaLSCC78
+    display: Website Online
+
+
+
 - title: Human Co-Parsing Guided Alignment for Occluded Person Re-identification
   image: 22_tip_hcga.png
   description: We propose a novel Human Co-parsing Guided Alignment (HCGA) framework that alternately trains the human co-parsing network and the ReID network, where the human co-paring network is trained in a *weakly supervised manner* to obtain paring results without any extra annotation.
