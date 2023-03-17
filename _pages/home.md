@@ -11,7 +11,16 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am currently pursuing the Ph.D's degree of Tongji University. My research interests are in person re-identification, 3D, deep learning, remote sensing and X-ray imagery.
+I am currently pursuing the Ph.D's degree of Tongji University. My research interests are in deep learning and computer vision. 
+Specific areas of research include the following：
+<ol>
+  <li>Infographic understanding (Now)</li>
+  <li>person re-identification (Now)</li>
+  <li>NAS benchmark</li>
+  <li>X-ray</li>
+  <li>3D point cloud</li>
+  <li>remote sensing</li>
+</ol>
 
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf).
