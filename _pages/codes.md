@@ -16,7 +16,7 @@ permalink: /codes
 <li>Incremental Generative Occlusion Adversarial Suppression Network for Person ReID - [<a href="https://github.com/Vill-Lab/2021-TIP-IGOAS">Code</a>(github)]</li>
 <li>Detecting Overlapping Objects in X-ray Security Imagery by a Label-aware Mechanism - [<a href="https://github.com/Vill-Lab/2022-TIFS-CLCXray">Code</a>(github)]</li>
 <li>Human Co-Parsing Guided Alignment for Occluded Person Re-identification  - [<a href="https://github.com/Vill-Lab/2022-TIP-HCGA">Code</a>(github)]</li>
-<li>EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark - [<a href="https://github.com/microsoft/EA-HAS-Bench">Code</a>(github)]</li>
+<li>EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark - [<a href="https://github.com/microsoft/EA-HAS-Bench">Code and Dataset</a>(github)]</li>
 </ul>
 
 <p>&nbsp;</p>
