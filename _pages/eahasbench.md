@@ -82,7 +82,7 @@ Please consider citing if this work and/or the corresponding code and dataset ar
 
 ```
 @inproceedings{ea23iclr,
-title={{EA}-{HAS}-Bench: Energy-aware Hyperparameter and Architecture Search Benchmark},
+title={EA-HAS-Bench: Energy-aware Hyperparameter and Architecture Search Benchmark},
 author={Dou, Shuguang and JIANG, XINYANG and Zhao, Cai Rong and Li, Dongsheng},
 booktitle={International Conference on Learning Representations },
 year={2023},
