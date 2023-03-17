@@ -38,16 +38,21 @@ We present the first large-scale energy-aware benchmark that allows studying Aut
 <figcaption>
 <br>
 Figure 1.Overview of Bezier Curve-based Surrogate Model. HC denotes Hyperparameter configuration.
-
 </figcaption>
 </figure>
 </center>
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
 Most of the existing conventional benchmarks like `NAS-Bench-101` do not directly provide training energy cost but use model training time as the training resource budget, which as verified by our experiments, is an inaccurate estimation of energy cost. `HW-NAS-bench`  provides the inference latency and inference energy consumption of different model architectures but also does not provide the search energy cost. </p>
-<p align="center">
-<img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Differences.png" alt="Differece" width="80%">
-</p>
+
+<center>
+<figure>
+		<div id="projectid">
+    <img src="https://github.com/microsoft/EA-HAS-Bench/blob/main/BSC/figures/Differences.png" width="600px" />
+		</div>
+</figure>
+</center>
+
 	
 <h3>Dataset Overview</h3>
 <h4>EA-HAS-Bench's Search Space</h4>
