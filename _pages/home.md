@@ -124,6 +124,14 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf).
 
 <div class="col-sm-12">
 
+
+### Friends
+{% for article in site.data.friends limit:8 %}
+{{ article.date }} :
+<em>{{ article.headline }}</em>
+{% endfor %}
+
+
 ### Theses
 
 {% for publi in site.data.theseslist limit:6 %}
