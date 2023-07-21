@@ -2,7 +2,7 @@
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
   authors: Shuguang Dou, Xinyang Jiang, Cairong Zhao, Dongsheng Li
-  venue: ICLR 23
+  venue: ICLR 23 Spotlight
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf
@@ -16,7 +16,6 @@
   link4:
     url: https://openreview.net/forum?id=n-bvaLSCC78
     display: Website Online
-
 
 
 - title: Human Co-Parsing Guided Alignment for Occluded Person Re-identification
