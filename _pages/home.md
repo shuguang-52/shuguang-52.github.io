@@ -15,7 +15,7 @@ I am currently pursuing a Ph.D. degree from Tongji University. My research inter
 Specific areas of research include the following：
 <ol>
   <li>Conjoining various foundation models (Now)</li>
-  <li>person re-identification (Now)</li>
+  <li>Person re-identification (Now)</li>
   <li>Infographic understanding</li>
   <li>NAS benchmark</li>
   <li>X-ray</li>
