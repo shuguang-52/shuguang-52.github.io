@@ -11,11 +11,12 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am currently pursuing the Ph.D's degree of Tongji University. My research interests are in deep learning and computer vision. 
+I am currently pursuing a Ph.D. degree from Tongji University. My research interests are in deep learning and computer vision. 
 Specific areas of research include the following：
 <ol>
-  <li>Infographic understanding (Now)</li>
+  <li>Conjoining various foundation models (Now)</li>
   <li>person re-identification (Now)</li>
+  <li>Infographic understanding</li>
   <li>NAS benchmark</li>
   <li>X-ray</li>
   <li>3D point cloud</li>
