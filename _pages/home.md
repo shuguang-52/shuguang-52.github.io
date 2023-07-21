@@ -127,7 +127,7 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf).
 
 ### Friends
 {% for article in site.data.friends limit:8 %}
-{{ article.date }} :
+{{ article.name }} :
 <em>{{ article.headline }}</em>
 {% endfor %}
 
