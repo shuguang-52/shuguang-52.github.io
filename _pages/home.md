@@ -130,7 +130,7 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf).
 {{ article.name }} :
 <em>{{ article.headline }}</em>
 {% endfor %}
-
+<a href="{{ site.url }}{{ site.baseurl }}/friends.html">see all friends</a>
 
 ### Theses
 
