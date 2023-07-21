@@ -6,7 +6,7 @@ sitemap: false
 permalink: /friends.html
 ---
 
-# News
+# Friendss
 
 {% for article in site.data.friends %}
 <p>{{ article.name }} <br>
