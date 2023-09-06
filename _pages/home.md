@@ -26,7 +26,7 @@ Specific areas of research include the following：
 </ol>
 
 ### CV
-You can download my CV at [here](https://shuguang-52.github.io/papers/Shuguang Dou.pdf).
+You can download my CV at [here](https://shuguang-52.github.io/papers/ShuguangDou_TJ_CV_EN.pdf).
 
 ### News
 {% for article in site.data.news limit:8 %}
