@@ -15,6 +15,8 @@ I am currently pursuing a Ph.D. degree from Tongji University. My research inter
 Specific areas of research include the following：
 <ol>
   <li>Conjoining various foundation models (Now)</li>
+  <li>AI for VIS (Now)</li>
+  <li>Dataset Condensation (Now)</li>
   <li>Person re-identification (Now)</li>
   <li>Infographic understanding</li>
   <li>NAS benchmark</li>
@@ -24,7 +26,7 @@ Specific areas of research include the following：
 </ol>
 
 ### CV
-You can download my CV at [here](https://shuguang-52.github.io/papers/CV.pdf).
+You can download my CV at [here](https://shuguang-52.github.io/papers/Shuguang Dou.pdf).
 
 ### News
 {% for article in site.data.news limit:8 %}
