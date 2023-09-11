@@ -11,20 +11,19 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am currently pursuing a Ph.D. degree from Tongji University. My research interests are in deep learning and computer vision. 
-Specific areas of research include the following：
+I am a four-year PhD student and luckily advised by the brilliant and kind researcher Prof. Cairong Zhao. I am passionate
+about computer vision research in the following topics:
+  
 <ol>
-  <li>Conjoining various foundation models (Now)</li>
-  <li>AI for VIS (Now)</li>
-  <li>Dataset Condensation (Now)</li>
-  <li>Person re-identification (Now)</li>
-  <li>Infographic understanding</li>
-  <li>NAS benchmark</li>
-  <li>X-ray</li>
-  <li>3D point cloud</li>
-  <li>remote sensing</li>
+  <li>Video Surveillance: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving (Now)</li>
+  <li>Infographic understanding & NAS benchmark (MSRA Research Intern)</li>
+  <li>Classification: Hyperspectral Image Classification, 3D Point Cloud Classification (Master's degree)</li>
 </ol>
 
+Currently, I base my research topics on emerging abilities in foundation models such as LVLV for Occluded ReID and LLM for VIS.
+I am always grateful to those more senior who have a deep understanding of these topics for their advice. Besides, I am
+always willing to collaborate with people interested in relevant issues and provide corresponding guidance to younger
+students (undergrad or master).
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/ShuguangDou_TJ_CV_EN.pdf).
 
