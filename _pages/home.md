@@ -16,7 +16,7 @@ about computer vision research in the following topics:
   
 <ol>
   <li>Video Surveillance: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving (Now)</li>
-  <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark (MSRA Research Intern)</li>
+  <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
   <li>Classification: Hyperspectral Image Classification, 3D Point Cloud Classification (Master's degree)</li>
 </ol>
 
