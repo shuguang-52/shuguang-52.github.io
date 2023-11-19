@@ -1,7 +1,26 @@
+- title: Invisible backdoor attack with dynamic triggers against person re-identification
+  image: 23_TIFS_backdoor.png
+  description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. Thus, previous backdoor attack methods for classification are not applicable to ReID. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
+  authors: Wenli Sun, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
+  venue: IEEE T-IFS (CCF A)
+  number_link: 4
+  link1:
+    url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
+    display: pdf
+  link2:
+    url: http://shuguang-52.github.io/backdoor
+    display: project page
+  link3:
+    url: https://github.com/Vill-Lab/2023-TIFS-DTIBA
+    display: code (GitHub)
+  link4:
+    url: https://ieeexplore.ieee.org/abstract/document/10285514/
+    display: Website Online
+
 - title: EA-HAS-Bench:Energy-Aware Hyperparameter and Architecture Search Benchmark
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
-  authors: Shuguang Dou, Xinyang Jiang, Cairong Zhao, Dongsheng Li
+  authors: **Shuguang Dou**, Xinyang Jiang, Cairong Zhao, Dongsheng Li
   venue: ICLR 23 Spotlight
   number_link: 4
   link1:
@@ -12,7 +31,7 @@
     display: project page
   link3:
     url: https://github.com/microsoft/EA-HAS-Bench
-    display: code (github)
+    display: code (GitHub)
   link4:
     url: https://openreview.net/forum?id=n-bvaLSCC78
     display: Website Online
@@ -21,7 +40,7 @@
 - title: Human Co-Parsing Guided Alignment for Occluded Person Re-identification
   image: 22_tip_hcga.png
   description: We propose a novel Human Co-parsing Guided Alignment (HCGA) framework that alternately trains the human co-parsing network and the ReID network, where the human co-paring network is trained in a *weakly supervised manner* to obtain paring results without any extra annotation.
-  authors: Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Memeber, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
+  authors: Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Member, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
   venue: IEEE T-IP 22 (CCF A)
   number_link: 4
   link1:
@@ -32,7 +51,7 @@
     display: project page
   link3:
     url: https://github.com/Vill-Lab/2022-TIP-HCGA
-    display: code (github)
+    display: code (GitHub)
   link4:
     url: https://ieeexplore.ieee.org/abstract/document/9994734
     display: Website Online
@@ -52,7 +71,7 @@
     display: project page
   link3:
     url: https://github.com/Vill-Lab/2022-TIFS-CLCXray
-    display: code (github)
+    display: code (GitHub)
   link4:
     url: https://ieeexplore.ieee.org/document/9722843
     display: Website Online
@@ -60,7 +79,7 @@
 - title: Incremental Generative Occlusion Adversarial Suppression Network for Person ReID
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
-  authors: Cairong Zhao* , Xinbi Lv* , Shuguang Dou*, Shanshan Zhang , Member, IEEE, Jun Wu , Senior Member, IEEE, and Liang Wang, Fellow, IEEE
+  authors: Cairong Zhao*, Xinbi Lv*, Shuguang Dou*, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE
   venue: IEEE T-IP 21 (CCF A)
   number_link: 4
   link1:
@@ -71,7 +90,7 @@
     display: project page
   link3:
     url: https://github.com/Vill-Lab/2021-TIP-IGOAS
-    display: code (github)
+    display: code (GitHub)
   link4:
     url: https://ieeexplore.ieee.org/abstract/document/9397375
     display: Website Online
@@ -90,7 +109,7 @@
     display: project page
   link3:
     url: https://github.com/shuguang-52/AUSSC
-    display: code (github)
+    display: code (GitHub)
   link4:
     url: https://www.mdpi.com/2072-4292/11/15/1794
     display: Website Online
@@ -109,7 +128,7 @@
     display: project page
   link3:
     url: https://github.com/shuguang-52/FDSSC
-    display: code (github)
+    display: code (GitHub)
   link4:
     url: https://www.mdpi.com/2072-4292/10/7/1068
     display: Website Online
