@@ -11,7 +11,7 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am a four-year PhD student and luckily advised by the brilliant and kind researcher Prof. Cairong Zhao. I am passionate
+I am a four-year PhD student and luckily advised by the brilliant and kind researcher [Prof. Cairong Zhao](https://vill-lab.github.io/). I am passionate
 about computer vision research in the following topics:
   
 <ol>
@@ -20,7 +20,7 @@ about computer vision research in the following topics:
   <li>Classification: Hyperspectral Image Classification, 3D Point Cloud Classification (Master's degree)</li>
 </ol>
 
-Currently, I base my research topics on emerging abilities in foundation models such as LVLV for Occluded ReID and LLM for VIS.
+Currently, I base my research topics on emerging abilities in foundation models such as LVLM for Occluded ReID and LLM for VIS.
 I am always grateful to those more senior who have a deep understanding of these topics for their advice. Besides, I am
 always willing to collaborate with people interested in relevant issues and provide corresponding guidance to younger
 students (undergrad or master).
