@@ -24,8 +24,10 @@ Currently, I base my research topics on emerging abilities in foundation models 
 I am always grateful to those more senior who have a deep understanding of these topics for their advice. Besides, I am
 always willing to collaborate with people interested in relevant issues and provide corresponding guidance to younger
 students (undergrad or master).
+
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/ShuguangDou_TJ_CV_EN.pdf).
+**I am actively seeking a Research Scientist or Postdoc Research Fellow. Please feel free to reach out if you have any suitable positions!**
 
 ### News
 {% for article in site.data.news limit:8 %}
