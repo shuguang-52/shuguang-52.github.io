@@ -11,7 +11,17 @@ permalink: /experience
 
 <h3>Education</h3>
 
-<p><em>(Sept &rsquo;20 &ndash; Now )</em></p>
+<p><em>(Sept &rsquo;24.Jan &ndash; 24 July )</em></p>
+
+<p><strong>Michigan State University</strong>, East Lansing, US</p>
+
+<p>Short-term Visit Scholar</p>
+
+<p>Advisor: Prof. Xiaoming Liu </p>
+
+<p>&nbsp;</p>
+
+<p><em>(Sept &rsquo;20 &ndash; 24 )</em></p>
 
 <p><strong>Tongji University</strong>, Shanghai, China</p>
 
@@ -25,7 +35,7 @@ permalink: /experience
 
 <p><strong>University of Shanghai for Science and Technology</strong>, Shanghai, China</p>
 
-<p>Master degree in Machniacl engineering (GPA:3.51/4.0)</p>
+<p>Master degree in Machniacl engineering</p>
 
 <p>Advisor: Prof. Wenju Wang </p>
 
