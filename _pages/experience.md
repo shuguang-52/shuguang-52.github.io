@@ -11,7 +11,7 @@ permalink: /experience
 
 <h3>Education</h3>
 
-<p><em>(Sept &rsquo;24.Jan &ndash; 24 July )</em></p>
+<p><em>(Jan &rsquo;24 &ndash; June &rsquo;24 )</em></p>
 
 <p><strong>Michigan State University</strong>, East Lansing, US</p>
 
