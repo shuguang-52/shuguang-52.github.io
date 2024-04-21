@@ -1,17 +1,36 @@
+- title: Hierarchical Recognizing Vector Graphics and A New Chart-based Vector Graphics Dataset
+  image: 24_TPAMI_Yolat++.png
+  description: For real-world vector graphics, YOLaT only models in flat GNN with vertexes as nodes ignore higher-level information of vector data. Therefore, we propose YOLaT++ to learn Multi-level Abstraction Feature Learning from a new perspective: Primitive Shapes to Curves and Points. On the other hand, given few public datasets focus on vector graphics, data-driven learning cannot exert its full power on this format. We provide a large-scale and challenging dataset for Chart-based Vector Graphics Detection and Chart Understanding, termed VG-DCU, with vector graphics, raster graphics, annotations, and raw data drawn for creating these vector charts. 
+  authors: S**huguang Dou**, Xinyang Jiang, Lu Liu, Lu Ying, Caihua Shan, Yifei Shen, Xuanyi Dong, Yun Wang, Dongsheng Li, Cairong Zhao
+  venue:  IEEE **T-PAMI** (CCF A)
+  number_link: 4
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: http://shuguang-52.github.io/vgdcu
+    display: project page
+  link3:
+    url: https://github.com/Vill-Lab/2024-TPAMI-VGDCU
+    display: code (GitHub)
+  link4:
+    url:
+    display: Website Online
+
 - title: Adaptive Discriminative Regularization for Visual Classification
   image: 24_IJCV_ADR.png
   description: How to improve discriminative feature learning is central in classification. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
-  authors: Qingsong Zhao*, Yi Wang*, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao (*Co-First Authors)
+  authors: Qingsong Zhao\*, Yi Wang\*, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao (\*Co-First Authors)
   venue:  International Journal of Computer Vision (CCF A)
   number_link: 4
   link1:
-    url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
+    url: 
     display: pdf
   link2:
     url: https://zqsiat.github.io/
     display: project page
   link3:
-    url: https://github.com/Vill-Lab/2023-TIFS-DTIBA
+    url: 
     display: code (GitHub)
   link4:
     url:
@@ -20,7 +39,7 @@
 
 - title: Invisible backdoor attack with dynamic triggers against person re-identification
   image: 23_TIFS_backdoor.png
-  description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. Thus, previous backdoor attack methods for classification are not applicable to ReID. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
+  description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
   authors: Wenli Sun, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
   venue: IEEE T-IFS (CCF A)
   number_link: 4
@@ -80,7 +99,7 @@
 - title: Detecting Overlapped Objects in X-ray Security Imagery by a Label-aware Mechanism
   image: 22_tifs_clcxray.jpg
   description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases in the X-ray images. Most existing methods improve the robustness of models to the object overlapping problem by enhancing the underlying visual information such as colors and edges. However, this strategy ignores the situations in that the objects have similar visual clues as to the background, and objects overlapping each other. Since the two cases rarely appear in existing datasets, we contribute a novel dataset – Cutters and Liquid Containers X-ray Dataset (CLCXray) to complete the related research.
-  authors: Cairong Zhao*, Liang Zhu*, **Shuguang Dou**, Weihong Deng, and Liang Wang, Fellow, IEEE (*Co-First Authors)
+  authors: Cairong Zhao\*, Liang Zhu\*, **Shuguang Dou**, Weihong Deng, and Liang Wang, Fellow, IEEE (\*Co-First Authors)
   venue: IEEE T-IFS 22 (CCF A)
   number_link: 4
   link1:
