@@ -79,7 +79,7 @@
 
 - title: Detecting Overlapped Objects in X-ray Security Imagery by a Label-aware Mechanism
   image: 22_tifs_clcxray.jpg
-  description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases inthe X-ray images. Most existing methods improve the robustnessof models to the object overlapping problem by enhancingthe underlying visual information such as colors and edges.However, this strategy ignores the situations that the objectshave similar visual clues as to the background, and objectsoverlapping each other. Since the two cases rarely appear inexisting datasets, we contribute a novel dataset – Cutters andLiquid Containers X-ray Dataset (CLCXray) to complete therelated research.
+  description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases in the X-ray images. Most existing methods improve the robustness of models to the object overlapping problem by enhancing the underlying visual information such as colors and edges. However, this strategy ignores the situations in that the objects have similar visual clues as to the background, and objects overlapping each other. Since the two cases rarely appear in existing datasets, we contribute a novel dataset – Cutters and Liquid Containers X-ray Dataset (CLCXray) to complete the related research.
   authors: Cairong Zhao*, Liang Zhu*, **Shuguang Dou**, Weihong Deng, and Liang Wang, Fellow, IEEE (*Co-First Authors)
   venue: IEEE T-IFS 22 (CCF A)
   number_link: 4
@@ -99,7 +99,7 @@
 - title: Incremental Generative Occlusion Adversarial Suppression Network for Person ReID
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
-  authors: Cairong Zhao*, Xinbi Lv*, **Shuguang Dou***, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (*Co-First Authors)
+  authors: Cairong Zhao\*, Xinbi Lv\*, **Shuguang Dou\***, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (\*Co-First Authors)
   venue: IEEE T-IP 21 (CCF A)
   number_link: 4
   link1:
