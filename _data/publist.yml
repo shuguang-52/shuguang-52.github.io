@@ -1,8 +1,8 @@
 - title: Adaptive Discriminative Regularization for Visual Classification
   image: 24_IJCV_ADR.png
   description: How to improve discriminative feature learning is central in classification. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
-  authors: Qingsong Zhao*, Yi Wang*, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao
-  venue:  International Journal of Computer Vision (CCF A)
+  authors: Qingsong Zhao*, Yi Wang*, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao (*Co-First Authors)
+  venue:  **International Journal of Computer Vision (CCF A)**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
@@ -21,8 +21,8 @@
 - title: Invisible backdoor attack with dynamic triggers against person re-identification
   image: 23_TIFS_backdoor.png
   description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. Thus, previous backdoor attack methods for classification are not applicable to ReID. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
-  authors: Wenli Sun, Xinyang Jiang, Shuguang Dou, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
-  venue: IEEE T-IFS (CCF A)
+  authors: Wenli Sun, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
+  venue: **IEEE T-IFS (CCF A)**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
@@ -40,8 +40,8 @@
 - title: EA-HAS-Bench:Energy-Aware Hyperparameter and Architecture Search Benchmark
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
-  authors: Shuguang Dou, Xinyang Jiang, Cairong Zhao, Dongsheng Li
-  venue: ICLR 23 **Spotlight**
+  authors: **Shuguang Dou**, Xinyang Jiang, Cairong Zhao, Dongsheng Li
+  venue: **ICLR 23 Spotlight**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf
@@ -60,8 +60,8 @@
 - title: Human Co-Parsing Guided Alignment for Occluded Person Re-identification
   image: 22_tip_hcga.png
   description: We propose a novel Human Co-parsing Guided Alignment (HCGA) framework that alternately trains the human co-parsing network and the ReID network, where the human co-paring network is trained in a *weakly supervised manner* to obtain paring results without any extra annotation.
-  authors: Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Member, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
-  venue: IEEE T-IP 22 (CCF A)
+  authors: **Shuguang Dou**, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Member, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
+  venue: **IEEE T-IP 22 (CCF A)**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/22tip_hcga.pdf
@@ -80,8 +80,8 @@
 - title: Detecting Overlapped Objects in X-ray Security Imagery by a Label-aware Mechanism
   image: 22_tifs_clcxray.jpg
   description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases inthe X-ray images. Most existing methods improve the robustnessof models to the object overlapping problem by enhancingthe underlying visual information such as colors and edges.However, this strategy ignores the situations that the objectshave similar visual clues as to the background, and objectsoverlapping each other. Since the two cases rarely appear inexisting datasets, we contribute a novel dataset – Cutters andLiquid Containers X-ray Dataset (CLCXray) to complete therelated research.
-  authors: Cairong Zhao*, Liang Zhu*, Shuguang Dou, Weihong Deng, and Liang Wang, Fellow, IEEE
-  venue: IEEE T-IFS 22 (CCF A)
+  authors: Cairong Zhao*, Liang Zhu*, **Shuguang Dou**, Weihong Deng, and Liang Wang, Fellow, IEEE (*Co-First Authors)
+  venue: **IEEE T-IFS 22 (CCF A)**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/22tifs_clcxray.pdf
@@ -99,8 +99,8 @@
 - title: Incremental Generative Occlusion Adversarial Suppression Network for Person ReID
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
-  authors: Cairong Zhao*, Xinbi Lv*, Shuguang Dou*, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (*Co-First Authors)
-  venue: IEEE T-IP 21 (CCF A)
+  authors: Cairong Zhao*, Xinbi Lv*, **Shuguang Dou***, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (*Co-First Authors)
+  venue: **IEEE T-IP 21 (CCF A)**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
@@ -118,7 +118,7 @@
 - title: Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images
   image: aussc_19_remote_sensing.png
   description: The connection structure in the convolutional layers of most deep learning-based algorithms used for the classification of hyperspectral images (HSIs) has typically been in the forward direction. In this study, an end-to-end alternately updated spectral–spatial convolutional network (AUSSC) with a recurrent feedback structure is used to learn refined spectral and spatial features for HSI classification.
-  authors: Wenju Wang, Shuguang Dou *, Sen Wang
+  authors: Wenju Wang, **Shuguang Dou^**, Sen Wang (^Corresponding author)
   venue: Remote sensing 2019
   number_link: 4
   link1:
@@ -137,7 +137,7 @@
 - title: A fast dense spectral-spatial convolutional network framework for hyperspectral image classification
   image: fdssc_18_remote_sensing.png
   description: To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification.
-  authors: Wenju Wang, Shuguang Dou *, Zhongmin Jiang and Liujie Sun
+  authors: Wenju Wang, **Shuguang Dou^**, Zhongmin Jiang and Liujie Sun (^Corresponding author)
   venue: Remote sensing 2018（**ESI Highly Cited PaperCitation 300+**）
   number_link: 4
   link1:
