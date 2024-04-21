@@ -1,5 +1,5 @@
 - title: Adaptive Discriminative Regularization for Visual Classification
-  image: 23_TIFS_backdoor.png
+  image: 24_IJCV_ADR.png
   description: How to improve discriminative feature learning is central in classification. Existing works address this problem by explicitly increasing inter-class separability and intra-class compactness by constructing positive and negative pairs for contrastive learning or posing tighter class separating margins. These methods do not exploit the similarity between different classes as they adhere to independent identical distribution assumptions in data. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
   authors: Qingsong Zhao, Yi Wang, Shuguang Dou, Chen Gong, Yin Wang and Cairong Zhao
   venue:  International Journal of Computer Vision (CCF A)
