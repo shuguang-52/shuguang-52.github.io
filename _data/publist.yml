@@ -1,3 +1,24 @@
+- title: Adaptive Discriminative Regularization for Visual Classification
+  image: 23_TIFS_backdoor.png
+  description: How to improve discriminative feature learning is central in classification. Existing works address this problem by explicitly increasing inter-class separability and intra-class compactness by constructing positive and negative pairs for contrastive learning or posing tighter class separating margins. These methods do not exploit the similarity between different classes as they adhere to independent identical distribution assumptions in data. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
+  authors: Qingsong Zhao, Yi Wang, Shuguang Dou, Chen Gong, Yin Wang and Cairong Zhao
+  venue:  International Journal of Computer Vision (CCF A)
+  number_link: 4
+  link1:
+    url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
+    display: pdf
+  link2:
+    url: https://zqsiat.github.io/
+    display: project page
+  link3:
+    url: https://github.com/Vill-Lab/2023-TIFS-DTIBA
+    display: code (GitHub)
+  link4:
+    url: https://ieeexplore.ieee.org/abstract/document/10285514/
+    display: Website Online
+
+
+
 - title: Invisible backdoor attack with dynamic triggers against person re-identification
   image: 23_TIFS_backdoor.png
   description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. Thus, previous backdoor attack methods for classification are not applicable to ReID. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
@@ -21,7 +42,7 @@
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
   authors: Shuguang Dou, Xinyang Jiang, Cairong Zhao, Dongsheng Li
-  venue: ICLR 23 Spotlight
+  venue: ICLR 23 **Spotlight**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf
@@ -79,7 +100,7 @@
 - title: Incremental Generative Occlusion Adversarial Suppression Network for Person ReID
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
-  authors: Cairong Zhao*, Xinbi Lv*, Shuguang Dou*, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE
+  authors: Cairong Zhao*, Xinbi Lv*, Shuguang Dou*, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (*Co-First Authors)
   venue: IEEE T-IP 21 (CCF A)
   number_link: 4
   link1:
@@ -118,7 +139,7 @@
   image: fdssc_18_remote_sensing.png
   description: To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification.
   authors: Wenju Wang, Shuguang Dou *, Zhongmin Jiang and Liujie Sun
-  venue: Remote sensing 2018（**Citation 300+**）
+  venue: Remote sensing 2018（**ESI (Essential Science Indicators) Highly Cited PaperCitation 300+**）
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/18remotesensing_fdssc.pdf
