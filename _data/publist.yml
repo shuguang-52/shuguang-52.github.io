@@ -118,7 +118,7 @@
   image: fdssc_18_remote_sensing.png
   description: To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification.
   authors: Wenju Wang, Shuguang Dou *, Zhongmin Jiang and Liujie Sun
-  venue: Remote sensing 2018
+  venue: Remote sensing 2018（**Citation 300+**）
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/18remotesensing_fdssc.pdf
