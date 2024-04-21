@@ -2,7 +2,7 @@
   image: 24_TPAMI_Yolat++.png
   description: For real-world vector graphics, YOLaT only models in flat GNN with vertexes as nodes ignore higher-level information of vector data. Therefore, we propose YOLaT++ to learn Multi-level Abstraction Feature Learning from Primitive Shapes to Curves and Points. On the other hand, given few public datasets focus on vector graphics, data-driven learning cannot exert its full power on this format. We provide a large-scale and challenging dataset for Chart-based Vector Graphics Detection and Chart Understanding, termed VG-DCU, with vector graphics, raster graphics, annotations, and raw data drawn for creating these vector charts. 
   authors: S**huguang Dou**, Xinyang Jiang, Lu Liu, Lu Ying, Caihua Shan, Yifei Shen, Xuanyi Dong, Yun Wang, Dongsheng Li, Cairong Zhao
-  venue:  IEEE **T-PAMI** (CCF A)
+  venue:  IEEE **T-PAMI** 2024 (CCF A)
   number_link: 4
   link1:
     url: 
@@ -21,7 +21,7 @@
   image: 24_IJCV_ADR.png
   description: How to improve discriminative feature learning is central in classification. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
   authors: Qingsong Zhao\*, Yi Wang\*, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao (\*Co-First Authors)
-  venue:  International Journal of Computer Vision (CCF A)
+  venue:  International Journal of Computer Vision 2024 (CCF A)
   number_link: 4
   link1:
     url: 
@@ -41,7 +41,7 @@
   image: 23_TIFS_backdoor.png
   description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
   authors: Wenli Sun, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
-  venue: IEEE T-IFS (CCF A)
+  venue: IEEE T-IFS 2023 (CCF A)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
@@ -60,7 +60,7 @@
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
   authors: S**huguang Dou**, Xinyang Jiang, Cairong Zhao, Dongsheng Li
-  venue: ICLR 23 **Spotlight**
+  venue: ICLR 2023 **Spotlight**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf
@@ -80,7 +80,7 @@
   image: 22_tip_hcga.png
   description: We propose a novel Human Co-parsing Guided Alignment (HCGA) framework that alternately trains the human co-parsing network and the ReID network, where the human co-paring network is trained in a *weakly supervised manner* to obtain paring results without any extra annotation.
   authors: S**huguang Dou**, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Member, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
-  venue: IEEE T-IP 22 (CCF A)
+  venue: IEEE T-IP 2022 (CCF A)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/22tip_hcga.pdf
@@ -100,7 +100,7 @@
   image: 22_tifs_clcxray.jpg
   description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases in the X-ray images. Most existing methods improve the robustness of models to the object overlapping problem by enhancing the underlying visual information such as colors and edges. However, this strategy ignores the situations in that the objects have similar visual clues as to the background, and objects overlapping each other. Since the two cases rarely appear in existing datasets, we contribute a novel dataset – Cutters and Liquid Containers X-ray Dataset (CLCXray) to complete the related research.
   authors: Cairong Zhao\*, Liang Zhu\*, **Shuguang Dou**, Weihong Deng, and Liang Wang, Fellow, IEEE (\*Co-First Authors)
-  venue: IEEE T-IFS 22 (CCF A)
+  venue: IEEE T-IFS 2022 (CCF A)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/22tifs_clcxray.pdf
@@ -119,7 +119,7 @@
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
   authors: Cairong Zhao\*, Xinbi Lv\*, **Shuguang Dou\***, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (\*Co-First Authors)
-  venue: IEEE T-IP 21 (CCF A)
+  venue: IEEE T-IP 2021 (CCF A)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
