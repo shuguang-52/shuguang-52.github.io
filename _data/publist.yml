@@ -100,7 +100,7 @@
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
   authors: Cairong Zhao*, Xinbi Lv*, **Shuguang Dou***, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (*Co-First Authors)
-  venue: **IEEE T-IP 21 (CCF A)**
+  venue: IEEE T-IP 21 (CCF A)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
