@@ -2,7 +2,7 @@
   image: 24_IJCV_ADR.png
   description: How to improve discriminative feature learning is central in classification. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
   authors: Qingsong Zhao*, Yi Wang*, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao (*Co-First Authors)
-  venue:  **International Journal of Computer Vision (CCF A)**
+  venue:  International Journal of Computer Vision (**CCF A**)
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
