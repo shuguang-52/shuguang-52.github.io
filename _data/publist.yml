@@ -1,6 +1,6 @@
 - title: Hierarchical Recognizing Vector Graphics and A New Chart-based Vector Graphics Dataset
   image: 24_TPAMI_Yolat++.png
-  description: For real-world vector graphics, YOLaT only models in flat GNN with vertexes as nodes ignore higher-level information of vector data. Therefore, we propose YOLaT++ to learn Multi-level Abstraction Feature Learning from a new perspective: Primitive Shapes to Curves and Points. On the other hand, given few public datasets focus on vector graphics, data-driven learning cannot exert its full power on this format. We provide a large-scale and challenging dataset for Chart-based Vector Graphics Detection and Chart Understanding, termed VG-DCU, with vector graphics, raster graphics, annotations, and raw data drawn for creating these vector charts. 
+  description: For real-world vector graphics, YOLaT only models in flat GNN with vertexes as nodes ignore higher-level information of vector data. Therefore, we propose YOLaT++ to learn Multi-level Abstraction Feature Learning from Primitive Shapes to Curves and Points. On the other hand, given few public datasets focus on vector graphics, data-driven learning cannot exert its full power on this format. We provide a large-scale and challenging dataset for Chart-based Vector Graphics Detection and Chart Understanding, termed VG-DCU, with vector graphics, raster graphics, annotations, and raw data drawn for creating these vector charts. 
   authors: S**huguang Dou**, Xinyang Jiang, Lu Liu, Lu Ying, Caihua Shan, Yifei Shen, Xuanyi Dong, Yun Wang, Dongsheng Li, Cairong Zhao
   venue:  IEEE **T-PAMI** (CCF A)
   number_link: 4
@@ -137,7 +137,7 @@
 - title: Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images
   image: aussc_19_remote_sensing.png
   description: The connection structure in the convolutional layers of most deep learning-based algorithms used for the classification of hyperspectral images (HSIs) has typically been in the forward direction. In this study, an end-to-end alternately updated spectral–spatial convolutional network (AUSSC) with a recurrent feedback structure is used to learn refined spectral and spatial features for HSI classification.
-  authors: Wenju Wang, **Shuguang Dou^**, Sen Wang (^Corresponding author)
+  authors: Wenju Wang, **Shuguang Dou^**, Sen Wang (^Corresponding Author and First Student Author)
   venue: Remote sensing 2019
   number_link: 4
   link1:
@@ -156,7 +156,7 @@
 - title: A fast dense spectral-spatial convolutional network framework for hyperspectral image classification
   image: fdssc_18_remote_sensing.png
   description: To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification.
-  authors: Wenju Wang, **Shuguang Dou^**, Zhongmin Jiang and Liujie Sun (^Corresponding author)
+  authors: Wenju Wang, **Shuguang Dou^**, Zhongmin Jiang and Liujie Sun (^Corresponding Author and First Student Author)
   venue: Remote sensing 2018（**ESI Highly Cited PaperCitation 300+**）
   number_link: 4
   link1:
