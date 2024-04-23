@@ -1,8 +1,11 @@
 - date: April 21, 2024
-  headline: A paper on 'Hierarchical Recognizing Vector Graphics and A New Chart-based Vector Graphics Dataset' is accepted by IEEE T-PAMI 2024 (CCF A).
+  headline: A paper on 'Reviving Static Charts into Live Charts' is accepted by IEEE Transactions on Visualization and Computer Graphics T-VCG in 2024 (CCF A).
+
+- date: April 21, 2024
+  headline: A paper on 'Hierarchical Recognizing Vector Graphics and A New Chart-based Vector Graphics Dataset' is accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence in 2024 (CCF A).
 
 - date: April 13, 2024
-  headline: A paper on 'Adaptive Discriminative Regularization for Visual Classification' is accepted by the International Journal of Computer Vision 2024 (CCF A).
+  headline: A paper on 'Adaptive Discriminative Regularization for Visual Classification' is accepted by the International Journal of Computer Vision in 2024 (CCF A).
 
 - date: Feb 14, 2024
   headline: I have been invited to be a Reviewer for the ECCV 2024 Conference (European Conference on Computer Vision 2024). 
@@ -23,7 +26,7 @@
   headline: I received an offer letter from <a href="http://www.cse.msu.edu/~liuxm/index2.html">Prof. Liu Xiaoming</a> of MSU to start a six-month visiting trip as a visiting student.
 
 - date: Sep 29, 2023
-  headline: A paper on 'Invisible Backdoor Attack with Dynamic Triggers against Person Re-identification' is accepted by IEEE T-IFS 2023 (CCF A).
+  headline: A paper on 'Invisible Backdoor Attack with Dynamic Triggers against Person Re-identification' is accepted by IEEE T-IFS in 2023 (CCF A).
 
 - date: Aug 27, 2023
   headline: I have been invited to be a Reviewer for the ICLR 2024 Conference (Twelfth International Conference on Learning Representations). 
@@ -44,7 +47,7 @@
   headline: <a href="https://github.com/Vill-Lab/2022-TIP-HCGA">Code</a> for 'Human Co-Parsing Guided Alignment for Occluded Person Re-identification' is released.
 
 - date: Dec 5, 2022
-  headline: A paper on 'Human Co-Parsing Guided Alignment for Occluded Person Re-identification' is accepted by IEEE T-IP (CCF A).
+  headline: A paper on 'Human Co-Parsing Guided Alignment for Occluded Person Re-identification' is accepted by IEEE T-IP in 2022 (CCF A).
 
 - date: Nov 11, 2022
   headline: A paper on 'Similarity Distribution based Membership Inference Attack on Person Re-identification' is accepted by AAAI 2023 Oral (CCF A).
@@ -53,7 +56,7 @@
   headline: I have been invited to be a Reviewer for the NeurIPS 2022 Conference. 
 
 - date: May 28, 2022
-  headline:  A paper on 'Context-Aware Feature Learning for Noise Robust Person Search' is accepted by IEEE TCSVT (CCF B).
+  headline:  A paper on 'Context-Aware Feature Learning for Noise Robust Person Search' is accepted by IEEE TCSVT in 2022 (CCF B).
 
 - date: May 15, 2022
   headline: I have been invited to be a Reviewer for the 39th International Conference on Machine Learning (ICML 2022). 
@@ -62,19 +65,19 @@
   headline: Congratulations! My publication 'A fast dense spectral-spatial convolutional network for hyperspectral image classification' was selected as an <font color="#FF0000">ESI (Essential Science Indicators) Highly Cited Paper</font>（Top 1% of cited papers in the world in the last 10 years).
 
 - date: Feb 15, 2022
-  headline:  A paper on 'Detecting Overlapped Objects in X-ray Security Imagery by a Label-aware Mechanism' is accepted by IEEE T-IFS (CCF A).
+  headline:  A paper on 'Detecting Overlapped Objects in X-ray Security Imagery by a Label-aware Mechanism' is accepted by IEEE T-IFS in 2022 (CCF A).
 
 - date: April 15, 2021
   headline:  <a href="https://github.com/Vill-Lab/IGOAS">Code</a> for 'Incremental Generative Occlusion Adversarial Suppression Network for Person ReID' is released.
 
 - date: April 14, 2021
-  headline: A paper on 'Incremental Generative Occlusion Adversarial Suppression Network for Person ReID' is accepted by IEEE T-IP (CCF A).
+  headline: A paper on 'Incremental Generative Occlusion Adversarial Suppression Network for Person ReID' is accepted by IEEE T-IP in 2021 (CCF A).
   
 - date: July 31, 2019
   headline: <a href="https://github.com/shuguang-52/AUSSC">Code</a> for 'Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images' is released.
 
 - date: July 24, 2019
-  headline: A paper on 'Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images' is accepted by Remote Sensing.
+  headline: A paper on 'Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images' is accepted by Remote Sensing in 2018.
 
 - date: October 16, 2018
   headline: My homepage shuguang-52.github.io is created.
@@ -83,5 +86,5 @@
   headline: <a href="https://github.com/shuguang-52/FDSSC">Code</a> for 'fast dense spectral-spatial convolutional network' is released.
 
 - date: July 5, 2018
-  headline: A paper on 'A fast dense spectral-spatial convolutional network for hyperspectral image classification' is accepted by Remote Sensing.
+  headline: A paper on 'A fast dense spectral-spatial convolutional network for hyperspectral image classification' is accepted by Remote Sensing in 2017.
 
