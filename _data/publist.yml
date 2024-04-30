@@ -11,11 +11,14 @@
     url: http://shuguang-52.github.io/vgdcu
     display: project page
   link3:
-    url: https://github.com/Vill-Lab/2024-TPAMI-VGDCU
+    url: https://github.com/microsoft/YOLaT-VectorGraphicsRecognition
     display: code (GitHub)
   link4:
-    url:
+    url: https://ieeexplore.ieee.org/abstract/document/10508965
     display: Website Online
+  link5:
+    url: https://github.com/Vill-Lab/2024-TPAMI-VGDCU
+    display: Dataset
 
 - title: Adaptive Discriminative Regularization for Visual Classification
   image: 24_IJCV_ADR.png
