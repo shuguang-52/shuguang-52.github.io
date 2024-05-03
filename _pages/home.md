@@ -26,7 +26,7 @@ always willing to collaborate with people interested in relevant issues and prov
 students (undergrad or master).
 
 ### CV
-You can download my CV at [here](https://shuguang-52.github.io/papers/ShuguangDou_TJ_CV_EN.pdf).
+You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_ShuguangDou.pdf).
 
 **I am actively seeking a Research Scientist or Postdoc Research Fellow. Please feel free to reach out if you have any suitable positions!**
 
