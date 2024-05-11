@@ -8,6 +8,8 @@ permalink: /experience
 
 ## Experience
 
+<h3>Education</h3>
+
 <p>&nbsp;</p>
 
 <p><em>(Sept &rsquo;20 &ndash; 24 )</em></p>
@@ -44,7 +46,7 @@ permalink: /experience
 
 <p>&nbsp;</p>
 
-<h3>Education</h3>
+
 
 <p><em>(Jan &rsquo;24 &ndash; June &rsquo;24 )</em></p>
 
@@ -54,7 +56,7 @@ permalink: /experience
 
 <p>Advisor: Prof. Xiaoming Liu </p>
 
-<p><em>(Nove &rsquo;21 &ndash; May &rsquo;15)</em></p>
+<p><em>(Nove &rsquo;21 &ndash; May &rsquo;23)</em></p>
 
 <p><strong>MSRA (Microsoft Research Asia) Machine Learning Group</strong>, Shanghai, China</p>
 
