@@ -7,17 +7,6 @@ permalink: /experience
 ---
 
 ## Experience
-<p>&nbsp;</p>
-
-<h3>Education</h3>
-
-<p><em>(Jan &rsquo;24 &ndash; June &rsquo;24 )</em></p>
-
-<p><strong>Michigan State University</strong>, East Lansing, US</p>
-
-<p>Short-term Visit Scholar</p>
-
-<p>Advisor: Prof. Xiaoming Liu </p>
 
 <p>&nbsp;</p>
 
@@ -52,6 +41,19 @@ permalink: /experience
 <p>&nbsp;</p>
 
 <h3>Work Experience</h3>
+
+<p>&nbsp;</p>
+
+<h3>Education</h3>
+
+<p><em>(Jan &rsquo;24 &ndash; June &rsquo;24 )</em></p>
+
+<p><strong>Michigan State University</strong>, East Lansing, US</p>
+
+<p>Short-term Visit Scholar</p>
+
+<p>Advisor: Prof. Xiaoming Liu </p>
+
 <p><em>(Nove &rsquo;21 &ndash; May &rsquo;15)</em></p>
 
 <p><strong>MSRA (Microsoft Research Asia) Machine Learning Group</strong>, Shanghai, China</p>
