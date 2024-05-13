@@ -1,5 +1,5 @@
 - title: Reviving static charts into live charts
-  image: 24_TCVG_LiveChart.png
+  image: 24_TVCG_LiveChart.png
   description: Data charts are prevalent across various fields due to their efficacy in conveying complex data relationships. However, static charts may sometimes struggle to engage readers and efficiently present intricate information, potentially resulting in limited understanding. We introduce "Live Charts," a new format of presentation that decomposes complex information within a chart and explains the information pieces sequentially through rich animations and accompanying audio narration. 
   authors: Lu Ying, Yun Wang, Haotian Li, **Shuguang Dou**, Haidong Zhang, Xinyang Jiang, Huamin Qu, Yingcai Wu
   venue:  IEEE Transactions on Visualization and Computer Graphics (CCF A)
