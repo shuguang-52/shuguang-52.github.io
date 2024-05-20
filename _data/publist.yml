@@ -1,3 +1,23 @@
+- title: Re-ID-leak:Membership Inference Attacks Against Person Re-identification
+  image: 24_IJCV_ReIDLeak.png
+  description: Most existing MI attack methods focus on classification models, while Re-ID follows a distinct paradigm for training and inference. Re-ID is a fine-grained recognition task that involves complex feature embedding, and the model outputs commonly used by existing MI algorithms, such as logits and losses, are inaccessible during inference. We propose a novel MI attack method based on the distribution of inter-sample similarity, which involves sampling a set of anchor images to represent the similarity  distribution that is conditioned on a target image. 
+  authors: Junyao Gao, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cairong Zhao
+  venue:  International Journal of Computer Vision 2024 (CCF A)
+  number_link: 4
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: https://jeoyal.github.io/home/
+    display: project page
+  link3:
+    url: 
+    display: code (GitHub)
+  link4: 
+    url: 
+    display: Website Online
+
+
 - title: Reviving static charts into live charts
   image: 24_TVCG_LiveChart.png
   description: Data charts are prevalent across various fields due to their efficacy in conveying complex data relationships. However, static charts may sometimes struggle to engage readers and efficiently present intricate information, potentially resulting in limited understanding. We introduce "Live Charts," a new format of presentation that decomposes complex information within a chart and explains the information pieces sequentially through rich animations and accompanying audio narration. 
