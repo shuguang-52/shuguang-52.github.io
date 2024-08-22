@@ -11,7 +11,7 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am a four-year Ph.D. student and luckily advised by the brilliant and kind researcher Prof. [Cairong Zhao](https://vill-lab.github.io/). I am passionate
+I am a four-year Ph.D. student and luckily advised by Prof. [Cairong Zhao](https://vill-lab.github.io/). I am passionate
 about computer vision research in the following topics:
   
 <ol>
