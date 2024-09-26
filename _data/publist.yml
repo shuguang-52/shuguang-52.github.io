@@ -1,3 +1,21 @@
+- title: Fetch and Forge:Efficient Dataset Condensation for Object Detection
+  image: 24_NIPS_DCOD.png
+  description: current research on DC mainly focuses on image classification, with less exploration of object detection. As a remedy, we propose DCOD, the first dataset condensation framework for object detection. It operates in two stages: Fetch and Forge, initially storing key localization and classification information into model parameters, and then reconstructing synthetic images via model inversion.
+  venue:  Neural Information Processing Systems (CCF A)
+  number_link: 4
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: 
+    display: project page
+  link3:
+    url: 
+    display: code (GitHub)
+  link4: 
+    url:
+    display: Website Online
+
 - title: Re-ID-leak:Membership Inference Attacks Against Person Re-identification
   image: 24_IJCV_ReIDLeak.png
   description: Most existing MI attack methods focus on classification models, while Re-ID follows a distinct paradigm for training and inference. Re-ID is a fine-grained recognition task that involves complex feature embedding, and the model outputs commonly used by existing MI algorithms, such as logits and losses, are inaccessible during inference. We propose a novel MI attack method based on the distribution of inter-sample similarity, which involves sampling a set of anchor images to represent the similarity  distribution that is conditioned on a target image. 
