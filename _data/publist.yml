@@ -1,6 +1,6 @@
 - title: Fetch and Forge:Efficient Dataset Condensation for Object Detection
   image: 24_NIPS_DCOD.png
-  description: current research on DC mainly focuses on image classification, with less exploration of object detection. As a remedy, we propose DCOD, the first dataset condensation framework for object detection. It initially storing key localization and classification information into model parameters, and then reconstructing synthetic images via model inversion.
+  description: Current research on DC mainly focuses on image classification, with less exploration of object detection. As a remedy, we propose DCOD, the first dataset condensation framework for object detection. It initially storing key localization and classification information into model parameters, and then reconstructing synthetic images via model inversion.
   authors: Ding Qi, Jian Li, Jinlong Peng, **Shuguang Dou**, Jialin Li, Bo Zhao, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Cairong Zhao
   venue:  Neural Information Processing Systems (CCF A)
   number_link: 4
