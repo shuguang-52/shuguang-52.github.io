@@ -15,12 +15,11 @@ I am a four-year Ph.D. student and luckily advised by Prof. [Cairong Zhao](https
 about computer vision research in the following topics:
   
 <ol>
-  <li>Video Surveillance: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving (Now)</li>
+  <li>Human-centric Vision: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
   <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
-  <li>Classification: Hyperspectral Image Classification, 3D Point Cloud Classification (Master's degree)</li>
 </ol>
 
-Currently, I base my research topics on emerging abilities in foundation models such as LVLM for Occluded ReID and LLM for VIS.
+Currently, I base my research topics on emerging abilities in foundation models such as LVM for ReID and LLM for VIS.
 I am always grateful to those more senior who have a deep understanding of these topics for their advice. Besides, I am
 always willing to collaborate with people interested in relevant issues and provide corresponding guidance to younger
 students (undergrad or master).
