@@ -15,7 +15,7 @@ I am a four-year Ph.D. student and luckily advised by Prof. [Cairong Zhao](https
 about computer vision research in the following topics:
   
 <ol>
-  <li>Human-centric Vision: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
+  <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
   <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
 </ol>
 
