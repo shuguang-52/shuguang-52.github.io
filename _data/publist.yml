@@ -2,7 +2,7 @@
   image: 24_NIPS_DCOD.png
   description: Current research on DC mainly focuses on image classification, with less exploration of object detection. As a remedy, we propose DCOD, the first dataset condensation framework for object detection. It initially storing key localization and classification information into model parameters, and then reconstructing synthetic images via model inversion.
   authors: Ding Qi, Jian Li, Jinlong Peng, **Shuguang Dou**, Jialin Li, Bo Zhao, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Cairong Zhao
-  venue:  Neural Information Processing Systems (CCF A)
+  venue:  Neural Information Processing Systems (**NeuPIS**) in 2024, CCF A
   number_link: 4
   link1:
     url: 
@@ -21,7 +21,7 @@
   image: 24_IJCV_ReIDLeak.png
   description: Most existing MI attack methods focus on classification models, while Re-ID follows a distinct paradigm for training and inference. Re-ID is a fine-grained recognition task that involves complex feature embedding, and the model outputs commonly used by existing MI algorithms, such as logits and losses, are inaccessible during inference. We propose a novel MI attack method based on the distribution of inter-sample similarity, which involves sampling a set of anchor images to represent the similarity  distribution that is conditioned on a target image. 
   authors: Junyao Gao, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cairong Zhao
-  venue:  International Journal of Computer Vision 2024 (CCF A)
+  venue: International Journal of Computer Vision (**IJCV**) in 2024, CCF A
   number_link: 4
   link1:
     url: 
@@ -41,7 +41,7 @@
   image: 24_TVCG_LiveChart.png
   description: Data charts are prevalent across various fields due to their efficacy in conveying complex data relationships. However, static charts may sometimes struggle to engage readers and efficiently present intricate information, potentially resulting in limited understanding. We introduce "Live Charts," a new format of presentation that decomposes complex information within a chart and explains the information pieces sequentially through rich animations and accompanying audio narration. 
   authors: Lu Ying, Yun Wang, Haotian Li, **Shuguang Dou**, Haidong Zhang, Xinyang Jiang, Huamin Qu, Yingcai Wu
-  venue:  IEEE Transactions on Visualization and Computer Graphics (CCF A)
+  venue:  IEEE Transactions on Visualization and Computer Graphics (**T-VCG**) in 2024, CCF A
   number_link: 4
   link1:
     url: 
@@ -60,7 +60,7 @@
   image: 24_TPAMI_Yolat++.png
   description: The conventional approach to image recognition has been based on raster graphics, which can suffer from aliasing and information loss when scaled up or down. In this paper, we propose a novel approach that leverages the benefits of vector graphics for object localization and classification. Our method, called YOLaT (You Only Look at Text), takes the textual document of vector graphics as input, rather than rendering it into pixels. We propose YOLaT++ to learn Multi-level Abstraction Feature Learning from Primitive Shapes to Curves and Points. On the other hand, given few public datasets focus on vector graphics, data-driven learning cannot exert its full power on this format. We provide a large-scale and challenging dataset for Chart-based Vector Graphics Detection and Chart Understanding, termed VG-DCU, with vector graphics, raster graphics, annotations, and raw data drawn for creating these vector charts. 
   authors: S**huguang Dou**, Xinyang Jiang, Lu Liu, Lu Ying, Caihua Shan, Yifei Shen, Xuanyi Dong, Yun Wang, Dongsheng Li, Cairong Zhao
-  venue:  IEEE **T-PAMI** 2024 (CCF A)
+  venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence (**T-PAMI**) in 2024, CCF A
   number_link: 4
   link1:
     url: 
@@ -82,7 +82,7 @@
   image: 24_IJCV_ADR.png
   description: How to improve discriminative feature learning is central in classification. In this paper, we embrace the real-world data distribution setting in that some classes share semantic overlaps due to their similar appearances or concepts. Regarding this hypothesis, we propose a novel regularization to improve discriminative learning. We first calibrate the estimated highest likelihood of one sample based on its semantically neighboring classes, then encourage the overall likelihood predictions to be deterministic by imposing an adaptive exponential penalty. 
   authors: Qingsong Zhao, Yi Wang, **Shuguang Dou**, Chen Gong, Yin Wang and Cairong Zhao
-  venue:  International Journal of Computer Vision 2024 (CCF A)
+  venue:  International Journal of Computer Vision (**IJCV**) in 2024, CCF A
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/24ijcv_adr.pdf
@@ -102,7 +102,7 @@
   image: 23_TIFS_backdoor.png
   description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
   authors: Wenli Sun, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
-  venue: IEEE T-IFS 2023 (CCF A)
+  venue: IEEE Transactions on Information Forensics and Security (**T-IFS**) in 2022, CCF A
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
@@ -121,7 +121,7 @@
   image: 23_ICLR_BSC.png
   description: We present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. 
   authors: S**huguang Dou**, Xinyang Jiang, Cairong Zhao, Dongsheng Li
-  venue: ICLR 2023 **Spotlight**
+  venue: International Conference on Learning Representations (**ICLR**) in 2023, **Spotlight**
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf
@@ -141,7 +141,7 @@
   image: 22_tip_hcga.png
   description: We propose a novel Human Co-parsing Guided Alignment (HCGA) framework that alternately trains the human co-parsing network and the ReID network, where the human co-paring network is trained in a *weakly supervised manner* to obtain paring results without any extra annotation.
   authors: S**huguang Dou**, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Member, IEEE, Wei-Shi Zheng, Wangmeng Zuo, Senior Member, IEEE
-  venue: IEEE T-IP 2022 (CCF A)
+  venue: IEEE Transactions on Image Processing (**T-IP**) in 2022, CCF A
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/22tip_hcga.pdf
@@ -161,7 +161,7 @@
   image: 22_tifs_clcxray.jpg
   description: One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases in the X-ray images. Most existing methods improve the robustness of models to the object overlapping problem by enhancing the underlying visual information such as colors and edges. However, this strategy ignores the situations in that the objects have similar visual clues as to the background, and objects overlapping each other. Since the two cases rarely appear in existing datasets, we contribute a novel dataset – Cutters and Liquid Containers X-ray Dataset (CLCXray) to complete the related research.
   authors: Cairong Zhao\*, Liang Zhu\*, **Shuguang Dou**, Weihong Deng, and Liang Wang, Fellow, IEEE (\*Co-First Authors)
-  venue: IEEE T-IFS 2022 (CCF A)
+  venue: IEEE Transactions on Information Forensics and Security (**T-IFS**) in 2022, CCF A
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/22tifs_clcxray.pdf
@@ -180,7 +180,7 @@
   image: 21_tip_igoas.png
   description: To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network.
   authors: Cairong Zhao\*, Xinbi Lv\*, **Shuguang Dou\***, Shanshan Zhang, Member, IEEE, Jun Wu, Senior Member, IEEE, and Liang Wang, Fellow, IEEE (\*Co-First Authors)
-  venue: IEEE T-IP 2021 (CCF A)
+  venue: Accepted by IEEE Transactions on Image Processing (**T-IP**) in 2022, CCF A
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/21tip_igoas.pdf
@@ -218,7 +218,7 @@
   image: fdssc_18_remote_sensing.png
   description: To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification.
   authors: Wenju Wang, **Shuguang Dou^**, Zhongmin Jiang and Liujie Sun (^Corresponding Author and First Student Author)
-  venue: Remote sensing 2018（**ESI Highly Cited PaperCitation 300+**）
+  venue: Remote sensing 2018（**ESI Highly Cited Paper Citation 300+**）
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/18remotesensing_fdssc.pdf
