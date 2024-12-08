@@ -102,7 +102,7 @@
   image: 23_TIFS_backdoor.png
   description: Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario, where all the target classes in the test set have already been seen in the training set. However, ReID is a much more complex fine-grained open-set recognition problem, where the identities in the test set are not contained in the training set. To ameliorate this issue, we propose a novel backdoor attack on deep ReID under a new all-to-unknown scenario, called Dynamic Triggers Invisible Backdoor Attack (DT-IBA). Instead of learning fixed triggers for the target classes from the training set, DT-IBA can dynamically generate new triggers for any unknown identities. 
   authors: Wenli Sun, Xinyang Jiang, **Shuguang Dou**, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao
-  venue: IEEE Transactions on Information Forensics and Security (**T-IFS**) in 2022, CCF A
+  venue: IEEE Transactions on Information Forensics and Security (**T-IFS**) in 2023, CCF A
   number_link: 4
   link1:
     url: https://shuguang-52.github.io/papers/23tifs_backdoor.pdf
