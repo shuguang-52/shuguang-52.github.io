@@ -15,7 +15,7 @@ I am a senior Multimodal Algorithm Engineer at Huawei Cloud. I obtained my Ph.D.
 I am passionate about computer vision research in the following topics:
 
 <ol>
-  <li>Larger Vision Model</li>
+  <li>Large Vision Model</li>
   <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
   <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
 </ol>
