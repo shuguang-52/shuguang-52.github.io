@@ -11,23 +11,21 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am a four-year Ph.D. student and luckily advised by Prof. [Cairong Zhao](https://vill-lab.github.io/). I am passionate
-about computer vision research in the following topics:
-  
+I am a senior Multimodal Algorithm Engineer at Huawei Cloud. I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University, and luckily advised by Prof. [Cairong Zhao](https://vill-lab.github.io/). During my PhD study, I collaborated with several researchers in the industry e.g. MSRA.
+I am passionate about computer vision research in the following topics:
+
 <ol>
+  <li>Larger Vision Model</li>
   <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
   <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
 </ol>
 
-Currently, I base my research topics on emerging abilities in foundation models such as LVM for ReID and LLM for VIS.
 I am always grateful to those more senior who have a deep understanding of these topics for their advice. Besides, I am
 always willing to collaborate with people interested in relevant issues and provide corresponding guidance to younger
 students (undergrad or master).
 
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_ShuguangDou.pdf).
-
-**I am actively seeking a Research Scientist or Postdoc Research Fellow. Please feel free to reach out if you have any suitable positions!**
 
 ### News
 {% for article in site.data.news limit:8 %}
