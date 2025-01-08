@@ -13,6 +13,7 @@ permalink: /
 <div class="col-sm-8">
 I am a senior Multimodal Algorithm Engineer at Huawei Cloud. I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University.
 During my PhD study, I collaborated with several researchers [Xinyang Jiang](https://scholar.google.com/citations?user=JiTfWVMAAAAJ) and [Dongsheng Li](http://recmind.cn/) in the MSRA.
+I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) of MSU.
 I am passionate about computer vision research in the following topics:
 
 <ol>
