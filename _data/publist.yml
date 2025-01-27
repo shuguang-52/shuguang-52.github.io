@@ -1,4 +1,4 @@
-- title: One for All: A Review of Large Pre-training Models for Re-Identification
+- title: One for All:A Review of Large Pre-training Models for Re-Identification
   image: 25_WWW_MORE.png
   description: In this paper, we present a comprehensive survey of large pre-training models for ReID, which we refer to as the "One for All" approach. This paradigm leverages large-scale pre-training models, such as self-supervised or language-image pre-training models, as general feature extractors adaptable to multiple ReID tasks.
   authors: Yubing Sun, **Shuguang Dou**, Ding Qi, Yanping Li, Jiale Zhao and Cairong Zhao
