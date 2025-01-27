@@ -1,3 +1,22 @@
+- title: One for All: A Review of Large Pre-training Models for Re-Identification
+  image: 25_WWW_MORE.png
+  description: In this paper, we present a comprehensive survey of large pre-training models for ReID, which we refer to as the "One for All" approach. This paradigm leverages large-scale pre-training models, such as self-supervised or language-image pre-training models, as general feature extractors adaptable to multiple ReID tasks.
+  authors: Yubing Sun, **Shuguang Dou**, Ding Qi, Yanping Li, Jiale Zhao and Cairong Zhao
+  venue:  Web Conference Workshop on Multimedia Object Re-ID:Advancements, Challenges, and Opportunities (MORE 2025)
+  number_link: 4
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: 
+    display: project page
+  link3:
+    url: 
+    display: code (GitHub)
+  link4: 
+    url:
+    display: To be extend to Joural
+
 - title: Fetch and Forge:Efficient Dataset Condensation for Object Detection
   image: 24_NIPS_DCOD.png
   description: Current research on DC mainly focuses on image classification, with less exploration of object detection. As a remedy, we propose DCOD, the first dataset condensation framework for object detection. It initially storing key localization and classification information into model parameters, and then reconstructing synthetic images via model inversion.
