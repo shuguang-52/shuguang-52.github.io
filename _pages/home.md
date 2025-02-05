@@ -23,7 +23,7 @@ I am passionate about computer vision research in the following topics:
   <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
 </ol>
 
-**We are hiring research scientists, engineers, and research interns for our lab! Please <a href="mailto:doushuguang@huawei.com">drop me a line</a> <br> if you are interested.**
+**We are hiring research scientists, engineers, and research interns for our lab! Please <a href="mailto:doushuguang@huawei.com">drop me a line</a> if you are interested.**
 
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_ShuguangDou.pdf).
@@ -46,7 +46,7 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_Shu
   <!-- <br clear="all" /> -->
 
   <a href="mailto:doushuguang52@163.com">doushuguang52@163.com</a> <br>
-  [Google Scholar](https://scholar.google.com.hk/citations?user=n2YT06EAAAAJ&hl=zh-CN)
+  [Google Scholar](https://scholar.google.com.hk/citations?user=n2YT06EAAAAJ&hl=zh-CN)<br>
   SH021, Shanghai, China.<br>
 
 
