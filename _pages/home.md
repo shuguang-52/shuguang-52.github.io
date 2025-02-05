@@ -47,7 +47,6 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_Shu
 
   <a href="mailto:doushuguang52@163.com">doushuguang52@163.com</a> <br>
   [Google Scholar](https://scholar.google.com.hk/citations?user=n2YT06EAAAAJ&hl=zh-CN)
-  IEEE Student Member <br>
   SH021, Shanghai, China.<br>
 
 
