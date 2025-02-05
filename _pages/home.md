@@ -18,13 +18,12 @@ I am passionate about computer vision research in the following topics:
 
 <ol>
   <li>Large Vision Model</li>
+  <li>Dataset Distillation</li>
   <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
   <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
 </ol>
 
-I am always grateful to those more senior who have a deep understanding of these topics for their advice. Besides, I am
-always willing to collaborate with people interested in relevant issues and provide corresponding guidance to younger
-students (undergrad or master).
+**We are hiring research scientists, engineers, and research interns for our lab! Please <a href="mailto:doushuguang@huawei.com">drop me a line</a> <br> if you are interested.**
 
 ### CV
 You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_ShuguangDou.pdf).
@@ -46,7 +45,7 @@ You can download my CV at [here](https://shuguang-52.github.io/papers/Resume_Shu
 
   <!-- <br clear="all" /> -->
 
-  <a href="mailto:doushuguang@163.com">doushuguang52@163.com</a> <br>
+  <a href="mailto:doushuguang52@163.com">doushuguang52@163.com</a> <br>
   [Google Scholar](https://scholar.google.com.hk/citations?user=n2YT06EAAAAJ&hl=zh-CN)
   IEEE Student Member <br>
   SH021, Shanghai, China.<br>
