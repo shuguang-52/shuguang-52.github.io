@@ -12,15 +12,16 @@ permalink: /
 
 <div class="col-sm-8">
 I am a Researcher at EI Algorithm Novelty Lab of Huawei Cloud. I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University.
-During my PhD study, I collaborated with several researchers [Xinyang Jiang](https://scholar.google.com/citations?user=JiTfWVMAAAAJ) and [Dongsheng Li](http://recmind.cn/) in the MSRA.
+During my PhD studies, I collaborated with researchers [Xinyang Jiang](https://scholar.google.com/citations?user=JiTfWVMAAAAJ) and [Dongsheng Li](http://recmind.cn/) in theat Microsoft Research Asia (MSRA). 
+While interning at MSRA, my research focused on infographic understanding and neural architecture search (NAS) benchmarks. 
 I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) of MSU.
-I am passionate about computer vision research in the following topics:
+I am currently passionate about research in the following areas:
 
 <ol>
-  <li>Large Vision Model</li>
-  <li>Dataset Distillation</li>
+  <li>Model and dataset distillation</li>
+  <li>LLM-based visual understanding and generation</li>
+  <li>MLLM reasoning and lightweighting</li>
   <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
-  <li>MSRA Research Intern Directions: Infographic understanding & NAS benchmark </li>
 </ol>
 
 **We are hiring research scientists, engineers, and research interns for our lab! Please <a href="mailto:doushuguang@huawei.com">drop me a line</a> if you are interested.**
