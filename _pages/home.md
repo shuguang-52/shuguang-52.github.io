@@ -18,9 +18,9 @@ I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www
 I am currently passionate about research in the following areas:
 
 <ol>
+  <li>orld Model with Memory</li>
   <li>Model and dataset distillation</li>
   <li>LLM-based visual understanding and generation</li>
-  <li>MLLM reasoning and lightweighting</li>
   <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
 </ol>
 
