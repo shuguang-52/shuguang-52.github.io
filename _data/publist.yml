@@ -1,3 +1,19 @@
+- title: Towards Universal Dataset Distillation via Task-Driven Diffusion
+  image: 25_CVPR_UniDD.png
+  description: We propose a universal dataset distillation framework, named UniDD, a task-driven diffusion model for diverse DD task
+  authors: Ding Qi, Jian Li, Junyao Gao, **Shuguang Dou**, Ying Tai, Jianlong Hu, Bo Zhao, Yabiao Wang, Chengjie Wang, Cairong Zhao
+  venue:  Proceedings of the Computer Vision and Pattern Recognition Conference (**CVPR Oral*) in 2025
+  number_link: 3
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: 
+    display: project page
+  link3:
+    url:
+    display: Website Online
+
 - title: One for All:A Review of Large Pre-training Models for Re-Identification
   image: 25_WWW_MORE.png
   description: In this paper, we present a comprehensive survey of large pre-training models for ReID, which we refer to as the "One for All" approach. This paradigm leverages large-scale pre-training models, such as self-supervised or language-image pre-training models, as general feature extractors adaptable to multiple ReID tasks.
@@ -251,5 +267,6 @@
   link4:
     url: https://www.mdpi.com/2072-4292/10/7/1068
     display: Website Online
+
 
 
