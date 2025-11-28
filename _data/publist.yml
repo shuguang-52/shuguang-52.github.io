@@ -1,8 +1,8 @@
-- title: Towards Universal Dataset Distillation via Task-Driven Diffusion
-  image: 25_CVPR_UniDD.png
-  description: We propose a universal dataset distillation framework, named UniDD, a task-driven diffusion model for diverse DD task
+- title: Dpl++:Advancing the network performance via image and label perturbations
+  image: 25_TPAMI_DPL.png
+  description: We propose a novel paradigm that leverages the benefits of image perturbations for rectifying data distributions. Our method, called DPL (Deep Perturbation Learning), introduces new insights into utilizing image perturbations and focuses on improving generalizability on normal samples, rather than resisting adversarial attacks.
   authors: Ding Qi, Jian Li, Junyao Gao, **Shuguang Dou**, Ying Tai, Jianlong Hu, Bo Zhao, Yabiao Wang, Chengjie Wang, Cairong Zhao
-  venue:  Proceedings of the Computer Vision and Pattern Recognition Conference (**CVPR Oral*) in 2025
+  venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence (**T-PAMI**) in 2025, CCF A
   number_link: 3
   link1:
     url: 
@@ -11,7 +11,40 @@
     url: 
     display: project page
   link3:
-    url:
+    url: https://ieeexplore.ieee.org/abstract/document/11106184/
+    display: Website Online
+
+- title: MTA-VPS: A Large-scale Benchmark for Video-Based Person Search
+  image: 25_CVPRW_VPS.png
+  description: We introduce Video-based Person Search (VPS), a task that tracks individuals and their trajectories in raw video scenes, enhancing performance in practical applications. Due to the lack of suitable datasets and privacy concerns, we created the first VPS dataset using virtual environments, featuring diverse continuous video scenes. Paired with an evaluation framework, this dataset assesses both retrieval performance and trajectory quality. 
+  authors: Ding Qi, **Shuguang Dou**, Jian Liu, Huaixuan Cao, Hao Zhang, Dongsheng Jiang, Cairong Zhao
+  venue:  Proceedings of the Computer Vision and Pattern Recognition Conference Workshop in 2025
+  number_link: 3
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: https://github.com/Vill-Lab/MTA-VPS
+    display: Dataset
+  link3:
+    url: https://openaccess.thecvf.com/content/CVPR2025W/PVUW/html/Qi_MTA-VPS_A_Large-scale_Benchmark_for_Video-Based_Person_Search_CVPRW_2025_paper.html
+    display: Website Online
+
+
+- title: Towards Universal Dataset Distillation via Task-Driven Diffusion
+  image: 25_CVPR_UniDD.png
+  description: We propose a universal dataset distillation framework, named UniDD, a task-driven diffusion model for diverse DD task
+  authors: Ding Qi, Jian Li, Junyao Gao, **Shuguang Dou**, Ying Tai, Jianlong Hu, Bo Zhao, Yabiao Wang, Chengjie Wang, Cairong Zhao
+  venue:  Proceedings of the Computer Vision and Pattern Recognition Conference (**CVPR Oral**) in 2025
+  number_link: 3
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: 
+    display: project page
+  link3:
+    url: https://openaccess.thecvf.com/content/CVPR2025/html/Qi_Towards_Universal_Dataset_Distillation_via_Task-Driven_Diffusion_CVPR_2025_paper.html
     display: Website Online
 
 - title: One for All:A Review of Large Pre-training Models for Re-Identification
@@ -27,11 +60,11 @@
     url: 
     display: project page
   link3:
-    url: 
-    display: code (GitHub)
+    url: https:// github.com/ Vill-Lab/ Awesome-Evolving-ReID
+    display: Paper List (GitHub)
   link4: 
-    url:
-    display: To be extend to Joural
+    url: https://dl.acm.org/doi/abs/10.1145/3701716.3717652
+    display: Website Online
 
 - title: Fetch and Forge:Efficient Dataset Condensation for Object Detection
   image: 24_NIPS_DCOD.png
@@ -267,6 +300,7 @@
   link4:
     url: https://www.mdpi.com/2072-4292/10/7/1068
     display: Website Online
+
 
 
 
