@@ -14,7 +14,7 @@
     url: https://ieeexplore.ieee.org/abstract/document/11106184/
     display: Website Online
 
-- title: MTA-VPS: A Large-scale Benchmark for Video-Based Person Search
+- title: MTA-VPS:A Large-scale Benchmark for Video-Based Person Search
   image: 25_CVPRW_VPS.png
   description: We introduce Video-based Person Search (VPS), a task that tracks individuals and their trajectories in raw video scenes, enhancing performance in practical applications. Due to the lack of suitable datasets and privacy concerns, we created the first VPS dataset using virtual environments, featuring diverse continuous video scenes. Paired with an evaluation framework, this dataset assesses both retrieval performance and trajectory quality. 
   authors: Ding Qi, **Shuguang Dou**, Jian Liu, Huaixuan Cao, Hao Zhang, Dongsheng Jiang, Cairong Zhao
@@ -300,6 +300,7 @@
   link4:
     url: https://www.mdpi.com/2072-4292/10/7/1068
     display: Website Online
+
 
 
 
