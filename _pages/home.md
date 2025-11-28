@@ -11,7 +11,7 @@ permalink: /
 <div class="row">
 
 <div class="col-sm-8">
-I am a Researcher at EI Algorithm Novelty Lab of Huawei Cloud. I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University.
+I am a Researcher at Algorithm Novelty Lab of Huawei Tech. I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University.
 During my PhD studies, I collaborated with researchers [Xinyang Jiang](https://scholar.google.com/citations?user=JiTfWVMAAAAJ) and [Dongsheng Li](http://recmind.cn/) in theat Microsoft Research Asia (MSRA). 
 While interning at MSRA, my research focused on infographic understanding and neural architecture search (NAS) benchmarks. 
 I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) of MSU.
