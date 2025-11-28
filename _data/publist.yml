@@ -1,3 +1,19 @@
+- title: EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-aware NAS
+  image: 25_TPAMI_LESS.png
+  description: Recent studies have started integrating large language models (LLMs) into AutoML frameworks to enhance model search efficiency and configuration prediction, yet challenges remain in adapting these methods for energy-efficient searches across vast configuration spaces, as they often neglect energy consumption metrics. As a result, we introduce the Language-Enhanced Shrinkage Search (LESS), a plug-and-play method that utilizes the analytical capabilities of LLMs to enhance the energy efficiency of existing hyperparameter optimization techniques. 
+  authors: **Shuguang Dou**, Jiale Zhao, Xinyang Jiang, Junyao Gao, Yuge Zhang, Bo Li, Dongsheng Li
+  venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence (**T-PAMI**) in 2025, CCF A
+  number_link: 3
+  link1:
+    url: 
+    display: pdf
+  link2:
+    url: 
+    display: project page
+  link3:
+    url: https://ieeexplore.ieee.org/abstract/document/11122892
+    display: Website Online
+
 - title: Dpl++:Advancing the network performance via image and label perturbations
   image: 25_TPAMI_DPL.png
   description: We propose a novel paradigm that leverages the benefits of image perturbations for rectifying data distributions. Our method, called DPL (Deep Perturbation Learning), introduces new insights into utilizing image perturbations and focuses on improving generalizability on normal samples, rather than resisting adversarial attacks.
@@ -300,6 +316,7 @@
   link4:
     url: https://www.mdpi.com/2072-4292/10/7/1068
     display: Website Online
+
 
 
 
