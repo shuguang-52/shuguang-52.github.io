@@ -1,7 +1,7 @@
 - title: EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-aware NAS
   image: 25_TPAMI_LESS.png
   description: Recent studies have started integrating large language models (LLMs) into AutoML frameworks to enhance model search efficiency and configuration prediction, yet challenges remain in adapting these methods for energy-efficient searches across vast configuration spaces, as they often neglect energy consumption metrics. As a result, we introduce the Language-Enhanced Shrinkage Search (LESS), a plug-and-play method that utilizes the analytical capabilities of LLMs to enhance the energy efficiency of existing hyperparameter optimization techniques. 
-  authors: **Shuguang Dou**, Jiale Zhao, Xinyang Jiang, Junyao Gao, Yuge Zhang, Bo Li, Dongsheng Li
+  authors: S**huguang Dou**, Jiale Zhao, Xinyang Jiang, Junyao Gao, Yuge Zhang, Bo Li, Dongsheng Li
   venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence (**T-PAMI**) in 2025, CCF A
   number_link: 3
   link1:
@@ -316,6 +316,7 @@
   link4:
     url: https://www.mdpi.com/2072-4292/10/7/1068
     display: Website Online
+
 
 
 
