@@ -18,9 +18,9 @@ I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www
 I am currently passionate about research in the following areas:
 
 <ol>
-  <li>World Model with Memory</li>
+  <li>Medical Image Analysis</li>
   <li>Model and dataset distillation</li>
-  <li>LLM-based visual understanding and generation</li>
+  <li>MLLM as Agent</li>
   <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
 </ol>
 
