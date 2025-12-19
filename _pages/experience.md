@@ -8,6 +8,38 @@ permalink: /experience
 
 ## Experience
 
+<h3>Work Experience</h3>
+
+<p>&nbsp;</p>
+
+<p><em>(Jan &rsquo;25 &ndash; Jan &rsquo;29 )</em></p>
+
+<p><strong>HUAWEI Tech</strong>, Shanghai, China</p>
+
+<p>Researcher</p>
+
+<p>Mentor: Dongsheng Jiang </p>
+
+
+<p><em>(Jan &rsquo;24 &ndash; June &rsquo;24 )</em></p>
+
+<p><strong>Michigan State University</strong>, East Lansing, US</p>
+
+<p>Short-term Visit Scholar</p>
+
+<p>Advisor: Prof. Xiaoming Liu </p>
+
+<p><em>(Nove &rsquo;21 &ndash; May &rsquo;23)</em></p>
+
+<p><strong>MSRA (Microsoft Research Asia) Machine Learning Group</strong>, Shanghai, China</p>
+
+<p>Research Intern</p>
+
+<p>Mentor: Senior Researcher Xingyang Jiang</p>
+
+<p>&nbsp;</p>
+
+
 <h3>Education</h3>
 
 <p>&nbsp;</p>
@@ -39,29 +71,5 @@ permalink: /experience
 <p>Bachelor's degree in machine design manufacture and automate</p>
 
 <p>Advisor: Prof. Peter </p>
-
-<p>&nbsp;</p>
-
-<h3>Work Experience</h3>
-
-<p>&nbsp;</p>
-
-
-
-<p><em>(Jan &rsquo;24 &ndash; June &rsquo;24 )</em></p>
-
-<p><strong>Michigan State University</strong>, East Lansing, US</p>
-
-<p>Short-term Visit Scholar</p>
-
-<p>Advisor: Prof. Xiaoming Liu </p>
-
-<p><em>(Nove &rsquo;21 &ndash; May &rsquo;23)</em></p>
-
-<p><strong>MSRA (Microsoft Research Asia) Machine Learning Group</strong>, Shanghai, China</p>
-
-<p>Research Intern</p>
-
-<p>Mentor: Senior Researcher Xingyang Jiang</p>
 
 <p>&nbsp;</p>
