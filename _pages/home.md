@@ -14,14 +14,11 @@ permalink: /
 I am a Researcher at Algorithm Novelty Lab of Huawei Tech. I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University.
 During my PhD studies, I collaborated with researchers [Xinyang Jiang](https://scholar.google.com/citations?user=JiTfWVMAAAAJ) and [Dongsheng Li](http://recmind.cn/) in theat Microsoft Research Asia (MSRA). 
 While interning at MSRA, my research focused on infographic understanding and neural architecture search (NAS) benchmarks. 
-I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) of MSU.
-I am currently passionate about research in the following areas:
-
+I am also a visiting scholar luckily invited by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) of MSU. During my doctoral studies, my research primarily focused on human-centric video understanding, with a specific emphasis on trustworthy person re-identification (ReID). My work addressed the critical pillars of robustness, security, and privacy preservation within this domain. Currently, I am focused on advancing research in the following areas:
 <ol>
+  <li>Agentic Vision</li>
+  <li>Distillation of Model and Dataset </li>
   <li>Medical Image Analysis</li>
-  <li>Model and dataset distillation</li>
-  <li>MLLM as Agent</li>
-  <li>Human-centric Video Understanding: Trustworthy Person Re-identification-Robust, Security, and Privacy-Preserving</li>
 </ol>
 
 **We are hiring research scientists, engineers, and research interns for our lab! Please <a href="mailto:doushuguang@huawei.com">drop me a line</a> if you are interested.**
