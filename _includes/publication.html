@@ -1,14 +1,12 @@
 {% assign paper = include.publication %}
 <article class="publication" id="paper-{{ paper.id | escape }}" data-publication data-year="{{ paper.year }}" data-topics="{{ paper.topics | join: ' ' | escape }}" data-search="{{ paper.title | escape }} {{ paper.authors | escape }} {{ paper.venue | escape }} {{ paper.venue_full | escape }} {{ paper.year }} {{ paper.summary | escape }}">
   <div class="publication-visual">
+    <p class="publication-meta publication-badge"><span>{{ paper.venue | escape }}</span><span>{{ paper.year }}</span></p>
     {% if paper.image and paper.image != '' %}
     <img src="{{ paper.image | relative_url }}" alt="Research overview for {{ paper.title | escape }}" width="320" height="220" loading="lazy" decoding="async">
-    {% else %}
-    <div class="publication-placeholder" aria-hidden="true"><span>{{ paper.venue | escape }}</span><span>{{ paper.year }}</span></div>
     {% endif %}
   </div>
   <div class="publication-body">
-    <p class="publication-meta"><span>{{ paper.venue | escape }}</span><span>{{ paper.year }}</span></p>
     <h3>{{ paper.title | escape }}</h3>
     <p class="publication-authors">{{ paper.authors | escape | replace: 'Shuguang Dou', '<strong>Shuguang Dou</strong>' }}</p>
     {% if paper.summary and paper.summary != '' %}<p class="publication-summary">{{ paper.summary | escape }}</p>{% endif %}

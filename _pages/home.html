@@ -25,17 +25,19 @@ permalink: /
 
 <section class="content-section" aria-labelledby="news-heading">
   <div class="section-heading"><h2 id="news-heading">Recent news</h2><a class="section-link" href="{{ '/allnews.html' | relative_url }}">All updates <span aria-hidden="true">↗</span></a></div>
-  <ul class="news-list">
-    {% for article in site.data.news limit:4 %}
-    <li><time datetime="{{ article.date | date: '%Y-%m-%d' }}">{{ article.date | date: '%b %Y' }}</time><div>{{ article.headline }}</div></li>
-    {% endfor %}
-  </ul>
+  <div class="news-scroll" role="region" aria-labelledby="news-heading" tabindex="0">
+    <ul class="news-list">
+      {% for article in site.data.news limit:12 %}
+      <li><time datetime="{{ article.date | date: '%Y-%m-%d' }}">{{ article.date | date: '%b %Y' }}</time><div>{{ article.headline }}</div></li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 
 <section class="content-section selected-publications" aria-labelledby="selected-heading">
   <div class="section-heading"><div><h2 id="selected-heading">Selected publications</h2><p class="section-description">Recent work and representative research.</p></div><a class="section-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a></div>
   {% assign selected_publications = site.data.publications | where: 'selected', true %}
-  {% for publication in selected_publications limit:6 %}
+  {% for publication in selected_publications %}
   {% include publication.html publication=publication %}
   {% endfor %}
   <a class="archive-link" href="{{ '/publications/' | relative_url }}">Explore the full publication archive <span aria-hidden="true">→</span></a>

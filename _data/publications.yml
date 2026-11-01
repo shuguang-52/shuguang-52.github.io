@@ -207,7 +207,7 @@
   venue: "TPAMI"
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(12), pp. 11596–11613"
   topics: ["efficient","vision"]
-  selected: false
+  selected: true
   image: "/images/pubpic/2025-tpami-less.jpg"
   summary: "Language-guided search and an energy-aware benchmark support more efficient neural architecture and hyperparameter optimization."
   links:
@@ -232,7 +232,7 @@
   venue: "TPAMI"
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(11), pp. 10262–10279"
   topics: ["efficient","vision"]
-  selected: false
+  selected: true
   image: "/images/pubpic/2025-tpami-dpl-plus-plus.png"
   summary: "Jointly optimizing image and label perturbations improves model generalization with fewer perturbation-learning iterations."
   links:
