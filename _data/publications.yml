@@ -84,7 +84,7 @@
   venue: "ICLR"
   venue_full: "International Conference on Learning Representations"
   topics: ["multimodal","efficient"]
-  selected: true
+  selected: false
   summary: "Asynchronous trajectory matching and semantic initialization distill compact, representative image–text datasets."
   links:
     - label: "Paper"
@@ -202,7 +202,7 @@
 
 - id: "less-2025"
   title: "EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-Aware NAS"
-  authors: "Cairong Zhao, Shuguang Dou, Jiale Zhao, Xinyang Jiang, Junyao Gao, Yuge Zhang, Bo Li, Dongsheng Li"
+  authors: "Shuguang Dou, Jiale Zhao, Xinyang Jiang, Junyao Gao, Yuge Zhang, Bo Li, Dongsheng Li"
   year: 2025
   venue: "TPAMI"
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(12), pp. 11596–11613"
@@ -216,7 +216,7 @@
   bibtex: |-
     @article{less2025,
       title = {{EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-Aware NAS}},
-      author = {Cairong Zhao and Shuguang Dou and Jiale Zhao and Xinyang Jiang and Junyao Gao and Yuge Zhang and Bo Li and Dongsheng Li},
+      author = {Shuguang Dou and Jiale Zhao and Xinyang Jiang and Junyao Gao and Yuge Zhang and Bo Li and Dongsheng Li},
       journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
       year = {2025},
       volume = {47},
@@ -232,7 +232,7 @@
   venue: "TPAMI"
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(11), pp. 10262–10279"
   topics: ["efficient","vision"]
-  selected: true
+  selected: false
   image: "/images/pubpic/2025-tpami-dpl-plus-plus.png"
   summary: "Jointly optimizing image and label perturbations improves model generalization with fewer perturbation-learning iterations."
   links:
@@ -428,7 +428,7 @@
   venue: "TPAMI"
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 46(12), pp. 7556–7573"
   topics: ["vision"]
-  selected: false
+  selected: true
   image: "/images/pubpic/24_TPAMI_Yolat++.png"
   summary: "Hierarchical representations recognize objects directly in vector graphics, supported by a chart understanding benchmark."
   links:

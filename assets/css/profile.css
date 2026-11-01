@@ -80,15 +80,15 @@ body.profile-site {
 .collaboration-note a { white-space: nowrap; }
 .content-section { margin-top: 47px; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding-top: 26px; margin-bottom: 25px; border-top: 1px solid var(--line); }
-.section-number { font-size: 13px; color: var(--muted); letter-spacing: 1px; }
 .section-link { flex-shrink: 0; font-size: 13px; text-decoration: none; }
 .section-link:hover { text-decoration: underline; }
 .section-link span { display: inline-block; margin-left: 3px; }
 .section-description { margin: 8px 0 0 !important; color: var(--muted); font-size: 14px; }
-.research-directions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
-.research-index { display: block; margin-bottom: 13px; color: var(--accent); font-family: var(--serif); font-size: 16px; }
-.research-directions h3 { margin-bottom: 9px; font-size: 16px; line-height: 1.5; }
-.research-directions p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+.content-section.research-section { margin-top: 30px; }
+.research-section .section-heading { padding-top: 18px; margin-bottom: 14px; }
+.research-section h2 { font-size: 24px; }
+.research-directions { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 0; margin: 0; list-style: none; }
+.research-directions li { font-size: 16px; line-height: 1.5; }
 .news-scroll { max-height: 21rem; overflow-y: auto; padding: 3px 16px 3px 0; scrollbar-gutter: stable; scrollbar-width: auto; scrollbar-color: var(--muted) var(--surface); }
 .news-scroll::-webkit-scrollbar { width: 10px; }
 .news-scroll::-webkit-scrollbar-track { background: var(--surface); border-radius: 5px; }
@@ -179,7 +179,6 @@ body.profile-site {
   .publication { grid-template-columns: 140px minmax(0, 1fr); gap: 20px; }
   .publication-filters { grid-template-columns: minmax(0, 1fr) 105px auto; }
   .filter-search { grid-column: 1 / -1; }
-  .research-directions { gap: 16px; }
 }
 @media (max-width: 800px) {
   .header-inner { min-height: 73px; padding: 0 26px; }
@@ -224,12 +223,8 @@ body.profile-site {
   .content-section { margin-top: 37px; }
   .section-heading { flex-wrap: wrap; padding-top: 23px; margin-bottom: 23px; gap: 10px 14px; }
   .section-link { font-size: 12px; }
-  .research-directions { display: block; }
-  .research-directions > div { position: relative; padding-left: 29px; margin-bottom: 21px; }
-  .research-directions > div:last-child { margin-bottom: 0; }
-  .research-index { position: absolute; left: 0; top: 0; font-size: 14px; }
-  .research-directions h3 { margin-bottom: 4px; }
-  .research-directions p { font-size: 15px; }
+  .research-section h2 { font-size: 24px; }
+  .research-directions { flex-direction: column; gap: 7px; }
   .publication { display: block; padding: 24px 0; }
   .publication-visual { width: 100%; max-width: 320px; margin: 0 0 16px; padding-top: 0; }
   .publication-visual img { max-height: 180px; }

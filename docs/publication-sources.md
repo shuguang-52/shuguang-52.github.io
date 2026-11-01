@@ -15,7 +15,7 @@ The November 2026 archive contains 29 works after reconciliation with the author
 
 ## Corrections to existing records
 
-- **EA-HAS-Bench / LESS:** restored Cairong Zhao as the first author; retained the verified author order. [Formal record](https://doi.org/10.1109/TPAMI.2025.3598206).
+- **EA-HAS-Bench / LESS:** title, venue, year, and DOI follow the [formal record](https://doi.org/10.1109/TPAMI.2025.3598206). The website author list and BibTeX were updated according to the site owner's correction on November 1, 2026.
 - **DPL++:** replaced the accidentally duplicated UniDD author list with the six authors of the actual paper. [Formal record](https://doi.org/10.1109/TPAMI.2025.3594149).
 - **Fetch and Forge:** corrected author ordering against the proceedings.
 - **Reviving Static Charts into Live Charts:** uses the formal 2025 volume year rather than the earlier acceptance date.
