@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "News archive — Shuguang Dou"
 layout: gridlay
 excerpt: "Shuguang Dou"
 sitemap: false

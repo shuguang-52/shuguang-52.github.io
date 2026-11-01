@@ -1,0 +1,34 @@
+{% assign paper = include.publication %}
+<article class="publication" id="paper-{{ paper.id | escape }}" data-publication data-year="{{ paper.year }}" data-topics="{{ paper.topics | join: ' ' | escape }}" data-search="{{ paper.title | escape }} {{ paper.authors | escape }} {{ paper.venue | escape }} {{ paper.venue_full | escape }} {{ paper.year }} {{ paper.summary | escape }}">
+  <div class="publication-visual">
+    {% if paper.image and paper.image != '' %}
+    <img src="{{ paper.image | relative_url }}" alt="Research overview for {{ paper.title | escape }}" width="320" height="220" loading="lazy" decoding="async">
+    {% else %}
+    <div class="publication-placeholder" aria-hidden="true"><span>{{ paper.venue | escape }}</span><span>{{ paper.year }}</span></div>
+    {% endif %}
+  </div>
+  <div class="publication-body">
+    <p class="publication-meta"><span>{{ paper.venue | escape }}</span><span>{{ paper.year }}</span></p>
+    <h3>{{ paper.title | escape }}</h3>
+    <p class="publication-authors">{{ paper.authors | escape | replace: 'Shuguang Dou', '<strong>Shuguang Dou</strong>' }}</p>
+    {% if paper.summary and paper.summary != '' %}<p class="publication-summary">{{ paper.summary | escape }}</p>{% endif %}
+    <div class="publication-actions">
+      {% for link in paper.links %}
+      {% if link.url and link.url != '' and link.label and link.label != '' %}
+      {% assign first_character = link.url | slice: 0, 1 %}
+      {% if first_character == '/' %}{% assign publication_href = link.url | relative_url %}{% else %}{% assign publication_href = link.url %}{% endif %}
+      <a href="{{ publication_href | escape }}">{{ link.label | escape }}<span class="sr-only">: {{ paper.title | escape }}</span></a>
+      {% endif %}
+      {% endfor %}
+      {% if paper.bibtex and paper.bibtex != '' %}
+      <details class="citation">
+        <summary>BibTeX<span class="sr-only">: {{ paper.title | escape }}</span></summary>
+        <div class="citation-content">
+          <div class="citation-tools"><button type="button" data-copy-citation hidden>Copy citation</button><span data-copy-status role="status" aria-live="polite"></span></div>
+          <pre><code>{{ paper.bibtex | strip | escape }}</code></pre>
+        </div>
+      </details>
+      {% endif %}
+    </div>
+  </div>
+</article>

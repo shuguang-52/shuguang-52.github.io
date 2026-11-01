@@ -1,0 +1,34 @@
+---
+title: "Code — Shuguang Dou"
+layout: profile
+description: "Open-source research implementations, datasets, and benchmarks associated with Shuguang Dou's publications."
+permalink: /codes
+---
+
+<div class="page-intro">
+  <p class="eyebrow">Open research</p>
+  <h1>Code &amp; resources</h1>
+  <p class="page-description">Research implementations, datasets, and benchmarks, with links to the work behind them.</p>
+  <p class="quiet-text">More on <a href="https://github.com/shuguang-52">GitHub <span aria-hidden="true">↗</span></a>.</p>
+</div>
+
+<div class="code-list">
+  {% assign listed_repositories = '|' %}
+  {% for publication in site.data.publications %}
+  {% for resource in publication.links %}
+  {% assign resource_type = resource.label | downcase %}
+  {% if resource_type contains 'code' %}
+  {% assign repository_marker = resource.url | prepend: '|' | append: '|' %}
+  {% unless listed_repositories contains repository_marker %}
+  <article class="code-entry">
+    <p class="publication-meta"><span>{{ publication.venue | escape }}</span><span>{{ publication.year }}</span></p>
+    <h2><a href="{{ resource.url | escape }}">{{ publication.title | escape }}</a></h2>
+    {% if publication.summary and publication.summary != '' %}<p>{{ publication.summary | escape }}</p>{% endif %}
+    <div class="code-actions"><a href="{{ resource.url | escape }}">Repository <span aria-hidden="true">↗</span><span class="sr-only">: {{ publication.title | escape }}</span></a><a href="{{ '/publications/' | relative_url }}#paper-{{ publication.id | escape }}">Publication <span aria-hidden="true">→</span></a></div>
+  </article>
+  {% assign listed_repositories = listed_repositories | append: resource.url | append: '|' %}
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</div>

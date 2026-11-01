@@ -1,0 +1,28 @@
+:root { --paper: #f7f5ef; --ink: #292823; --muted: #65625a; --accent: #a44f37; --line: #dedad0; }
+html { scroll-behavior: smooth; }
+body { padding: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.75; }
+a { color: var(--accent); text-underline-offset: .2em; }
+a:hover { color: #783421; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; line-height: 1.25; letter-spacing: -.025em; }
+h1 { margin-top: 24px; font-size: clamp(2.3rem, 5vw, 3.4rem); }
+h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
+h3 { margin-top: 2em; font-size: 1.7rem; }
+main.container-fluid { max-width: 1056px; min-height: 65vh; padding: 32px 28px 60px; }
+.legacy-header, .legacy-footer { max-width: 1120px; margin: auto; padding: 25px 28px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.legacy-header { border-bottom: 1px solid var(--line); }
+.legacy-brand { color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 22px; line-height: 1.3; text-decoration: none; }
+.legacy-brand span { display: block; margin-top: 5px; color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
+.legacy-header nav, .legacy-footer div { display: flex; flex-wrap: wrap; gap: 12px 24px; }
+.legacy-header nav a { color: var(--ink); font-size: 13px; }
+.legacy-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.legacy-skip { position: absolute; left: 24px; top: -100px; background: white; padding: 12px; z-index: 20; }
+.legacy-skip:focus { top: 8px; }
+img { max-width: 100%; height: auto; }
+figure { max-width: 100%; margin: 30px 0; }
+#gridid img, #projectid img { border-radius: 0; box-shadow: none; }
+figcaption { color: var(--muted); font-size: 14px; line-height: 1.65; text-align: left; }
+pre { overflow: auto; background: #eeebe4; border: 1px solid var(--line); border-radius: 4px; padding: 20px; }
+.well { background: transparent; box-shadow: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 24px 0; }
+@media (max-width: 640px) { .legacy-header, .legacy-footer { align-items: flex-start; flex-direction: column; padding: 22px; gap: 18px; } .legacy-header nav { gap: 12px 20px; } main.container-fluid { padding: 22px 12px 40px; } #gridid { padding: 0 10px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }.project-figure img { margin: 0; border-radius: 0; box-shadow: none; }

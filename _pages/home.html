@@ -1,0 +1,42 @@
+---
+title: "Shuguang Dou — Vision & Multimodal Research"
+layout: profile
+description: "Shuguang Dou, Multimodal Lead at Huawei's Intelligent Healthcare Lab. Research in multimodal intelligence, model and data efficiency, and trustworthy computer vision."
+permalink: /
+---
+
+<div class="page-intro">
+  <p class="eyebrow">Vision · Multimodal learning · Healthcare</p>
+  <h1>About me</h1>
+  <p class="intro-lead">I lead multimodal research at the <strong>Intelligent Healthcare Lab, Huawei</strong>.</p>
+  <p>My work connects multimodal understanding with efficient and trustworthy computer vision. I am interested in how models can reason across visual information, learn from compact data, and support medical image analysis.</p>
+  <p>I received my Ph.D. in Computer Science and Technology from <strong>Tongji University</strong>. During my doctoral studies, I interned at Microsoft Research Asia, working with <a href="https://scholar.google.com/citations?user=JiTfWVMAAAAJ">Xinyang Jiang</a> and <a href="https://recmind.cn/">Dongsheng Li</a> on infographic understanding and neural architecture search. I also visited Michigan State University, hosted by <a href="https://www.cse.msu.edu/~liuxm/index2.html">Prof. Xiaoming Liu</a>. My doctoral research focused on robustness, security, and privacy in person re-identification.</p>
+  <p class="collaboration-note"><span class="note-marker" aria-hidden="true"></span>We welcome research scientists, engineers, and interns interested in these directions. <a href="mailto:doushuguang@huawei.com">Get in touch <span aria-hidden="true">↗</span></a></p>
+</div>
+
+<section class="content-section research-section" aria-labelledby="research-heading">
+  <div class="section-heading"><h2 id="research-heading">Research directions</h2><span class="section-number" aria-hidden="true">01 /</span></div>
+  <div class="research-directions">
+    <div><span class="research-index" aria-hidden="true">01</span><h3>Multimodal &amp; medical AI</h3><p>Agentic vision, multimodal understanding, and medical image analysis.</p></div>
+    <div><span class="research-index" aria-hidden="true">02</span><h3>Model &amp; data efficiency</h3><p>Model and dataset distillation, compact representations, and efficient architectures.</p></div>
+    <div><span class="research-index" aria-hidden="true">03</span><h3>Trustworthy vision</h3><p>Person re-identification with robustness, security, and privacy in mind.</p></div>
+  </div>
+</section>
+
+<section class="content-section" aria-labelledby="news-heading">
+  <div class="section-heading"><h2 id="news-heading">Recent news</h2><a class="section-link" href="{{ '/allnews.html' | relative_url }}">All updates <span aria-hidden="true">↗</span></a></div>
+  <ul class="news-list">
+    {% for article in site.data.news limit:4 %}
+    <li><time datetime="{{ article.date | date: '%Y-%m-%d' }}">{{ article.date | date: '%b %Y' }}</time><div>{{ article.headline }}</div></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="content-section selected-publications" aria-labelledby="selected-heading">
+  <div class="section-heading"><div><h2 id="selected-heading">Selected publications</h2><p class="section-description">Recent work and representative research.</p></div><a class="section-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a></div>
+  {% assign selected_publications = site.data.publications | where: 'selected', true %}
+  {% for publication in selected_publications limit:6 %}
+  {% include publication.html publication=publication %}
+  {% endfor %}
+  <a class="archive-link" href="{{ '/publications/' | relative_url }}">Explore the full publication archive <span aria-hidden="true">→</span></a>
+</section>

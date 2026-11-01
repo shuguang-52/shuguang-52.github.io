@@ -6,11 +6,9 @@ sitemap: false
 permalink: /clcxray/
 ---
 
-[comment]: Title
-<h2 align="center"> Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism </h2>
+<h1 align="center"> Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism </h1>
 <p>&nbsp;</p>
 
-[comment]: Authors
 <p style="text-align: center;">
 <a style="color: #CC0000">Cairong Zhao* </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,14 +24,13 @@ permalink: /clcxray/
 </p>
 <p>&nbsp;</p>
 
-[comment]: Abstract
 <h3> Abstract </h3>
 <p style="text-align:justify; text-justify:inter-ideograph;">One of the key challenges to the X-ray security checkis to detect the overlapped items in backpacks or suitcases inthe X-ray images. Most existing methods improve the robustnessof models to the object overlapping problem by enhancingthe underlying visual information such as colors and edges.However, this strategy ignores the situations that the objectshave similar visual clues as to the background, and objectsoverlapping each other. Since the two cases rarely appear inexisting datasets, we contribute a novel dataset – Cutters andLiquid Containers X-ray Dataset (CLCXray) to complete therelated research. Furthermore, we propose a novel Label-awareMechanism (LA) to tackle the object overlapping problem.Particularly, LA establishes the associations between featurechannels and different labels and adjusts the features accordingto the assigned labels (or pseudo labels) to help improve theprediction results. Extensive experiments demonstrate that the LA is accurate and robust to detect overlapped objects, andalso validate the effectiveness and the good generalization of theLA for arbitrary state-of-the-art (SOTA) methods. Furthermore,experimental results show that the network constructed by theLA is superior to the SOTA models on OPIXray and CLCXray, especially solving the challenges of the subset of the highlyoverlapped objects.</p>
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/22_tifs_clcxray.jpg" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/22_tifs_clcxray.jpg" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -49,8 +46,8 @@ scope of research on threat objects. Moreover, CLCXray provides high-precision a
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_bbox.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism" src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_bbox.png" width="600px" />
 		</div>
 
 <figcaption>
@@ -63,8 +60,8 @@ Figure 2.Visualization of bbox annotations on OPIXray, SIXray, and CLCXray. (A) 
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_pipeline.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Detecting Overlapped Objects in X-ray SecurityImagery by a Label-aware Mechanism" src="{{ site.url }}{{ site.baseurl }}/images/projectpic/22_clcxray_pipeline.png" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -74,7 +71,6 @@ Figure 3. Overall Framework
 </center>
 
 
-[comment]: Paper
 <h3> Paper </h3>
 
 - Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/22tifs_clcxray.pdf" style="color: #CC0000"> PDF </a>
@@ -94,7 +90,6 @@ Please consider citing if this work and/or the corresponding code are useful for
 }
 ```
 
-[comment]: Dataset
 <h3> Dataset </h3>
 Dataset is available online in ths github repository:
 <a href="https://github.com/Vill-Lab/CLCXray" style="color: #CC0000">https://github.com/Vill-Lab/CLCXray</a>.

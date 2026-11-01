@@ -1,0 +1,611 @@
+# Publication metadata verified against publisher proceedings and DBLP on 2026-11-01.
+# Formal volume years are used; preprints are not duplicated as separate publications.
+# Additional year checks: https://dblp.org/rec/journals/tip/DouZJZZZ23 (HCGA)
+# and https://dblp.org/rec/journals/tip/ZhaoLDZWW21 (IGOAS).
+
+- id: "agenticvs-2026"
+  title: "Agentic Video Summarization via Self-Reflecting Multimodal Understanding"
+  authors: "Miaotian Guo, Shuguang Dou, Yin Li, Aidong Men, Dongsheng Jiang"
+  year: 2026
+  venue: "CVPR"
+  venue_full: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 40516–40526"
+  topics: ["multimodal","vision"]
+  selected: true
+  image: "/images/pubpic/2026-cvpr-agenticvs.png"
+  summary: "A multimodal agent workflow summarizes videos through autonomous verification and reflection."
+  links:
+    - label: "Paper"
+      url: "https://openaccess.thecvf.com/content/CVPR2026/html/Guo_Agentic_Video_Summarization_via_Self-Reflecting_Multimodal_Understanding_CVPR_2026_paper.html"
+    - label: "Code"
+      url: "https://github.com/shuguang-52/2026-CVPR-AgenticVS"
+  bibtex: |-
+    @inproceedings{agenticvs2026,
+      title = {{Agentic Video Summarization via Self-Reflecting Multimodal Understanding}},
+      author = {Miaotian Guo and Shuguang Dou and Yin Li and Aidong Men and Dongsheng Jiang},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      year = {2026},
+      pages = {40516--40526},
+      url = {https://openaccess.thecvf.com/content/CVPR2026/html/Guo_Agentic_Video_Summarization_via_Self-Reflecting_Multimodal_Understanding_CVPR_2026_paper.html}
+    }
+
+- id: "amd-2026"
+  title: "Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation"
+  authors: "Ding Qi, Jian Li, Shuguang Dou, Zifan Song, Junyao Gao, Yabiao Wang, Chengjie Wang, Cairong Zhao"
+  year: 2026
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  topics: ["multimodal","efficient"]
+  selected: true
+  summary: "Asynchronous trajectory matching and semantic initialization distill compact, representative image–text datasets."
+  links:
+    - label: "Paper"
+      url: "https://proceedings.iclr.cc/paper_files/paper/2026/hash/01830c92c6558179fa6d7fb1edff692c-Abstract-Conference.html"
+  bibtex: |-
+    @inproceedings{amd2026,
+      title = {{Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation}},
+      author = {Ding Qi and Jian Li and Shuguang Dou and Zifan Song and Junyao Gao and Yabiao Wang and Chengjie Wang and Cairong Zhao},
+      booktitle = {International Conference on Learning Representations},
+      year = {2026},
+      url = {https://proceedings.iclr.cc/paper_files/paper/2026/hash/01830c92c6558179fa6d7fb1edff692c-Abstract-Conference.html}
+    }
+
+- id: "visual-bridge-2026"
+  title: "Visual Bridge: Universal Visual Perception Representations Generating"
+  authors: "Yilin Gao, Shuguang Dou, Junzhou Li, Zhiheng Yu, Yin Li, Dongsheng Jiang, Shugong Xu"
+  year: 2026
+  venue: "AAAI"
+  venue_full: "Proceedings of the AAAI Conference on Artificial Intelligence, 40(25), pp. 21234–21242"
+  topics: ["multimodal","vision"]
+  selected: true
+  image: "/images/pubpic/2026-aaai-visual-bridge.png"
+  summary: "A universal flow-matching framework generates representations for multiple visual perception tasks."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1609/aaai.v40i25.39268"
+  bibtex: |-
+    @inproceedings{visualbridge2026,
+      title = {{Visual Bridge: Universal Visual Perception Representations Generating}},
+      author = {Yilin Gao and Shuguang Dou and Junzhou Li and Zhiheng Yu and Yin Li and Dongsheng Jiang and Shugong Xu},
+      booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+      year = {2026},
+      volume = {40},
+      number = {25},
+      pages = {21234--21242},
+      doi = {10.1609/aaai.v40i25.39268}
+    }
+
+- id: "drop-2026"
+  title: "Decouple Re-Identification and Human Parsing for Occluded Person Re-Identification"
+  authors: "Shuguang Dou, Yuanpeng Tu, Yanna Lin, Junyao Gao, Cairong Zhao"
+  year: 2026
+  venue: "TBIOM"
+  venue_full: "IEEE Transactions on Biometrics, Behavior, and Identity Science, 8(4), pp. 666–677"
+  topics: ["trustworthy","vision"]
+  selected: true
+  image: "/images/pubpic/2026-tbiom-drop.png"
+  summary: "Decoupled identity and human-parsing features improve person retrieval under occlusion."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TBIOM.2026.3680760"
+    - label: "Code"
+      url: "https://github.com/shuguang-52/2026-TBIOM-DROP"
+  bibtex: |-
+    @article{drop2026,
+      title = {{Decouple Re-Identification and Human Parsing for Occluded Person Re-Identification}},
+      author = {Shuguang Dou and Yuanpeng Tu and Yanna Lin and Junyao Gao and Cairong Zhao},
+      journal = {IEEE Transactions on Biometrics, Behavior, and Identity Science},
+      year = {2026},
+      volume = {8},
+      number = {4},
+      pages = {666--677},
+      doi = {10.1109/TBIOM.2026.3680760}
+    }
+
+- id: "pis-2026"
+  title: "Person identity shift for privacy-preserving person re-identification"
+  authors: "Shuguang Dou, Xinyang Jiang, Qingsong Zhao, Yansen Wang, Dongsheng Li, Cairong Zhao"
+  year: 2026
+  venue: "SCIS"
+  venue_full: "Science China Information Sciences, 69(1), article 112103"
+  topics: ["trustworthy","vision"]
+  selected: true
+  image: "/images/pubpic/2026-scis-pis.jpg"
+  summary: "Identity shifting protects personal appearance while preserving identity relationships needed for person re-identification."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1007/s11432-023-4583-x"
+    - label: "Code"
+      url: "https://github.com/Vill-Lab/2024-SCIS-PIS"
+  bibtex: |-
+    @article{pis2026,
+      title = {{Person identity shift for privacy-preserving person re-identification}},
+      author = {Shuguang Dou and Xinyang Jiang and Qingsong Zhao and Yansen Wang and Dongsheng Li and Cairong Zhao},
+      journal = {Science China Information Sciences},
+      year = {2026},
+      volume = {69},
+      number = {1},
+      doi = {10.1007/s11432-023-4583-x},
+      pages = {112103}
+    }
+
+- id: "acdd-2026"
+  title: "Active Dataset Distillation via Dual-Space Informative Matching"
+  authors: "Ding Qi, Jian Li, Shuguang Dou, Junyao Gao, Yabiao Wang, Bo Zhao, Cairong Zhao"
+  year: 2026
+  venue: "TIP"
+  venue_full: "IEEE Transactions on Image Processing, 35, pp. 2913–2927"
+  topics: ["efficient","vision"]
+  selected: false
+  summary: "Active sample selection adapts the distillation pool to improve the efficiency and generalization of synthetic datasets."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TIP.2026.3666748"
+  bibtex: |-
+    @article{acdd2026,
+      title = {{Active Dataset Distillation via Dual-Space Informative Matching}},
+      author = {Ding Qi and Jian Li and Shuguang Dou and Junyao Gao and Yabiao Wang and Bo Zhao and Cairong Zhao},
+      journal = {IEEE Transactions on Image Processing},
+      year = {2026},
+      volume = {35},
+      pages = {2913--2927},
+      doi = {10.1109/TIP.2026.3666748}
+    }
+
+- id: "less-2025"
+  title: "EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-Aware NAS"
+  authors: "Cairong Zhao, Shuguang Dou, Jiale Zhao, Xinyang Jiang, Junyao Gao, Yuge Zhang, Bo Li, Dongsheng Li"
+  year: 2025
+  venue: "TPAMI"
+  venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(12), pp. 11596–11613"
+  topics: ["efficient","vision"]
+  selected: false
+  summary: "Language-guided search and an energy-aware benchmark support more efficient neural architecture and hyperparameter optimization."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TPAMI.2025.3598206"
+  bibtex: |-
+    @article{less2025,
+      title = {{EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-Aware NAS}},
+      author = {Cairong Zhao and Shuguang Dou and Jiale Zhao and Xinyang Jiang and Junyao Gao and Yuge Zhang and Bo Li and Dongsheng Li},
+      journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      year = {2025},
+      volume = {47},
+      number = {12},
+      pages = {11596--11613},
+      doi = {10.1109/TPAMI.2025.3598206}
+    }
+
+- id: "dpl-plus-plus-2025"
+  title: "DPL++: Advancing the Network Performance via Image and Label Perturbations"
+  authors: "Zifan Song, Xiao Gong, Guosheng Hu, Shuguang Dou, Qingsong Zhao, Cairong Zhao"
+  year: 2025
+  venue: "TPAMI"
+  venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(11), pp. 10262–10279"
+  topics: ["efficient","vision"]
+  selected: false
+  summary: "Jointly optimizing image and label perturbations improves model generalization with fewer perturbation-learning iterations."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TPAMI.2025.3594149"
+  bibtex: |-
+    @article{dplplusplus2025,
+      title = {{DPL++: Advancing the Network Performance via Image and Label Perturbations}},
+      author = {Zifan Song and Xiao Gong and Guosheng Hu and Shuguang Dou and Qingsong Zhao and Cairong Zhao},
+      journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      year = {2025},
+      volume = {47},
+      number = {11},
+      pages = {10262--10279},
+      doi = {10.1109/TPAMI.2025.3594149}
+    }
+
+- id: "mta-vps-2025"
+  title: "MTA-VPS: A Large-scale Benchmark for Video-Based Person Search"
+  authors: "Ding Qi, Shuguang Dou, Jian Liu, Huaixuan Cao, Hao Zhang, Dongsheng Jiang, Cairong Zhao"
+  year: 2025
+  venue: "CVPRW"
+  venue_full: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, pp. 2648–2658"
+  topics: ["vision","trustworthy"]
+  selected: false
+  summary: "A virtual-environment benchmark evaluates person retrieval and trajectory quality in continuous video scenes."
+  links:
+    - label: "Paper"
+      url: "https://openaccess.thecvf.com/content/CVPR2025W/PVUW/html/Qi_MTA-VPS_A_Large-scale_Benchmark_for_Video-Based_Person_Search_CVPRW_2025_paper.html"
+    - label: "Project"
+      url: "https://github.com/Vill-Lab/MTA-VPS"
+  bibtex: |-
+    @inproceedings{mtavps2025,
+      title = {{MTA-VPS: A Large-scale Benchmark for Video-Based Person Search}},
+      author = {Ding Qi and Shuguang Dou and Jian Liu and Huaixuan Cao and Hao Zhang and Dongsheng Jiang and Cairong Zhao},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+      year = {2025},
+      pages = {2648--2658},
+      url = {https://openaccess.thecvf.com/content/CVPR2025W/PVUW/html/Qi_MTA-VPS_A_Large-scale_Benchmark_for_Video-Based_Person_Search_CVPRW_2025_paper.html}
+    }
+
+- id: "unidd-2025"
+  title: "Towards Universal Dataset Distillation via Task-Driven Diffusion"
+  authors: "Ding Qi, Jian Li, Junyao Gao, Shuguang Dou, Ying Tai, Jianlong Hu, Bo Zhao, Yabiao Wang, Chengjie Wang, Cairong Zhao"
+  year: 2025
+  venue: "CVPR"
+  venue_full: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10557–10566"
+  topics: ["efficient","vision"]
+  selected: true
+  image: "/images/pubpic/2025-cvpr-unidd.png"
+  summary: "Task-driven diffusion distills synthetic datasets for image classification, object detection, and segmentation."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/CVPR52734.2025.00987"
+  bibtex: |-
+    @inproceedings{unidd2025,
+      title = {{Towards Universal Dataset Distillation via Task-Driven Diffusion}},
+      author = {Ding Qi and Jian Li and Junyao Gao and Shuguang Dou and Ying Tai and Jianlong Hu and Bo Zhao and Yabiao Wang and Chengjie Wang and Cairong Zhao},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      year = {2025},
+      pages = {10557--10566},
+      doi = {10.1109/CVPR52734.2025.00987}
+    }
+
+- id: "one-for-all-2025"
+  title: "One for All: A Review of Large Pre-training Models for Re-Identification"
+  authors: "Yubing Sun, Shuguang Dou, Ding Qi, Yanping Li, Jiale Zhao, Cairong Zhao"
+  year: 2025
+  venue: "WWW Companion"
+  venue_full: "Companion Proceedings of the ACM on Web Conference 2025, pp. 1581–1585"
+  topics: ["multimodal","vision"]
+  selected: false
+  image: "/images/pubpic/25_WWW_MORE.png"
+  summary: "A survey examines how large pretrained visual and language–image models can support diverse re-identification tasks."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1145/3701716.3717652"
+    - label: "Project"
+      url: "https://github.com/Vill-Lab/Awesome-Evolving-ReID"
+  bibtex: |-
+    @inproceedings{oneforall2025,
+      title = {{One for All: A Review of Large Pre-training Models for Re-Identification}},
+      author = {Yubing Sun and Shuguang Dou and Ding Qi and Yanping Li and Jiale Zhao and Cairong Zhao},
+      booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+      year = {2025},
+      pages = {1581--1585},
+      doi = {10.1145/3701716.3717652}
+    }
+
+- id: "live-charts-2025"
+  title: "Reviving Static Charts Into Live Charts"
+  authors: "Lu Ying, Yun Wang, Haotian Li, Shuguang Dou, Haidong Zhang, Xinyang Jiang, Huamin Qu, Yingcai Wu"
+  year: 2025
+  venue: "TVCG"
+  venue_full: "IEEE Transactions on Visualization and Computer Graphics, 31(8), pp. 4314–4328"
+  topics: ["multimodal","vision"]
+  selected: false
+  image: "/images/pubpic/24_TVCG_LiveChart.png"
+  summary: "Chart understanding and language models transform static SVG charts into animated explanations with narration."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TVCG.2024.3397004"
+  bibtex: |-
+    @article{livecharts2025,
+      title = {{Reviving Static Charts Into Live Charts}},
+      author = {Lu Ying and Yun Wang and Haotian Li and Shuguang Dou and Haidong Zhang and Xinyang Jiang and Huamin Qu and Yingcai Wu},
+      journal = {IEEE Transactions on Visualization and Computer Graphics},
+      year = {2025},
+      volume = {31},
+      number = {8},
+      pages = {4314--4328},
+      doi = {10.1109/TVCG.2024.3397004}
+    }
+
+- id: "fetch-and-forge-2024"
+  title: "Fetch and Forge: Efficient Dataset Condensation for Object Detection"
+  authors: "Ding Qi, Jian Li, Jinlong Peng, Bo Zhao, Shuguang Dou, Jialin Li, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Cairong Zhao"
+  year: 2024
+  venue: "NeurIPS"
+  venue_full: "Advances in Neural Information Processing Systems, 37"
+  topics: ["efficient","vision"]
+  selected: false
+  image: "/images/pubpic/24_NIPS_DCOD.png"
+  summary: "A two-stage condensation framework stores detection knowledge in model parameters and reconstructs compact synthetic datasets."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.52202/079017-3790"
+  bibtex: |-
+    @inproceedings{fetchandforge2024,
+      title = {{Fetch and Forge: Efficient Dataset Condensation for Object Detection}},
+      author = {Ding Qi and Jian Li and Jinlong Peng and Bo Zhao and Shuguang Dou and Jialin Li and Jiangning Zhang and Yabiao Wang and Chengjie Wang and Cairong Zhao},
+      booktitle = {Advances in Neural Information Processing Systems},
+      year = {2024},
+      volume = {37},
+      doi = {10.52202/079017-3790}
+    }
+
+- id: "re-id-leak-2024"
+  title: "Re-ID-leak: Membership Inference Attacks Against Person Re-identification"
+  authors: "Junyao Gao, Xinyang Jiang, Shuguang Dou, Dongsheng Li, Duoqian Miao, Cairong Zhao"
+  year: 2024
+  venue: "IJCV"
+  venue_full: "International Journal of Computer Vision, 132(10), pp. 4673–4687"
+  topics: ["trustworthy","vision"]
+  selected: false
+  image: "/images/pubpic/24_IJCV_ReIDLeak.png"
+  summary: "Similarity distributions expose membership privacy risks in person re-identification models without access to logits or training losses."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1007/s11263-024-02115-6"
+  bibtex: |-
+    @article{reidleak2024,
+      title = {{Re-ID-leak: Membership Inference Attacks Against Person Re-identification}},
+      author = {Junyao Gao and Xinyang Jiang and Shuguang Dou and Dongsheng Li and Duoqian Miao and Cairong Zhao},
+      journal = {International Journal of Computer Vision},
+      year = {2024},
+      volume = {132},
+      number = {10},
+      pages = {4673--4687},
+      doi = {10.1007/s11263-024-02115-6}
+    }
+
+- id: "yolat-plus-plus-2024"
+  title: "Hierarchically Recognizing Vector Graphics and A New Chart-Based Vector Graphics Dataset"
+  authors: "Shuguang Dou, Xinyang Jiang, Lu Liu, Lu Ying, Caihua Shan, Yifei Shen, Xuanyi Dong, Yun Wang, Dongsheng Li, Cairong Zhao"
+  year: 2024
+  venue: "TPAMI"
+  venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 46(12), pp. 7556–7573"
+  topics: ["vision"]
+  selected: false
+  image: "/images/pubpic/24_TPAMI_Yolat++.png"
+  summary: "Hierarchical representations recognize objects directly in vector graphics, supported by a chart understanding benchmark."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TPAMI.2024.3394298"
+    - label: "Code"
+      url: "https://github.com/microsoft/YOLaT-VectorGraphicsRecognition"
+    - label: "Project"
+      url: "https://github.com/Vill-Lab/2024-TPAMI-VGDCU"
+  bibtex: |-
+    @article{yolatplusplus2024,
+      title = {{Hierarchically Recognizing Vector Graphics and A New Chart-Based Vector Graphics Dataset}},
+      author = {Shuguang Dou and Xinyang Jiang and Lu Liu and Lu Ying and Caihua Shan and Yifei Shen and Xuanyi Dong and Yun Wang and Dongsheng Li and Cairong Zhao},
+      journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      year = {2024},
+      volume = {46},
+      number = {12},
+      pages = {7556--7573},
+      doi = {10.1109/TPAMI.2024.3394298}
+    }
+
+- id: "adr-2024"
+  title: "Adaptive Discriminative Regularization for Visual Classification"
+  authors: "Qingsong Zhao, Yi Wang, Shuguang Dou, Chen Gong, Yin Wang, Cairong Zhao"
+  year: 2024
+  venue: "IJCV"
+  venue_full: "International Journal of Computer Vision, 132(10), pp. 4327–4342"
+  topics: ["vision"]
+  selected: false
+  image: "/images/pubpic/24_IJCV_ADR.png"
+  summary: "Adaptive regularization uses semantic relationships between classes to improve discriminative visual representations."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1007/s11263-024-02080-0"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/24ijcv_adr.pdf"
+  bibtex: |-
+    @article{adr2024,
+      title = {{Adaptive Discriminative Regularization for Visual Classification}},
+      author = {Qingsong Zhao and Yi Wang and Shuguang Dou and Chen Gong and Yin Wang and Cairong Zhao},
+      journal = {International Journal of Computer Vision},
+      year = {2024},
+      volume = {132},
+      number = {10},
+      pages = {4327--4342},
+      doi = {10.1007/s11263-024-02080-0}
+    }
+
+- id: "dt-iba-2024"
+  title: "Invisible Backdoor Attack With Dynamic Triggers Against Person Re-Identification"
+  authors: "Wenli Sun, Xinyang Jiang, Shuguang Dou, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong Zhao"
+  year: 2024
+  venue: "TIFS"
+  venue_full: "IEEE Transactions on Information Forensics and Security, 19, pp. 307–319"
+  topics: ["trustworthy","vision"]
+  selected: false
+  image: "/images/pubpic/23_TIFS_backdoor.png"
+  summary: "Dynamic invisible triggers reveal backdoor vulnerabilities when person re-identification models encounter previously unseen identities."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TIFS.2023.3322659"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/23tifs_backdoor.pdf"
+    - label: "Code"
+      url: "https://github.com/Vill-Lab/2023-TIFS-DTIBA"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/backdoor"
+  bibtex: |-
+    @article{dtiba2024,
+      title = {{Invisible Backdoor Attack With Dynamic Triggers Against Person Re-Identification}},
+      author = {Wenli Sun and Xinyang Jiang and Shuguang Dou and Dongsheng Li and Duoqian Miao and Cheng Deng and Cairong Zhao},
+      journal = {IEEE Transactions on Information Forensics and Security},
+      year = {2024},
+      volume = {19},
+      pages = {307--319},
+      doi = {10.1109/TIFS.2023.3322659}
+    }
+
+- id: "ea-has-bench-2023"
+  title: "EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark"
+  authors: "Shuguang Dou, Xinyang Jiang, Cairong Zhao, Dongsheng Li"
+  year: 2023
+  venue: "ICLR"
+  venue_full: "International Conference on Learning Representations"
+  topics: ["efficient","vision"]
+  selected: false
+  image: "/images/pubpic/23_ICLR_BSC.png"
+  summary: "An energy-aware benchmark studies trade-offs between model quality and the cost of architecture and hyperparameter search."
+  links:
+    - label: "Paper"
+      url: "https://openreview.net/forum?id=n-bvaLSCC78"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/23iclr_ea_has_bench.pdf"
+    - label: "Code"
+      url: "https://github.com/microsoft/EA-HAS-Bench"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/eahasbench"
+  bibtex: |-
+    @inproceedings{eahasbench2023,
+      title = {{EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark}},
+      author = {Shuguang Dou and Xinyang Jiang and Cairong Zhao and Dongsheng Li},
+      booktitle = {International Conference on Learning Representations},
+      year = {2023},
+      url = {https://openreview.net/forum?id=n-bvaLSCC78}
+    }
+
+- id: "hcga-2023"
+  title: "Human Co-Parsing Guided Alignment for Occluded Person Re-Identification"
+  authors: "Shuguang Dou, Cairong Zhao, Xinyang Jiang, Shanshan Zhang, Wei-Shi Zheng, Wangmeng Zuo"
+  year: 2023
+  venue: "TIP"
+  venue_full: "IEEE Transactions on Image Processing, 32, pp. 458–470"
+  topics: ["trustworthy","vision"]
+  selected: false
+  image: "/images/pubpic/22_tip_hcga.png"
+  summary: "Weakly supervised human co-parsing aligns visible body regions to improve occluded person re-identification."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TIP.2022.3229639"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/22tip_hcga.pdf"
+    - label: "Code"
+      url: "https://github.com/Vill-Lab/2022-TIP-HCGA"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/hcga"
+  bibtex: |-
+    @article{hcga2023,
+      title = {{Human Co-Parsing Guided Alignment for Occluded Person Re-Identification}},
+      author = {Shuguang Dou and Cairong Zhao and Xinyang Jiang and Shanshan Zhang and Wei-Shi Zheng and Wangmeng Zuo},
+      journal = {IEEE Transactions on Image Processing},
+      year = {2023},
+      volume = {32},
+      pages = {458--470},
+      doi = {10.1109/TIP.2022.3229639}
+    }
+
+- id: "clcxray-2022"
+  title: "Detecting Overlapped Objects in X-Ray Security Imagery by a Label-Aware Mechanism"
+  authors: "Cairong Zhao, Liang Zhu, Shuguang Dou, Weihong Deng, Liang Wang"
+  year: 2022
+  venue: "TIFS"
+  venue_full: "IEEE Transactions on Information Forensics and Security, 17, pp. 998–1009"
+  topics: ["vision"]
+  selected: false
+  image: "/images/pubpic/22_tifs_clcxray.jpg"
+  summary: "A label-aware detector and the CLCXray dataset address overlapping objects in X-ray security imagery."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TIFS.2022.3154287"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/22tifs_clcxray.pdf"
+    - label: "Code"
+      url: "https://github.com/Vill-Lab/2022-TIFS-CLCXray"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/clcxray"
+  bibtex: |-
+    @article{clcxray2022,
+      title = {{Detecting Overlapped Objects in X-Ray Security Imagery by a Label-Aware Mechanism}},
+      author = {Cairong Zhao and Liang Zhu and Shuguang Dou and Weihong Deng and Liang Wang},
+      journal = {IEEE Transactions on Information Forensics and Security},
+      year = {2022},
+      volume = {17},
+      pages = {998--1009},
+      doi = {10.1109/TIFS.2022.3154287}
+    }
+
+- id: "igoas-2021"
+  title: "Incremental Generative Occlusion Adversarial Suppression Network for Person ReID"
+  authors: "Cairong Zhao, Xinbi Lv, Shuguang Dou, Shanshan Zhang, Jun Wu, Liang Wang"
+  year: 2021
+  venue: "TIP"
+  venue_full: "IEEE Transactions on Image Processing, 30, pp. 4212–4224"
+  topics: ["trustworthy","vision"]
+  selected: false
+  image: "/images/pubpic/21_tip_igoas.png"
+  summary: "Incrementally generated occlusions train person re-identification models to suppress occlusion-induced distractions."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1109/TIP.2021.3070182"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/21tip_igoas.pdf"
+    - label: "Code"
+      url: "https://github.com/Vill-Lab/2021-TIP-IGOAS"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/igoas"
+  bibtex: |-
+    @article{igoas2021,
+      title = {{Incremental Generative Occlusion Adversarial Suppression Network for Person ReID}},
+      author = {Cairong Zhao and Xinbi Lv and Shuguang Dou and Shanshan Zhang and Jun Wu and Liang Wang},
+      journal = {IEEE Transactions on Image Processing},
+      year = {2021},
+      volume = {30},
+      pages = {4212--4224},
+      doi = {10.1109/TIP.2021.3070182}
+    }
+
+- id: "aussc-2019"
+  title: "Alternately Updated Spectral-Spatial Convolution Network for the Classification of Hyperspectral Images"
+  authors: "Wenju Wang, Shuguang Dou, Sen Wang"
+  year: 2019
+  venue: "Remote Sensing"
+  venue_full: "Remote Sensing, 11(15), article 1794"
+  topics: ["vision"]
+  selected: false
+  image: "/images/pubpic/aussc_19_remote_sensing.png"
+  summary: "Recurrent feedback alternately updates spectral and spatial features for hyperspectral image classification."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.3390/rs11151794"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/19remotesensing_aussc.pdf"
+    - label: "Code"
+      url: "https://github.com/shuguang-52/2019-RemoteSens-AUSSC"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/aussc"
+  bibtex: |-
+    @article{aussc2019,
+      title = {{Alternately Updated Spectral-Spatial Convolution Network for the Classification of Hyperspectral Images}},
+      author = {Wenju Wang and Shuguang Dou and Sen Wang},
+      journal = {Remote Sensing},
+      year = {2019},
+      volume = {11},
+      number = {15},
+      doi = {10.3390/rs11151794},
+      pages = {1794}
+    }
+
+- id: "fdssc-2018"
+  title: "A Fast Dense Spectral-Spatial Convolution Network Framework for Hyperspectral Images Classification"
+  authors: "Wenju Wang, Shuguang Dou, Zhongmin Jiang, Liujie Sun"
+  year: 2018
+  venue: "Remote Sensing"
+  venue_full: "Remote Sensing, 10(7), article 1068"
+  topics: ["efficient","vision"]
+  selected: false
+  image: "/images/pubpic/fdssc_18_remote_sensing.png"
+  summary: "A densely connected spectral–spatial convolutional network improves training efficiency and hyperspectral classification accuracy."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.3390/rs10071068"
+    - label: "PDF"
+      url: "https://shuguang-52.github.io/papers/18remotesensing_fdssc.pdf"
+    - label: "Code"
+      url: "https://github.com/shuguang-52/2018-RemoteSens-FDSSC"
+    - label: "Project"
+      url: "https://shuguang-52.github.io/fdssc"
+  bibtex: |-
+    @article{fdssc2018,
+      title = {{A Fast Dense Spectral-Spatial Convolution Network Framework for Hyperspectral Images Classification}},
+      author = {Wenju Wang and Shuguang Dou and Zhongmin Jiang and Liujie Sun},
+      journal = {Remote Sensing},
+      year = {2018},
+      volume = {10},
+      number = {7},
+      doi = {10.3390/rs10071068},
+      pages = {1068}
+    }

@@ -6,11 +6,9 @@ sitemap: false
 permalink: /backdoor/
 ---
 
-[comment]: Title
-<h2 align="center"> Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification </h2>
+<h1 align="center"> Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification </h1>
 <p>&nbsp;</p>
 
-[comment]: Authors
 <p style="text-align: center;">
 <a style="color: #CC0000"> Wenli Sun*</a>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,7 +28,6 @@ permalink: /backdoor/
 </p>
 <p>&nbsp;</p>
 
-[comment]: Abstract
 <h3> Abstract </h3>
 <p style="text-align:justify; text-justify:inter-ideograph;">—In recent years, person Re-IDentification (ReID) has rapidly progressed with wide real-world applications but is also susceptible to various forms of attack, including proven vulnerability to adversarial attacks. In this paper, we focus on
 the backdoor attack on deep ReID models. Existing backdoor attack methods follow an all-to-one or all-to-all attack scenario,
@@ -44,8 +41,8 @@ We raise a new and rarely studied backdoor attack risk on the ReID task, which i
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/23_ICLR_BSC.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/23_ICLR_BSC.png" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -59,8 +56,8 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Differences.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Differences.png" width="600px" />
 		</div>
 </figure>
 </center>
@@ -72,8 +69,8 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/search_space.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/search_space.png" width="600px" />
 		</div>
 </figure>
 </center>
@@ -91,8 +88,8 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Box_plot.jpg" height="300px"/><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_as_color.jpg" height="300px"/>
+		<div class="project-figure">
+    <img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Box_plot.jpg" height="300px"/><img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_as_color.jpg" height="300px"/>
 		</div>
 </figure>
 </center>
@@ -101,13 +98,12 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Cost.jpg" height="300px"/><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Time.jpg" height="300px"/>
+		<div class="project-figure">
+    <img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Cost.jpg" height="300px"/><img alt="Research figure for Invisible Backdoor Attack with Dynamic Triggers against Person Re-IDentification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Time.jpg" height="300px"/>
 		</div>
 </figure>
 </center>
 
-[comment]: Paper
 <h3> Paper </h3>
 
 - Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/23iclr_ea_has_bench.pdf" style="color: #CC0000"> PDF </a>
@@ -125,7 +121,6 @@ note={ICLR 2023 notable top 25%}
 }
 ```
 
-[comment]: Code and Dataset
 <h3> Code </h3>
 Code is available online in ths github repository:
 <a href="https://github.com/microsoft/EA-HAS-Bench" style="color: #CC0000">https://github.com/microsoft/EA-HAS-Bench</a>.

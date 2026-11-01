@@ -3,9 +3,18 @@ theme: jekyll-theme-architect
 # Site settings
 title: Shuguang Dou
 email: doushuguang52@163.com
-description: Home Page of Shuguang Dou
+description: Shuguang Dou — Multimodal Lead at Huawei's Intelligent Healthcare Lab. Research in multimodal intelligence, efficient learning, and trustworthy visual understanding.
 baseurl: ""
-url: ""
+url: "https://shuguang-52.github.io"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docs
+  - vendor
+  - node_modules
+  - .bundle
 
 include:
   - .htaccess

@@ -6,11 +6,9 @@ sitemap: false
 permalink: /igoas/
 ---
 
-[comment]: Title
-<h2 align="center"> Incremental Generative Occlusion Adversarial Suppression Network for Person ReID </h2>
+<h1 align="center"> Incremental Generative Occlusion Adversarial Suppression Network for Person ReID </h1>
 <p>&nbsp;</p>
 
-[comment]: Authors
 <p style="text-align: center;">
 <a style="color: #CC0000">Cairong Zhao* </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -29,14 +27,13 @@ permalink: /igoas/
 </p>
 <p>&nbsp;</p>
 
-[comment]: Abstract
 <h3> Abstract </h3>
 <p style="text-align:justify; text-justify:inter-ideograph;">Person re-identification (re-id) suffers from the significant challenge of occlusion, where an image contains occlusions and less discriminative pedestrian information. However, certain work consistently attempts to design complex modules to capture implicit information (including human pose landmarks, mask maps, and spatial information). The network, consequently, focuses on discriminative features learning on human nonoccluded body regions and realizes effective matching under spatial misalignment. Few studies have focused on data augmentation, given that existing single-based data augmentation methods bring limited performance improvement. To address the occlusion problem, we propose a novel Incremental Generative Occlusion Adversarial Suppression (IGOAS) network. It consists of 1) an incremental generative occlusion block, generating easy-to-hard occlusion data, that makes the network more robust to occlusion by gradually learning harder occlusion instead of hardest occlusion directly. And 2) a global-adversarial suppression (G&A) framework with a global branch and an adversarial suppression branch. The global branch extracts steady global features of the images. The adversarial suppression branch, embedded with two occlusion suppression module, minimizes the generated occlusion’s response and strengthens attentive feature representation on human non-occluded body regions. Finally, we get a more discriminative pedestrian feature descriptor by concatenating two branches’ features, which is robust to the occlusion problem. The experiments on the occluded dataset show the competitive performance of IGOAS. On Occluded-DukeMTMC, it achieves 60.1% Rank-1 accuracy and 49.4% mAP.</p>
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/21_tip_igoas.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for Incremental Generative Occlusion Adversarial Suppression Network for Person ReID" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/21_tip_igoas.png" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -50,8 +47,8 @@ Specifically, in the training phase, the IGO block converts the raw input into o
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_osm.png" width="300px" />
+		<div class="project-figure">
+    <img alt="Research figure for Incremental Generative Occlusion Adversarial Suppression Network for Person ReID" src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_osm.png" width="300px" />
 		</div>
 
 <figcaption>
@@ -65,8 +62,8 @@ Figure 2.Structure of OSM
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_igo.png" width="400px" />
+		<div class="project-figure">
+    <img alt="Research figure for Incremental Generative Occlusion Adversarial Suppression Network for Person ReID" src="{{ site.url }}{{ site.baseurl }}/images/projectpic/21_igoas_igo.png" width="400px" />
 		</div>
 <figcaption>
 <br>
@@ -77,7 +74,6 @@ Figure 3.Batch-Based Incremental Generative Occlusion Block.
 </center>
 
 
-[comment]: Paper
 <h3> Paper </h3>
 
 - Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/21tip_igoas.pdf" style="color: #CC0000"> PDF </a>
@@ -98,7 +94,6 @@ Please consider citing if this work and/or the corresponding code are useful for
 }
 ```
 
-[comment]: Code
 <h3> Code </h3>
 We use pytorch to implement igoas framework. Code is available online in ths github repository:
 <a href="https://github.com/Vill-Lab/IGOAS" style="color: #CC0000">https://github.com/Vill-Lab/IGOAS</a>.

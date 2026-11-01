@@ -6,11 +6,9 @@ sitemap: false
 permalink: /eahasbench/
 ---
 
-[comment]: Title
-<h2 align="center"> EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark </h2>
+<h1 align="center"> EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark </h1>
 <p>&nbsp;</p>
 
-[comment]: Authors
 <p style="text-align: center;">
 <a href="https://shuguang-52.github.io/" style="color: #CC0000"> Shuguang Dou </a>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,7 +21,6 @@ permalink: /eahasbench/
 </p>
 <p>&nbsp;</p>
 
-[comment]: Abstract
 <h3> Abstract </h3>
 <p style="text-align:justify; text-justify:inter-ideograph;">The energy consumption for training deep learning models is increasing at an alarming rate due to the growth of training data and model scale, resulting in a negative impact on carbon neutrality. Energy consumption is an especially pressing issue for AutoML algorithms because it usually requires repeatedly training large numbers of computationally intensive deep models to search for optimal configurations. This paper takes one of the most essential steps in developing energy-aware (EA) NAS methods, by providing a benchmark that makes EANAS research more reproducible and accessible. Specifically, we present the first large-scale energy-aware benchmark that allows studying AutoML methods to achieve better trade-offs between performance and search energy consumption, named EA-HAS-Bench. EA-HAS-Bench provides a large-scale architecture/hyperparameter joint search space, covering diversified configurations related to energy consumption. Furthermore, we propose a novel surrogate model specially designed for large joint search space, which proposes a Bezier curve-based model to predict learning curves with unlimited shape and length. Based on the proposed dataset, we modify existing AutoML algorithms to consider the search energy consumption, and our experiments show that the modified energy-aware AutoML methods achieve a better trade-off between energy consumption and model performance.</p>
 
@@ -32,8 +29,8 @@ We present the first large-scale energy-aware benchmark that allows studying Aut
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/23_ICLR_BSC.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/23_ICLR_BSC.png" width="600px" />
 		</div>
 <figcaption>
 <br>
@@ -47,8 +44,8 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Differences.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Differences.png" width="600px" />
 		</div>
 </figure>
 </center>
@@ -60,8 +57,8 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/search_space.png" width="600px" />
+		<div class="project-figure">
+    <img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/search_space.png" width="600px" />
 		</div>
 </figure>
 </center>
@@ -79,8 +76,8 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Box_plot.jpg" height="300px"/><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_as_color.jpg" height="300px"/>
+		<div class="project-figure">
+    <img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Box_plot.jpg" height="300px"/><img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_as_color.jpg" height="300px"/>
 		</div>
 </figure>
 </center>
@@ -89,13 +86,12 @@ Most of the existing conventional benchmarks like `NAS-Bench-101` do not directl
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Cost.jpg" height="300px"/><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Time.jpg" height="300px"/>
+		<div class="project-figure">
+    <img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Cost.jpg" height="300px"/><img alt="Research figure for EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/iclr23/Tiny_Acc_Time.jpg" height="300px"/>
 		</div>
 </figure>
 </center>
 
-[comment]: Paper
 <h3> Paper </h3>
 
 - Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/23iclr_ea_has_bench.pdf" style="color: #CC0000"> PDF </a>
@@ -113,7 +109,6 @@ note={ICLR 2023 notable top 25%}
 }
 ```
 
-[comment]: Code and Dataset
 <h3> Code </h3>
 Code is available online in ths github repository:
 <a href="https://github.com/microsoft/EA-HAS-Bench" style="color: #CC0000">https://github.com/microsoft/EA-HAS-Bench</a>.

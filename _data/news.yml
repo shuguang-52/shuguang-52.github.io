@@ -1,8 +1,11 @@
+- date: Nov 1, 2026
+  headline: Code for PIS (SCIS 2026) and DROP (TBIOM 2026) is now available. See the Code page for the curated implementations.
+
 - date: May 1, 2026
   headline: A paper on 'Distilling and Scaling Hierarchical Vision Transformer to 30B Parameters' is accepted by IJCAI 2026.
-  
+
 - date: Mar 23, 2026
-  headline: A paper on 'Decouple Re-identification and Human Parsing for Occluded Person Re-Identification' is accepted by IEEE TBOIM in 2026.
+  headline: A paper on 'Decouple Re-identification and Human Parsing for Occluded Person Re-Identification' is accepted by IEEE TBIOM in 2026.
 
 - date: Feb 21, 2026
   headline: A paper on 'Agentic Video Summarization via Self-Reflecting Multimodal Understanding' is accepted by CVPR 2026. Congratulations to my intern Miaotian Guo!
@@ -17,19 +20,19 @@
   headline: I have been invited to be a Reviewer for the ECCV 2026 Conference.
 
 - date: Jan 12, 2026
-  headline: I have been invited to be a Reviewer for the ICML 2026 Conference. 
+  headline: I have been invited to be a Reviewer for the ICML 2026 Conference.
 
 - date: Nov 23, 2025
-  headline: I have been invited to be a Reviewer for the CVPR 2026 Conference. 
+  headline: I have been invited to be a Reviewer for the CVPR 2026 Conference.
 
 - date: Nov 08, 2025
   headline: A paper on 'Visual Bridge:Universal Visual Perception Representations Generating' is accepted by AAAI 2026. Congratulations to my intern Yilin Gao!
 
 - date: Sep 22, 2025
-  headline: I have been invited to be a Reviewer for the ICLR 2026 Conference. 
-  
+  headline: I have been invited to be a Reviewer for the ICLR 2026 Conference.
+
 - date: Sep 09, 2025
-  headline: A paper on 'Person Identify Shift for Privacy-Preserving Person Re-identification' is accepted by SCIS in 2025 (CCF A).
+  headline: A paper on 'Person Identity Shift for Privacy-Preserving Person Re-identification' is accepted by SCIS in 2025 (CCF A).
 
 - date: Aug 07, 2025
   headline: A paper on 'EA-HAS-Bench and Language-Enhanced Shrinkage Search for Energy-aware NAS' is accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence in 2025.
@@ -41,7 +44,7 @@
   headline: I have been invited to be a Program Committee for AAAI 2026.
 
 - date: Jun 25, 2025
-  headline: I have been invited to be a Reviewer for the WACV 2026 Conference. 
+  headline: I have been invited to be a Reviewer for the WACV 2026 Conference.
 
 - date: April 05, 2025
   headline: A paper on 'Towards Universal Dataset Distillation via Task-Driven Diffusion' to be presented as an CVPR oral presentation (Top 3.3%).
@@ -53,16 +56,16 @@
   headline: A paper on 'Towards Universal Dataset Distillation via Task-Driven Diffusion' is accepted by the CVPR 2025.
 
 - date: Feb 26, 2025
-  headline: I have been invited to be a Reviewer for the ACM MM 2025 Conference. 
+  headline: I have been invited to be a Reviewer for the ACM MM 2025 Conference.
 
 - date: Feb 17, 2025
-  headline: I have been invited to be a Reviewer for the NeurIPS 2025 Conference. 
-  
+  headline: I have been invited to be a Reviewer for the NeurIPS 2025 Conference.
+
 - date: Feb 14, 2025
-  headline: I have been invited to be a Reviewer for the IEEE International Conference on Computer Vision (ICCV) 2025 Conference. 
-  
+  headline: I have been invited to be a Reviewer for the IEEE International Conference on Computer Vision (ICCV) 2025 Conference.
+
 - date: Jan 21, 2025
-  headline: A paper on 'One for All:A Review of Large Pre-training Models for Re-Identification' is accepted by The Web Conference Workshop on Multimedia Object Re-ID:Advancements, Challenges, and Opportunities (MORE 2025) and a more complete version will be submitted to the journal. 
+  headline: A paper on 'One for All:A Review of Large Pre-training Models for Re-Identification' is accepted by The Web Conference Workshop on Multimedia Object Re-ID:Advancements, Challenges, and Opportunities (MORE 2025) and a more complete version will be submitted to the journal.
 
 - date: Jan 20, 2025
   headline: I joined EI Algorithm Novelty Lab of Huawei Cloud.
@@ -71,22 +74,22 @@
   headline: I obtained my Ph.D. degree from the School of Computer Science and Technology, Tongji University.
 
 - date: Dec 13, 2024
-  headline: I have been invited to be a Reviewer for the 42st International Conference on Machine Learning (ICML 2025). 
-  
+  headline: I have been invited to be a Reviewer for the 42st International Conference on Machine Learning (ICML 2025).
+
 - date: Nov 04, 2024
-  headline: I have been invited to be a Reviewer for the CVPR 2025 Conference. 
+  headline: I have been invited to be a Reviewer for the CVPR 2025 Conference.
 
 - date: Sep 26, 2024
   headline: A paper on 'Fetch and Forge:Efficient Dataset Condensation for Object Detection' is accepted by the NeurIPS 2024 (CCF A).
 
 - date: Aug 13, 2024
-  headline: I have been invited to be a Reviewer for the International Conference on Learning Representations (ICLR) 2025 Conference. 
+  headline: I have been invited to be a Reviewer for the International Conference on Learning Representations (ICLR) 2025 Conference.
 
 - date: July 19, 2024
   headline: I have been invited to be a Program Committee for AAAI 2025.
-  
+
 - date: May 08, 2024
-  headline: I have been invited to be a Reviewer for the NeurIPS 2024 Conference. 
+  headline: I have been invited to be a Reviewer for the NeurIPS 2024 Conference.
 
 - date: May 04, 2024
   headline: A paper on 'ReID-Leak:Membership Inference Attacks Against Person Re-identification' is accepted by the International Journal of Computer Vision in 2024 (CCF A).
@@ -101,8 +104,8 @@
   headline: A paper on 'Adaptive Discriminative Regularization for Visual Classification' is accepted by the International Journal of Computer Vision in 2024 (CCF A).
 
 - date: Feb 14, 2024
-  headline: I have been invited to be a Reviewer for the ECCV 2024 Conference (European Conference on Computer Vision 2024). 
-  
+  headline: I have been invited to be a Reviewer for the ECCV 2024 Conference (European Conference on Computer Vision 2024).
+
 - date: Jan 26, 2024
   headline: I arrived in Detroit and started an exciting short-term visiting scholar program.
 
@@ -110,11 +113,11 @@
   headline: I received the Tongji Excellent Doctoral Scholarship (2023).
 
 - date: Dec 06, 2023
-  headline: I have been invited to be a Reviewer for the 41st International Conference on Machine Learning (ICML 2024). 
+  headline: I have been invited to be a Reviewer for the 41st International Conference on Machine Learning (ICML 2024).
 
 - date: Nov 19, 2023
-  headline: I have been invited to be a Reviewer for the CVPR 2024 Conference (Conference on Computer Vision and Pattern Recognition 2024). 
-  
+  headline: I have been invited to be a Reviewer for the CVPR 2024 Conference (Conference on Computer Vision and Pattern Recognition 2024).
+
 - date: Oct 21, 2023
   headline: I received an offer letter from <a href="http://www.cse.msu.edu/~liuxm/index2.html">Prof. Liu Xiaoming</a> of MSU to start a six-month visiting trip as a visiting student.
 
@@ -122,17 +125,17 @@
   headline: A paper on 'Invisible Backdoor Attack with Dynamic Triggers against Person Re-identification' is accepted by IEEE T-IFS in 2023 (CCF A).
 
 - date: Aug 27, 2023
-  headline: I have been invited to be a Reviewer for the ICLR 2024 Conference (Twelfth International Conference on Learning Representations). 
+  headline: I have been invited to be a Reviewer for the ICLR 2024 Conference (Twelfth International Conference on Learning Representations).
 
 - date: July 7, 2023
-  headline: I have been invited to be a Reviewer for the NeurIPS 2023 Conference. 
+  headline: I have been invited to be a Reviewer for the NeurIPS 2023 Conference.
 
 - date: Mar 15, 2023
   headline: <a href="https://github.com/microsoft/EA-HAS-Bench">Code and Dataset</a> for 'EA-HAS-Bench:Energy-aware Hyperparameter and Architecture Search Benchmark' is released.
 
 - date: Feb 17, 2023
-  headline: I have been invited to be a Reviewer for the 40th International Conference on Machine Learning (ICML 2023). 
-  
+  headline: I have been invited to be a Reviewer for the 40th International Conference on Machine Learning (ICML 2023).
+
 - date: Jan 21, 2023
   headline: A paper on 'EA-HAS-Bench:Energy-aware Hyperparameter and Architecture Search Benchmark' is accepted by ICLR 2023 Spotlight Oral.
 
@@ -146,13 +149,13 @@
   headline: A paper on 'Similarity Distribution based Membership Inference Attack on Person Re-identification' is accepted by AAAI 2023 Oral (CCF A).
 
 - date: June 7, 2022
-  headline: I have been invited to be a Reviewer for the NeurIPS 2022 Conference. 
+  headline: I have been invited to be a Reviewer for the NeurIPS 2022 Conference.
 
 - date: May 28, 2022
   headline:  A paper on 'Context-Aware Feature Learning for Noise Robust Person Search' is accepted by IEEE TCSVT in 2022 (CCF B).
 
 - date: May 15, 2022
-  headline: I have been invited to be a Reviewer for the 39th International Conference on Machine Learning (ICML 2022). 
+  headline: I have been invited to be a Reviewer for the 39th International Conference on Machine Learning (ICML 2022).
 
 - date: Mar 16, 2022
   headline: Congratulations! My publication 'A fast dense spectral-spatial convolutional network for hyperspectral image classification' was selected as an <font color="#FF0000">ESI (Essential Science Indicators) Highly Cited Paper</font>（Top 1% of cited papers in the world in the last 10 years).
@@ -165,7 +168,7 @@
 
 - date: April 14, 2021
   headline: A paper on 'Incremental Generative Occlusion Adversarial Suppression Network for Person ReID' is accepted by IEEE T-IP in 2021 (CCF A).
-  
+
 - date: July 31, 2019
   headline: <a href="https://github.com/shuguang-52/AUSSC">Code</a> for 'Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images' is released.
 

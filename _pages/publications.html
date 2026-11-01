@@ -1,0 +1,42 @@
+---
+title: "Publications — Shuguang Dou"
+layout: profile
+description: "Research publications by Shuguang Dou in multimodal learning, dataset distillation, efficient models, and trustworthy computer vision."
+permalink: /publications/
+---
+
+<div class="page-intro">
+  <p class="eyebrow">Research archive</p>
+  <h1>Publications</h1>
+  <p class="page-description">Work in multimodal learning, model and data efficiency, and trustworthy vision.</p>
+  <p class="quiet-text">For citation metrics and other versions, visit <a href="https://scholar.google.com/citations?user=n2YT06EAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>.</p>
+</div>
+
+<div class="publication-archive" data-publications>
+  <form class="publication-filters" data-publication-filters hidden aria-label="Filter publications">
+    <div class="filter-search"><label for="publication-search">Search publications</label><input id="publication-search" type="search" name="q" placeholder="Title, author, venue, or keyword" autocomplete="off"></div>
+    <div class="filter-select"><label for="publication-topic">Research area</label><select id="publication-topic" name="topic"><option value="">All areas</option><option value="multimodal">Multimodal learning</option><option value="efficient">Model &amp; data efficiency</option><option value="trustworthy">Trustworthy vision</option><option value="vision">Computer vision</option></select></div>
+    <div class="filter-select filter-year"><label for="publication-year">Year</label><select id="publication-year" name="year"><option value="">All years</option>{% assign publication_years = site.data.publications | map: 'year' | uniq %}{% for year in publication_years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}</select></div>
+    <button type="reset" class="filter-reset">Reset</button>
+  </form>
+  <p class="publication-count" data-publication-results role="status" aria-live="polite" aria-atomic="true">{{ site.data.publications | size }} publications</p>
+  <div class="publication-empty" data-publication-empty hidden><h2>No publications found</h2><p>Try another search term or reset the filters to browse all work.</p><button type="button" data-reset-publications>Reset filters</button></div>
+  {% assign publication_groups = site.data.publications | group_by: 'year' %}
+  {% for group in publication_groups %}
+  <section class="publication-year-group" data-publication-year-group aria-labelledby="year-{{ group.name }}">
+    <h2 class="year-heading" id="year-{{ group.name }}">{{ group.name }}</h2>
+    {% for publication in group.items %}
+    {% include publication.html publication=publication %}
+    {% endfor %}
+  </section>
+  {% endfor %}
+</div>
+
+{% if site.data.theseslist.size > 0 %}
+<section class="content-section thesis-section" aria-labelledby="theses-heading">
+  <div class="section-heading"><h2 id="theses-heading">Thesis</h2></div>
+  {% for thesis in site.data.theseslist %}
+  <div class="thesis-entry"><h3>{{ thesis.title | escape }}</h3><p class="quiet-text">{{ thesis.venue | escape }}</p></div>
+  {% endfor %}
+</section>
+{% endif %}

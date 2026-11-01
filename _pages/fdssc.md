@@ -6,11 +6,9 @@ sitemap: false
 permalink: /fdssc/
 ---
 
-[comment]: Title
-<h2 align="center"> A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification </h2>
+<h1 align="center"> A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification </h1>
 <p>&nbsp;</p>
 
-[comment]: Authors
 <p style="text-align: center;">
 <a style="color: #CC0000">Wenju Wang </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,14 +20,13 @@ permalink: /fdssc/
 </p>
 <p>&nbsp;</p>
 
-[comment]: Abstract
 <h3> Abstract </h3>
 <p style="text-align:justify; text-justify:inter-ideograph;">Recent research shows that deep-learning-derived methods based on a deep convolutional neural network have high accuracy when applied to hyperspectral image (HSI) classification, but long training times. To reduce the training time and improve accuracy, in this paper we propose an end-to-end fast dense spectral–spatial convolution (FDSSC) framework for HSI classification. The FDSSC framework uses different convolutional kernel sizes to extract spectral and spatial features separately, and the “valid” convolution method to reduce the high dimensions. Densely-connected structures—the input of each convolution consisting of the output of all previous convolution layers—was used for deep learning of features, leading to extremely accurate classification. To increase speed and prevent overfitting, the FDSSC framework uses a dynamic learning rate, parametric rectified linear units, batch normalization, and dropout layers. These attributes enable the FDSSC framework to achieve accuracy within as few as 80 epochs. The experimental results show that with the Indian Pines, Kennedy Space Center, and University of Pavia datasets, the proposed FDSSC framework achieved state-of-the-art performance compared with existing deep-learning-based methods while significantly reducing the training time.</p>
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_18_remote_sensing.png" width="700px" />
+		<div class="project-figure">
+    <img alt="Research figure for A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_18_remote_sensing.png" width="700px" />
 		</div>
 
 <figcaption>
@@ -41,8 +38,8 @@ Figure 1.The fast dense spectral–spatial convolution (FDSSC) network for hyper
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/18_fdssc_framework.png" width="900px" />
+		<div class="project-figure">
+    <img alt="Research figure for A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification" src="{{ site.url }}{{ site.baseurl }}/images/projectpic/18_fdssc_framework.png" width="900px" />
 		</div>
 
 <figcaption>
@@ -56,8 +53,8 @@ Figure 2.FDSSC Framework for HSI classification of labeled pixels.
 
 <center>
 <figure>
-		<div id="projectid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_result.png" width="900px" />
+		<div class="project-figure">
+    <img alt="Research figure for A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/fdssc_result.png" width="900px" />
 		</div>
 
 <figcaption>
@@ -68,7 +65,6 @@ Figure 3.Classification maps for IN, KSC, and UP dataset.
 </figure>
 </center>
 
-[comment]: Paper
 <h3> Paper </h3>
 
 - Paper: <a href="{{ site.url }}{{ site.baseurl }}/papers/18remotesensing_fdssc.pdf" style="color: #CC0000"> PDF </a>
@@ -87,7 +83,6 @@ Please consider citing if this work and/or the corresponding code are useful for
 }
 ```
 
-[comment]: Code
 <h3> Code </h3>
 We use keras to implement fast dense spectral-spatial network framework. Code is available online in ths github repository:
 <a href="https://github.com/shuguang-52/FDSSC" style="color: #CC0000">https://github.com/shuguang-52/FDSSC</a>.

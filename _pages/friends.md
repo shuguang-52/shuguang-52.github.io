@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Friends — Shuguang Dou"
 layout: gridlay
 excerpt: "Shuguang Dou"
 sitemap: false

@@ -1,0 +1,12 @@
+<header class="site-header" data-profile-header>
+  <div class="header-inner">
+    <a class="site-wordmark" href="{{ '/' | relative_url }}" aria-label="Shuguang Dou, home"><span class="site-monogram" aria-hidden="true">sd.</span><span>Shuguang Dou</span></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-controls="primary-navigation" aria-expanded="false" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="primary-navigation" class="primary-navigation" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/experience' | relative_url }}"{% if page.url contains '/experience' %} aria-current="page"{% endif %}>Experience</a>
+      <a href="{{ '/codes' | relative_url }}"{% if page.url contains '/codes' %} aria-current="page"{% endif %}>Code</a>
+    </nav>
+  </div>
+</header>
