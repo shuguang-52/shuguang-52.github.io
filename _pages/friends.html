@@ -1,0 +1,25 @@
+---
+title: "Friends — Shuguang Dou"
+layout: profile
+description: "Friends and colleagues from research and life."
+permalink: /friends.html
+---
+
+<div class="page-intro">
+  <p class="eyebrow">Beyond research</p>
+  <h1>Friends</h1>
+  <p class="page-description">People I have met along the way.</p>
+</div>
+
+<ul class="friends-list">
+  {% for friend in site.data.friends %}
+  {% if friend.name contains '---' %}
+  <li class="friend-divider" role="separator" aria-label="Friends and colleagues"></li>
+  {% else %}
+  <li class="friend-entry">
+    <h2>{% if friend.url %}<a href="{{ friend.url | escape }}">{{ friend.name | escape }} <span aria-hidden="true">↗</span></a>{% else %}{{ friend.name | escape }}{% endif %}</h2>
+    <p>{{ friend.headline | escape }}</p>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

@@ -1,69 +1,57 @@
-- name: Jiaqing Zhang (https://icey-zhang.github.io/)
+- name: Jiaqing Zhang
   headline: My girlfriend!
-
-- name: ------------------------------------------------------------------------------------------
+  url: https://icey-zhang.github.io/
+- name: '------------------------------------------------------------------------------------------'
   headline: This is a dividing line.
-
-- name: YuanPeng Tu (https://yuanpengtu.github.io/)
+- name: YuanPeng Tu
   headline: The most abstract man in ViLL Lab.
-
-- name: Zifan Song (https://matcaviar.github.io/)
+  url: https://yuanpengtu.github.io/
+- name: Zifan Song
   headline: The boy at Vill Lab gets a ten out of ten.
-
+  url: https://matcaviar.github.io/
 - name: Shuyang Feng
   headline: The most thoughtful man in ViLL Lab.
-
-- name: Junyao Gao (https://jeoyal.github.io/home/)
+- name: Junyao Gao
   headline: A sincere person in Vill Lab.
-
-- name: Yubin Wang (https://thomaswangy.github.io/)
+  url: https://jeoyal.github.io/home/
+- name: Yubin Wang
   headline: The most trustworthy person in Vill lab.
-
+  url: https://thomaswangy.github.io/
 - name: Wenli Sun
   headline: My makeup artist in Vill lab.
-
 - name: Yan Li
   headline: Colleague in the MSRA and MSRA first Winners and Hard Worker.
-
 - name: Wei Wang
   headline: Colleague in the MSRA and MSRA first Simple Man.
-
 - name: Wenxuan Liu
   headline: My CP in MSRA.
-
-- name: Jiaqi Gao 
+- name: Jiaqi Gao
   headline: A colleague in the MSRA and a sincere person.
-
-- name: Xinnan Dai (https://ddigimon.github.io/)
-  headline: A colleague in the MSRA and an interesting person.  
-
+- name: Xinnan Dai
+  headline: A colleague in the MSRA and an interesting person.
+  url: https://ddigimon.github.io/
 - name: Wenwen Xia
-  headline: A colleague in the MSRA has a good girlfriend.  
-
+  headline: A colleague in the MSRA has a good girlfriend.
 - name: Guanghao Yin
   headline: A colleague in the MSRA and a chatty person.
-
 - name: Bei Ouyang
   headline: A colleague in the MSRA who has a life of ups and downs.
-
-- name: Yuchang Sun (https://hiyuchang.github.io/)
+- name: Yuchang Sun
   headline: My ticket snatcher.
-  
-- name: Yanna Lin（https://yannahhh.github.io/）
-  headline: Thank her for accomplishing two things I wanted to do. 
-
-- name: Xiangyue Liu（https://xiangyueliu.github.io/）
-  headline: My modeling and music video heroine. 
-
-- name: Rui Shu 
+  url: https://hiyuchang.github.io/
+- name: Yanna Lin
+  headline: Thank her for accomplishing two things I wanted to do.
+  url: https://yannahhh.github.io/
+- name: Xiangyue Liu
+  headline: My modeling and music video heroine.
+  url: https://xiangyueliu.github.io/
+- name: Rui Shu
   headline: Chatting with me on TikTok every day for over 450 days.
-
-- name: Zefan Qu 
-  headline: A North man. (https://quzefan.github.io/)
-  
-- name: Shaowei Hou 
+- name: Zefan Qu
+  headline: A North man.
+  url: https://quzefan.github.io/
+- name: Shaowei Hou
   headline: A gentle person
-
-- name: Qingsong Zhao (https://zqsiat.github.io/)
+- name: Qingsong Zhao
   headline: A stubborn person who knows his path.
-
+  url: https://zqsiat.github.io/

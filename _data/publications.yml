@@ -3,6 +3,55 @@
 # Additional year checks: https://dblp.org/rec/journals/tip/DouZJZZZ23 (HCGA)
 # and https://dblp.org/rec/journals/tip/ZhaoLDZWW21 (IGOAS).
 
+- id: hierarchical-vit-30b-2026
+  title: Distilling and Scaling Hierarchical Vision Transformer to 30B Parameters
+  authors: Shuguang Dou, Dongqi Li, Hao Jiang, Dongsheng Jiang
+  year: 2026
+  venue: IJCAI
+  venue_full: International Joint Conference on Artificial Intelligence (IJCAI), 2026
+  topics:
+  - efficient
+  - vision
+  selected: true
+  summary: Studies distillation and scaling of hierarchical vision transformers to 30 billion parameters.
+  links:
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=n2YT06EAAAAJ&citation_for_view=n2YT06EAAAAJ:HDshCWvjkbEC
+  bibtex: |-
+    @inproceedings{dou2026hierarchical30b,
+      title = {Distilling and Scaling Hierarchical Vision Transformer to 30B Parameters},
+      author = {Dou, Shuguang and Li, Dongqi and Jiang, Hao and Jiang, Dongsheng},
+      booktitle = {International Joint Conference on Artificial Intelligence},
+      year = {2026},
+      url = {https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=n2YT06EAAAAJ&citation_for_view=n2YT06EAAAAJ:HDshCWvjkbEC}
+    }
+
+- id: m2ot-2026
+  title: 'M²oT: Agglomerative Vision Foundation Models via Sparse Mixture-of-Experts'
+  authors: Dongqi Li, Shuguang Dou, Manqi Zhao, Jinlong Sun, Yin Li, Yuzhong Sun, Dongsheng Jiang
+  year: 2026
+  venue: Preprint
+  venue_full: Preprint, 2026
+  topics:
+  - efficient
+  - vision
+  selected: false
+  summary: Uses sparse mixture-of-experts and a teacher-aware distillation loss to preserve complementary capabilities from
+    multiple vision foundation models.
+  links:
+  - label: PDF
+    url: https://openreview.net/pdf?id=XRYg71V7QQ
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=n2YT06EAAAAJ&citation_for_view=n2YT06EAAAAJ:IWHjjKOFINEC
+  bibtex: |-
+    @misc{li2026m2ot,
+      title = {{M}$^{2}$oT: Agglomerative Vision Foundation Models via Sparse Mixture-of-Experts},
+      author = {Li, Dongqi and Dou, Shuguang and Zhao, Manqi and Sun, Jinlong and Li, Yin and Sun, Yuzhong and Jiang, Dongsheng},
+      year = {2026},
+      note = {Preprint},
+      url = {https://openreview.net/pdf?id=XRYg71V7QQ}
+    }
+
 - id: "agenticvs-2026"
   title: "Agentic Video Summarization via Self-Reflecting Multimodal Understanding"
   authors: "Miaotian Guo, Shuguang Dou, Yin Li, Aidong Men, Dongsheng Jiang"
@@ -159,6 +208,7 @@
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(12), pp. 11596–11613"
   topics: ["efficient","vision"]
   selected: false
+  image: "/images/pubpic/2025-tpami-less.jpg"
   summary: "Language-guided search and an energy-aware benchmark support more efficient neural architecture and hyperparameter optimization."
   links:
     - label: "Paper"
@@ -183,6 +233,7 @@
   venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(11), pp. 10262–10279"
   topics: ["efficient","vision"]
   selected: false
+  image: "/images/pubpic/2025-tpami-dpl-plus-plus.png"
   summary: "Jointly optimizing image and label perturbations improves model generalization with fewer perturbation-learning iterations."
   links:
     - label: "Paper"
@@ -230,7 +281,7 @@
   venue: "CVPR"
   venue_full: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10557–10566"
   topics: ["efficient","vision"]
-  selected: true
+  selected: false
   image: "/images/pubpic/2025-cvpr-unidd.png"
   summary: "Task-driven diffusion distills synthetic datasets for image classification, object detection, and segmentation."
   links:
@@ -294,6 +345,32 @@
       number = {8},
       pages = {4314--4328},
       doi = {10.1109/TVCG.2024.3397004}
+    }
+
+- id: mulch-pollution-2024
+  title: Machine learning-assisted assessment of key meteorological and crop factors affecting historical mulch pollution
+    in China
+  authors: Zheng Chen, Shuguang Dou, Cairong Zhao, Liwen Xiao, Zhibo Lu, Yuping Qiu
+  year: 2024
+  venue: JHM
+  venue_full: Journal of Hazardous Materials 465:133281 (2024)
+  topics:
+  - applied
+  selected: false
+  summary: Uses elastic net and random forest models to identify meteorological and crop factors associated with mulch-derived
+    microplastics and phthalate pollution.
+  links:
+  - label: Paper
+    url: https://doi.org/10.1016/j.jhazmat.2023.133281
+  bibtex: |-
+    @article{chen2024mulch,
+      title = {Machine learning-assisted assessment of key meteorological and crop factors affecting historical mulch pollution in China},
+      author = {Chen, Zheng and Dou, Shuguang and Zhao, Cairong and Xiao, Liwen and Lu, Zhibo and Qiu, Yuping},
+      journal = {Journal of Hazardous Materials},
+      volume = {465},
+      pages = {133281},
+      year = {2024},
+      doi = {10.1016/j.jhazmat.2023.133281}
     }
 
 - id: "fetch-and-forge-2024"
@@ -430,6 +507,36 @@
       doi = {10.1109/TIFS.2023.3322659}
     }
 
+- id: similarity-mi-2023
+  title: Similarity Distribution Based Membership Inference Attack on Person Re-identification
+  authors: Junyao Gao, Xinyang Jiang, Huishuai Zhang, Yifan Yang, Shuguang Dou, Dongsheng Li, Duoqian Miao, Cheng Deng, Cairong
+    Zhao
+  year: 2023
+  venue: AAAI
+  venue_full: Proceedings of the AAAI Conference on Artificial Intelligence 37(12):14820–14828 (2023)
+  topics:
+  - trustworthy
+  - vision
+  selected: false
+  summary: Measures privacy leakage in person re-identification through membership inference using inter-sample similarity
+    distributions and learned anchor selection.
+  links:
+  - label: Paper
+    url: https://doi.org/10.1609/aaai.v37i12.26731
+  - label: PDF
+    url: https://ojs.aaai.org/index.php/AAAI/article/download/26731/26503
+  bibtex: |-
+    @inproceedings{gao2023similarity,
+      title = {Similarity Distribution Based Membership Inference Attack on Person Re-identification},
+      author = {Gao, Junyao and Jiang, Xinyang and Zhang, Huishuai and Yang, Yifan and Dou, Shuguang and Li, Dongsheng and Miao, Duoqian and Deng, Cheng and Zhao, Cairong},
+      booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume = {37},
+      number = {12},
+      pages = {14820--14828},
+      year = {2023},
+      doi = {10.1609/aaai.v37i12.26731}
+    }
+
 - id: "ea-has-bench-2023"
   title: "EA-HAS-Bench: Energy-Aware Hyperparameter and Architecture Search Benchmark"
   authors: "Shuguang Dou, Xinyang Jiang, Cairong Zhao, Dongsheng Li"
@@ -488,6 +595,35 @@
       doi = {10.1109/TIP.2022.3229639}
     }
 
+- id: canr-2022
+  title: Context-Aware Feature Learning for Noise Robust Person Search
+  authors: Cairong Zhao, Zhicheng Chen, Shuguang Dou, Zefan Qu, Jiawei Yao, Jun Wu, Duoqian Miao
+  year: 2022
+  venue: TCSVT
+  venue_full: IEEE Transactions on Circuits and Systems for Video Technology 32(10):7047–7060 (2022)
+  topics:
+  - trustworthy
+  - vision
+  selected: false
+  summary: Combines context contrastive learning with label-noise discovery and suppression to improve person search under
+    occlusion, congestion, and annotation errors.
+  links:
+  - label: Paper
+    url: https://doi.org/10.1109/TCSVT.2022.3179441
+  - label: PDF
+    url: https://iip.tongji.edu.cn/pdf/2022TCSVT-zcr.pdf
+  bibtex: |-
+    @article{zhao2022context,
+      title = {Context-Aware Feature Learning for Noise Robust Person Search},
+      author = {Zhao, Cairong and Chen, Zhicheng and Dou, Shuguang and Qu, Zefan and Yao, Jiawei and Wu, Jun and Miao, Duoqian},
+      journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+      volume = {32},
+      number = {10},
+      pages = {7047--7060},
+      year = {2022},
+      doi = {10.1109/TCSVT.2022.3179441}
+    }
+
 - id: "clcxray-2022"
   title: "Detecting Overlapped Objects in X-Ray Security Imagery by a Label-Aware Mechanism"
   authors: "Cairong Zhao, Liang Zhu, Shuguang Dou, Weihong Deng, Liang Wang"
@@ -516,6 +652,35 @@
       volume = {17},
       pages = {998--1009},
       doi = {10.1109/TIFS.2022.3154287}
+    }
+
+- id: reid-survey-2021
+  title: 'Key technology for intelligent video surveillance: a review of person re-identification'
+  authors: Cairong Zhao, Ding Qi, Shuguang Dou, Yuanpeng Tu, Tianli Sun, Song Bai, Xinyang Jiang, Xiang Bai, Duoqian Miao
+  year: 2021
+  venue: SSI
+  venue_full: Scientia Sinica Informationis 51(12):1979–2015 (2021, in Chinese)
+  topics:
+  - vision
+  selected: false
+  summary: Reviews person re-identification methods, datasets, open-world challenges, and future directions across representation
+    learning, metric learning, and re-ranking.
+  links:
+  - label: Paper
+    url: https://doi.org/10.1360/SSI-2021-0211
+  - label: PDF
+    url: https://dds.sciengine.com/cfs/files/pdfs/view/1674-7267/5A5C6576299B461A92FC926E45966B87-mark.pdf
+  bibtex: |-
+    @article{zhao2021reidsurvey,
+      title = {Key technology for intelligent video surveillance: a review of person re-identification},
+      author = {Zhao, Cairong and Qi, Ding and Dou, Shuguang and Tu, Yuanpeng and Sun, Tianli and Bai, Song and Jiang, Xinyang and Bai, Xiang and Miao, Duoqian},
+      journal = {Scientia Sinica Informationis},
+      volume = {51},
+      number = {12},
+      pages = {1979--2015},
+      year = {2021},
+      note = {In Chinese},
+      doi = {10.1360/SSI-2021-0211}
     }
 
 - id: "igoas-2021"

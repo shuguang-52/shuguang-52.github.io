@@ -1,6 +1,6 @@
 # Publication update — November 2026
 
-The November 2026 revision retains all 17 publications in the previous data file and adds six verified 2026 publications. Records use the formal journal volume or conference year; a preprint or early-online date may differ.
+The November 2026 archive contains 29 works after reconciliation with the author's Google Scholar list. All 23 records in the initial redesign are retained and six additional works have been restored. Records use the formal journal volume or conference year; a preprint or early-online date may differ.
 
 ## Sources for additions
 
@@ -27,9 +27,9 @@ The November 2026 revision retains all 17 publications in the previous data file
 
 ## Coverage and maintenance
 
-The author's [Google Scholar profile](https://scholar.google.com/citations?user=n2YT06EAAAAJ&hl=en&sortby=pubdate) is the intended discovery source. Direct automated access was rate-limited during this update, so the archive is **not claimed to be a complete Scholar export**. No citation counts are scraped or presented as live data.
+The author's [Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=n2YT06EAAAAJ&view_op=list_works&sortby=pubdate) was successfully read on 1 November 2026. Its 31 entries reconcile to 29 works in this archive: the DROP preprint is combined with the published 2026 paper, and “Rethinking the zigzag flattening for image reading” is excluded because its listed authors do not include Shuguang Dou. No citation counts are scraped or presented as live data.
 
-The existing IJCAI 2026 acceptance announcement for “Distilling and Scaling Hierarchical Vision Transformer to 30B Parameters” remains in the news archive. A complete publication entry has not been fabricated: the author list and final proceedings record were not verified during this update.
+The IJCAI 2026 paper “Distilling and Scaling Hierarchical Vision Transformer to 30B Parameters” is now included with its four full authors from the author's Scholar citation record. A manuscript, DOI, page range, and original figure were not verified; none are invented. M²oT is explicitly labeled **Preprint**, not an accepted ICLR paper. See [Scholar reconciliation](scholar-reconciliation.md) for the six added records and source decisions.
 
 The current role, “智慧医疗 Lab 多模态负责人,” was supplied by the site owner. The old PDF CV remains available as an archive; it does not override the current webpage biography.
 
@@ -41,3 +41,5 @@ Use `_data/publications.yml` as the active source of truth. `_data/publist.yml` 
 - `images/pubpic/2026-tbiom-drop.png`: original paper framework image from the curated DROP repository.
 - Earlier research figures retain their existing paths and attribution. No AI-generated research diagrams are used.
 Additional original framework figures (AgenticVS, Visual Bridge, UniDD) are documented in [figure sources](figure-sources.md).
+
+TPAMI framework figures for LESS and DPL++ were restored from the authors' VILL publication announcements. See [TPAMI figure sources](tpami-figure-sources.md).

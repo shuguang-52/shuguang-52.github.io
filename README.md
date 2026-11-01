@@ -8,6 +8,7 @@ A lightweight Jekyll academic homepage, informed by [Minimal Light](https://gith
 
 - **Publications:** edit `_data/publications.yml`. Each record has a stable `id`, title, authors, formal publication year, venue, research topics, useful links, and BibTeX. Set `selected: true` for homepage highlights. Include `image` only when an actual paper figure is available.
 - **Research and current role:** edit `_pages/home.html`, `_pages/experience.html`, and the profile information in `_layouts/profile.html`.
+- **Friends:** edit `_data/friends.yaml`; each entry has a name, an optional homepage URL, and the existing personal note. The page stays linked in the main navigation.
 - **News:** add entries to `_data/news.yml` in reverse chronological order. The full news archive remains available.
 - **Code:** the code index links to research repositories; update it alongside the corresponding publication record.
 - **Appearance:** edit `assets/css/profile.css`; small enhancements live in `assets/js/profile.js`. All publications remain readable without JavaScript.

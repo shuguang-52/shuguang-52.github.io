@@ -15,7 +15,7 @@ permalink: /publications/
 <div class="publication-archive" data-publications>
   <form class="publication-filters" data-publication-filters hidden aria-label="Filter publications">
     <div class="filter-search"><label for="publication-search">Search publications</label><input id="publication-search" type="search" name="q" placeholder="Title, author, venue, or keyword" autocomplete="off"></div>
-    <div class="filter-select"><label for="publication-topic">Research area</label><select id="publication-topic" name="topic"><option value="">All areas</option><option value="multimodal">Multimodal learning</option><option value="efficient">Model &amp; data efficiency</option><option value="trustworthy">Trustworthy vision</option><option value="vision">Computer vision</option></select></div>
+    <div class="filter-select"><label for="publication-topic">Research area</label><select id="publication-topic" name="topic"><option value="">All areas</option><option value="multimodal">Multimodal learning</option><option value="efficient">Model &amp; data efficiency</option><option value="trustworthy">Trustworthy vision</option><option value="vision">Computer vision</option><option value="applied">Applied machine learning</option></select></div>
     <div class="filter-select filter-year"><label for="publication-year">Year</label><select id="publication-year" name="year"><option value="">All years</option>{% assign publication_years = site.data.publications | map: 'year' | uniq %}{% for year in publication_years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}</select></div>
     <button type="reset" class="filter-reset">Reset</button>
   </form>
