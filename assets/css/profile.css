@@ -43,13 +43,14 @@ body.profile-site {
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .site-header { position: sticky; top: 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line); }
 .header-inner { max-width: 1200px; margin: 0 auto; padding: 0 36px; display: flex; align-items: center; justify-content: space-between; min-height: 83px; gap: 24px; }
-.site-wordmark { display: inline-flex; align-items: center; gap: 13px; color: var(--ink) !important; font-size: 16px; text-decoration: none; }
-.site-monogram { font-family: var(--serif); font-size: 30px; font-style: italic; letter-spacing: -3px; color: var(--accent); line-height: 1; padding-right: 3px; }
-.primary-navigation { display: flex; align-items: center; gap: 29px; }
+.site-wordmark { display: inline-flex; flex: 1; min-width: 0; align-items: center; gap: 13px; padding: 14px 0; color: var(--ink) !important; text-decoration: none; }
+.site-monogram { flex-shrink: 0; font-family: var(--serif); font-size: 30px; font-style: italic; letter-spacing: -3px; color: var(--accent); line-height: 1; padding-right: 3px; }
+.site-slogan { display: block; min-width: 0; max-width: 44ch; font-family: var(--serif); font-size: 17px; line-height: 1.45; overflow-wrap: break-word; }
+.primary-navigation { display: flex; flex-shrink: 0; align-items: center; gap: 29px; }
 .primary-navigation a { color: var(--muted); position: relative; padding: 28px 0; font-size: 15px; text-decoration: none; }
 .primary-navigation a:hover, .primary-navigation a[aria-current="page"] { color: var(--ink); }
 .primary-navigation a[aria-current="page"]::after { position: absolute; bottom: 20px; left: 0; right: 0; height: 2px; background: var(--accent); content: ""; }
-.nav-toggle { display: none; align-items: center; gap: 10px; padding: 6px 10px; min-height: 40px; }
+.nav-toggle { display: none; flex-shrink: 0; align-items: center; gap: 10px; padding: 6px 10px; min-height: 40px; }
 .profile-shell { max-width: 1200px; padding: 64px 36px 80px; margin: 0 auto; display: grid; grid-template-columns: 234px minmax(0, 1fr); column-gap: 80px; align-items: start; }
 .profile-sidebar { position: sticky; top: 119px; }
 .profile-portrait { display: block; width: 160px; height: 200px; object-fit: cover; object-position: center; border-radius: 4px; background: var(--surface); }
@@ -181,10 +182,13 @@ body.profile-site {
   .filter-search { grid-column: 1 / -1; }
 }
 @media (max-width: 800px) {
-  .header-inner { min-height: 73px; padding: 0 26px; }
-  .primary-navigation { gap: 22px; }
-  .primary-navigation a { padding: 24px 0; }
-  .primary-navigation a[aria-current="page"]::after { bottom: 17px; }
+  .header-inner { flex-wrap: wrap; gap: 0 18px; min-height: 73px; padding: 12px 26px; }
+  .site-wordmark { padding: 0; }
+  .primary-navigation { width: 100%; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; padding-top: 11px; }
+  .primary-navigation a { font-size: 14px; padding: 10px 0 6px; }
+  .primary-navigation a[aria-current="page"]::after { bottom: 0; }
+  [data-nav-ready] .nav-toggle { display: inline-flex; font-size: 14px; }
+  [data-nav-ready]:not([data-menu-open]) .primary-navigation { display: none; }
   .profile-shell { display: block; max-width: 760px; padding: 38px 26px 60px; }
   .profile-sidebar { position: static; padding-bottom: 30px; border-bottom: 1px solid var(--line); margin-bottom: 38px; }
   .profile-identity { display: grid; grid-template-columns: 118px minmax(0, 1fr); gap: 26px; align-items: start; }
@@ -207,14 +211,8 @@ body.profile-site {
   .footer-inner { padding-left: 26px; padding-right: 26px; }
 }
 @media (max-width: 640px) {
-  .header-inner { flex-wrap: wrap; gap: 0 18px; min-height: 70px; padding-top: 14px; padding-bottom: 14px; }
-  .site-wordmark { font-size: 14px; gap: 11px; }
-  .site-monogram { font-size: 28px; }
-  .primary-navigation { width: 100%; justify-content: space-between; gap: 12px; padding-top: 11px; }
-  .primary-navigation a { font-size: 14px; padding: 10px 0 6px; }
-  .primary-navigation a[aria-current="page"]::after { bottom: 0; }
-  [data-nav-ready] .nav-toggle { display: inline-flex; font-size: 14px; }
-  [data-nav-ready]:not([data-menu-open]) .primary-navigation { display: none; }
+  .site-monogram { display: none; }
+  .site-slogan { font-size: 16px; }
   .profile-shell { padding-top: 29px; }
   .profile-main h1 { font-size: 39px; }
   .profile-site h2 { font-size: 27px; }
@@ -287,4 +285,4 @@ body.profile-site {
 .friend-entry h2 span { font-size: 14px; }
 .friend-entry p { margin: 0; color: var(--muted); font-size: 15px; }
 .friend-divider { grid-column: 1 / -1; height: 15px; }
-@media (max-width: 640px) { .friends-list { grid-template-columns: 1fr; } .primary-navigation { flex-wrap: wrap; gap: 8px 16px; } }
+@media (max-width: 640px) { .friends-list { grid-template-columns: 1fr; } }
