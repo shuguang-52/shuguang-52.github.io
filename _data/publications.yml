@@ -544,7 +544,7 @@
   venue: "ICLR"
   venue_full: "International Conference on Learning Representations"
   topics: ["efficient","vision"]
-  selected: false
+  selected: true
   image: "/images/pubpic/23_ICLR_BSC.png"
   summary: "An energy-aware benchmark studies trade-offs between model quality and the cost of architecture and hyperparameter search."
   links:
@@ -572,7 +572,7 @@
   venue: "TIP"
   venue_full: "IEEE Transactions on Image Processing, 32, pp. 458–470"
   topics: ["trustworthy","vision"]
-  selected: false
+  selected: true
   image: "/images/pubpic/22_tip_hcga.png"
   summary: "Weakly supervised human co-parsing aligns visible body regions to improve occluded person re-identification."
   links:
