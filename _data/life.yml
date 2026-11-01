@@ -1,0 +1,31 @@
+- id: japan
+  location: Japan
+  image: /images/life/japan.jpg
+  width: 1440
+  height: 1080
+  alt: A snowy evening outside a lantern-lit wooden storefront in Japan.
+  wide: true
+
+- id: singapore
+  location: Singapore
+  image: /images/life/singapore.jpg
+  width: 1080
+  height: 1620
+  alt: An illuminated observation wheel reflected in the water at night in Singapore.
+  wide: false
+
+- id: south-korea
+  location: South Korea
+  image: /images/life/south-korea.jpg
+  width: 1080
+  height: 1440
+  alt: A collage of illustrated books and a cinema-themed corner in South Korea.
+  wide: false
+
+- id: northern-michigan
+  location: Northern Michigan, USA
+  image: /images/life/northern-michigan.jpg
+  width: 1280
+  height: 627
+  alt: A suspension bridge above blue water and a low bank of fog in northern Michigan.
+  wide: true

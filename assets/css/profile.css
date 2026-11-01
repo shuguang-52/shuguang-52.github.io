@@ -286,3 +286,13 @@ body.profile-site {
 .friend-entry p { margin: 0; color: var(--muted); font-size: 15px; }
 .friend-divider { grid-column: 1 / -1; height: 15px; }
 @media (max-width: 640px) { .friends-list { grid-template-columns: 1fr; } }
+
+/* The photo journal keeps the original compositions and reading order. */
+.life-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 24px; align-items: start; margin-top: 34px; }
+.life-photo { min-width: 0; margin: 0; }
+.life-photo-wide { grid-column: 1 / -1; }
+.life-photo-link { display: block; cursor: zoom-in; }
+.life-photo img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px; }
+.life-photo figcaption { margin-top: 12px; font-size: 15px; font-weight: 600; line-height: 1.5; }
+@media (max-width: 640px) { .life-gallery { grid-template-columns: 1fr; gap: 26px; margin-top: 26px; } }
+@media print { .life-photo { break-inside: avoid; } }

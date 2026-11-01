@@ -1,0 +1,24 @@
+---
+title: "Life — Shuguang Dou"
+layout: profile
+description: "Places and moments beyond research: Japan, Singapore, South Korea, and northern Michigan."
+permalink: /life/
+---
+
+<div class="page-intro">
+  <p class="eyebrow">Beyond research</p>
+  <h1>Life</h1>
+  <p class="page-description">A few places and moments along the way.</p>
+</div>
+
+<div class="life-gallery">
+  {% for photo in site.data.life %}
+  <figure class="life-photo{% if photo.wide %} life-photo-wide{% endif %}" id="photo-{{ photo.id | escape }}">
+    <a class="life-photo-link" href="{{ photo.image | relative_url }}">
+      <span class="sr-only">View full-size photo: </span>
+      <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" decoding="async">
+    </a>
+    <figcaption>{{ photo.location | escape }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
