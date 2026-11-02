@@ -57,7 +57,6 @@ body.profile-site {
 .portrait-link { display: inline-block; margin-bottom: 23px; }
 .profile-name { margin-bottom: 20px !important; font-family: var(--serif); font-size: 42px; font-weight: 400; line-height: 1.08; letter-spacing: -1.5px; }
 .profile-name a { color: var(--ink); text-decoration: none; }
-.profile-name-cn { display: block; margin-top: 12px; font-family: var(--sans); color: var(--muted); font-size: 16px; font-weight: 400; letter-spacing: 3px; line-height: 1.5; }
 .profile-role { font-size: 16px; font-weight: 600; margin-bottom: 7px !important; line-height: 1.6; }
 .profile-role span { font-weight: 400; }
 .profile-affiliation { color: var(--muted); font-size: 14px; }
@@ -196,7 +195,6 @@ body.profile-site {
   .portrait-link { margin-bottom: 0; }
   .profile-name { font-size: 36px; margin-bottom: 12px !important; padding-top: 2px; }
   .name-break { display: none; }
-  .profile-name-cn { display: inline-block; margin: 0 0 0 13px; font-size: 13px; letter-spacing: 2px; vertical-align: middle; }
   .profile-role { font-size: 15px; }
   .profile-affiliation { font-size: 13px; margin-bottom: 0 !important; }
   .profile-links { display: flex; flex-wrap: wrap; gap: 10px 25px; padding: 0; margin: 23px 0 12px; border: 0; }
@@ -249,7 +247,6 @@ body.profile-site {
   .profile-identity { grid-template-columns: 90px minmax(0, 1fr); gap: 17px; }
   .profile-portrait { width: 90px; height: 113px; }
   .profile-name { font-size: 29px; }
-  .profile-name-cn { display: block; margin: 7px 0 0; }
   .profile-role { font-size: 14px; }
   .profile-affiliation { font-size: 12px; }
   .profile-links { gap: 17px; }
@@ -296,3 +293,34 @@ body.profile-site {
 .life-photo figcaption { margin-top: 12px; font-size: 15px; font-weight: 600; line-height: 1.5; }
 @media (max-width: 640px) { .life-gallery { grid-template-columns: 1fr; gap: 26px; margin-top: 26px; } }
 @media print { .life-photo { break-inside: avoid; } }
+
+/* The optional opening film never hides the site without JavaScript. */
+html.intro-playing { overflow: hidden; }
+.home-intro:not([open]) { display: none; }
+.home-intro { position: fixed; inset: 0; width: 100%; height: 100%; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; color: var(--ink); background: var(--paper); overflow: auto; }
+.home-intro::backdrop { background: var(--paper); }
+.intro-topline { position: relative; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 25px 36px; }
+.intro-wordmark { font-size: 15px; font-weight: 600; }
+.intro-skip { min-height: 44px; padding: 8px 13px; font-size: 14px; }
+.intro-art { position: absolute; inset: 3vh 0 25vh; pointer-events: none; }
+.intro-art video { display: block; width: 100%; height: 100%; object-fit: contain; }
+.intro-copy { position: absolute; z-index: 1; bottom: max(28px, 6vh); left: 24px; right: 24px; text-align: center; }
+.intro-eyebrow { margin-bottom: 12px !important; color: var(--muted); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; }
+.profile-site .intro-copy h2 { font-size: clamp(26px, 3.2vw, 42px); line-height: 1.2; letter-spacing: -.7px; }
+.intro-enter { min-height: 44px; margin-top: 22px; padding: 8px 16px; font-size: 14px; }
+@media (max-width: 640px) {
+  .intro-topline { padding: 18px 20px; }
+  .intro-art { inset: 8vh 0 30vh; }
+  .intro-copy { bottom: max(26px, 7vh); left: 18px; right: 18px; }
+}
+@media (max-height: 520px) {
+  .intro-topline { padding-top: 10px; padding-bottom: 10px; }
+  .intro-art { inset: 5vh 40% 5vh 0; }
+  .intro-copy { left: 50%; right: 20px; bottom: 15vh; }
+  .profile-site .intro-copy h2 { font-size: 25px; }
+  .intro-eyebrow { display: none; }
+}
+@media (prefers-reduced-motion: reduce), print {
+  .home-intro { display: none !important; }
+  html.intro-playing { overflow: auto; }
+}

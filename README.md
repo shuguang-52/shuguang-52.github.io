@@ -13,6 +13,7 @@ A lightweight Jekyll academic homepage, informed by [Minimal Light](https://gith
 - **News:** add entries to `_data/news.yml` in reverse chronological order. The homepage shows the latest 12 entries in a scrollable panel; the full news archive remains available.
 - **Code:** the code index links to research repositories; update it alongside the corresponding publication record.
 - **Appearance:** edit `assets/css/profile.css`; small enhancements live in `assets/js/profile.js`. All publications remain readable without JavaScript.
+- **Opening film:** the home page uses `_includes/home-intro.html` and `assets/js/home-intro.js` with an original silent butterfly animation in `assets/video/`. It plays once per browser-tab session and can be skipped. Reduced-motion preferences, data-saving mode, and direct section links bypass it; playback failure opens the page immediately.
 
 Publication records distinguish formal publication years from earlier preprints or online-first dates. Empty links and unverified bibliographic details are omitted. See [publication sources](docs/publication-sources.md) for the November 2026 update and its coverage limits. The existing PDF CV is retained as an archive and is not presented as the current employment record.
 
@@ -30,3 +31,5 @@ GitHub Pages builds the `master` branch. No account tokens, datasets, or private
 ## Credits
 
 Layout inspiration: [Minimal Light](https://github.com/yaoyao-liu/minimal-light), CC0-1.0. The redesigned styles and components are maintained in this repository. Existing project content and original paper figures keep their author and publication attribution. Site source remains under the [MIT license](LICENSE).
+
+The original butterfly opening film interprets the natural-history mood of [Anthropic's Fable 5 announcement](https://www.anthropic.com/news/claude-fable-5-mythos-5) using the personal `sd.` monogram. It does not reuse Anthropic's artwork or footage.
